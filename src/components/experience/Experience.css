@@ -1,0 +1,9 @@
+#experience-list {
+	list-style-type: none;
+}
+
+#experience-list>li {
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 20px;
+}
