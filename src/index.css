@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=M+PLUS+Code+Latin&display=swap');
+
 body {
 	margin: 0;
-	background-color: #28282828;
+	background-color: #282828;
+	color: #eee;
+	font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.frame {
+	max-width: 600px;
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	background-color: #242424;
+	text-align: center;
+	margin: auto;
+}
+
+div[class*="frame"]:not(:first-of-type) {
+	margin-top: 50px;
 }
