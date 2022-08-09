@@ -3,36 +3,58 @@
 		"name": "Game of Life",
 		"description": "Conway's Game of Life-based game written in C++ using SFML library",
 		"srcUrl": "https://github.com/rxtthin/game_of_life",
-		"status": "Maintained"
+		"status": "Maintained",
+		"screenshots": [
+			"img/game_of_life1.gif",
+			"img/game_of_life2.gif"
+		]
 	},
 	{
 		"name": "RGL",
 		"description": "C game framework with Input, Sound, Rendering, Texture Loading, and Animation built-in.",
 		"srcUrl": "https://github.com/rxtthin/rgl",
-		"status": "Finished"
+		"status": "Finished",
+		"screenshots": [
+			"img/rgl1.png",
+			"img/rgl2.png",
+			"img/rgl3.png"
+		]
 	},
 	{
 		"name": "Pjgen",
 		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML,CSS,JS), Python) ",
 		"srcUrl": "https://github.com/rxtthin/pjgen",
-		"status": "Finished"
+		"status": "Finished",
+		"screenshots": [
+			"img/pjgen1.png"
+		]
 	},
 	{
 		"name": "Canvastein",
 		"description": "Raycaster prototype written in Typescript inspired by Wolfenstein3D. The prototype has a WebGL renderer and a Canvas2D renderer.",
 		"srcUrl": "https://github.com/rxtthin/canvastein",
-		"status": "Abandoned"
+		"status": "Abandoned",
+		"screenshots": [
+			"img/canvastein1.png",
+			"img/canvastein2.png"
+		]
 	},
 	{
 		"name": "RottLike",
 		"description": "Client-Server multiplayer game-prototype written in C++ using SFML. The prototype has a chat system and synchronized player movement/interactions.",
 		"srcUrl": "https://github.com/rxtthin/RottLike",
-		"status": "Abandoned"
+		"status": "Abandoned",
+		"screenshots": [
+			"img/rottlike1.png"
+		]
 	},
 	{
 		"name": "Switchracer",
 		"description": "Typing game written in Typescript highly inspired by MonkeyType",
 		"srcUrl": "https://github.com/rxtthin/switchracer",
-		"status": "Abandoned"
+		"status": "Abandoned",
+		"screenshots": [
+			"img/switchracer1.png"
+		]
 	}
 ]

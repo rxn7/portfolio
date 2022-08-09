@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=M+PLUS+Code+Latin&display=swap');
 
 body {
+	box-sizing: border-box;
 	margin: 0;
 	background-color: #282828;
 	color: #eee;
@@ -14,8 +15,26 @@ body {
 	background-color: #242424;
 	text-align: center;
 	margin: auto;
+	padding: 20px;
 }
 
 div[class*="frame"]:not(:first-of-type) {
 	margin-top: 50px;
+}
+
+a {
+	color: #affa;
+}
+
+a:visited {
+	color: #affa;
+}
+
+h1 {
+	font-family: 'Kalam', cursive;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
 }

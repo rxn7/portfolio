@@ -1,14 +1,16 @@
-.project-src {
-	color: #affa;
-}
-
-.project-src:visited {
-	color: #affa;
-}
-
 .project-container {
 	padding: 40px;
-	margin-bottom: 30px;
-	margin-inline: 50px;
 	border: 1px solid #444;
+}
+
+#projects-frame {
+	padding: 0 10px;
+	max-width: 1000px;
+	width: 92%;
+}
+
+#projects-container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
