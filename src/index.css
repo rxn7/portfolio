@@ -18,12 +18,22 @@ body {
 	padding: 20px;
 }
 
+.icon {
+	position: relative;
+	height: 20px;
+	top: 5px;
+	margin-right: 5px;
+	color: white;
+	user-select: none;
+}
+
 div[class*="frame"]:not(:first-of-type) {
 	margin-top: 50px;
 }
 
 a {
 	color: #affa;
+	text-decoration: none;
 }
 
 a:visited {

@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Header from './components/header/Header';
 import Project from './components/project/Project';
@@ -8,6 +9,7 @@ function HomePage() {
 	return (
 		<>
 			<Header />
+			<Contact />
 			<Experience />
 			<Projects />
 		</>
