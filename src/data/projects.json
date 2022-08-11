@@ -6,8 +6,8 @@
 		"srcUrl": "https://github.com/rxtthin/game_of_life",
 		"status": "Maintained",
 		"screenshots": [
-			"img/game_of_life1.gif",
-			"img/game_of_life2.gif"
+			"img/projects/game_of_life1.gif",
+			"img/projects/game_of_life2.gif"
 		]
 	},
 	{
@@ -17,9 +17,9 @@
 		"srcUrl": "https://github.com/rxtthin/rgl",
 		"status": "Finished",
 		"screenshots": [
-			"img/rgl1.png",
-			"img/rgl2.png",
-			"img/rgl3.png"
+			"img/projects/rgl1.png",
+			"img/projects/rgl2.png",
+			"img/projects/rgl3.png"
 		]
 	},
 	{
@@ -29,7 +29,7 @@
 		"srcUrl": "https://github.com/rxtthin/pjgen",
 		"status": "Finished",
 		"screenshots": [
-			"img/pjgen1.png"
+			"img/projects/pjgen1.png"
 		]
 	},
 	{
@@ -39,8 +39,8 @@
 		"srcUrl": "https://github.com/rxtthin/canvastein",
 		"status": "Abandoned",
 		"screenshots": [
-			"img/canvastein1.png",
-			"img/canvastein2.png"
+			"img/projects/canvastein1.png",
+			"img/projects/canvastein2.png"
 		]
 	},
 	{
@@ -50,7 +50,7 @@
 		"srcUrl": "https://github.com/rxtthin/RottLike",
 		"status": "Abandoned",
 		"screenshots": [
-			"img/rottlike1.png"
+			"img/projects/rottlike1.png"
 		]
 	},
 	{
@@ -60,7 +60,7 @@
 		"srcUrl": "https://github.com/rxtthin/switchracer",
 		"status": "Abandoned",
 		"screenshots": [
-			"img/switchracer1.png"
+			"img/projects/switchracer1.png"
 		]
 	},
 	{
