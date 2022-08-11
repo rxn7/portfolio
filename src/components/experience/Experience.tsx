@@ -3,7 +3,7 @@ import "./Experience.css";
 export default function Experience() {
 	return (
 		<div id="experience-container" className="frame">
-			<h3>My experience</h3>
+			<h2 className="title">My experience</h2>
 			<ul id="experience-list">
 				<li>
 					Frontend:

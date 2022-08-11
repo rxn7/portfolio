@@ -1,6 +1,6 @@
 .project-container {
 	padding: 40px;
-	border: 1px solid #444;
+	border: 1px solid #aaa;
 }
 
 #projects-frame {
@@ -13,4 +13,8 @@
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-container {
+	background-color: rgb(70, 70, 90);
 }

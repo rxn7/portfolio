@@ -3,7 +3,7 @@
 body {
 	box-sizing: border-box;
 	margin: 0;
-	background-color: #282828;
+	background-color: #383838;
 	color: #eee;
 	font-family: 'M PLUS Code Latin', sans-serif;
 }
@@ -12,8 +12,8 @@ body {
 	max-width: 600px;
 	border: 2px solid #bbb;
 	border-radius: 5px;
-	background-color: #242424;
 	text-align: center;
+	background-color: rgb(70, 70, 100);
 	margin: auto;
 	padding: 20px;
 }
@@ -40,7 +40,7 @@ a:visited {
 	color: #affa;
 }
 
-h1 {
+h1, .title {
 	font-family: 'Kalam', cursive;
 	text-align: center;
 }

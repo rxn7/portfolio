@@ -2,6 +2,7 @@
 	{
 		"name": "Game of Life",
 		"description": "Conway's Game of Life-based game written in C++ using SFML library",
+		"detailedDescription": "The cells are rendered as a single Vertex Array. Only the visible cells are renderered. Conway's Game of Life logic is calculated on a different thread. Vertex Array is being rebuilt when needed and on a seperate thread.",
 		"srcUrl": "https://github.com/rxtthin/game_of_life",
 		"status": "Maintained",
 		"screenshots": [
@@ -12,6 +13,7 @@
 	{
 		"name": "RGL",
 		"description": "C game framework with Input, Sound, Rendering, Texture Loading, and Animation built-in.",
+		"detailedDescription": "Using RGL you can create games in C or C++ without the boilerplate needed by OpenGL and X11. RGL has 3 examples on the github repository. Keep in mind that RGL onle supports Linux.",
 		"srcUrl": "https://github.com/rxtthin/rgl",
 		"status": "Finished",
 		"screenshots": [
@@ -22,7 +24,8 @@
 	},
 	{
 		"name": "Pjgen",
-		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML,CSS,JS), Python) ",
+		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
+		"detailedDescription": "Pjgen can create Makefile-based C or C++ projects, static web projects (HTML + CSS + JS) and python projects. I created it because I hated the process of writing makefiles for each C/C++ project.",
 		"srcUrl": "https://github.com/rxtthin/pjgen",
 		"status": "Finished",
 		"screenshots": [
@@ -31,7 +34,8 @@
 	},
 	{
 		"name": "Canvastein",
-		"description": "Raycaster prototype written in Typescript inspired by Wolfenstein3D. The prototype has a WebGL renderer and a Canvas2D renderer.",
+		"description": "Raycaster prototype written in Typescript inspired by Wolfenstein3D.",
+		"detailedDescription": "The prototype has a WebGL renderer and a Canvas2D renderer. The raycaster has fog rendering and hacky shadow/reflection rendering implemented for WebGL renderer. I hope to finish this project someday.",
 		"srcUrl": "https://github.com/rxtthin/canvastein",
 		"status": "Abandoned",
 		"screenshots": [
@@ -41,7 +45,8 @@
 	},
 	{
 		"name": "RottLike",
-		"description": "Client-Server multiplayer game-prototype written in C++ using SFML. The prototype has a chat system and synchronized player movement/interactions.",
+		"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
+		"detailedDescription": "The prototype has a chat system and synchronized player movement/interactions.",
 		"srcUrl": "https://github.com/rxtthin/RottLike",
 		"status": "Abandoned",
 		"screenshots": [
@@ -51,10 +56,20 @@
 	{
 		"name": "Switchracer",
 		"description": "Typing game written in Typescript highly inspired by MonkeyType",
+		"detailedDescription": "",
 		"srcUrl": "https://github.com/rxtthin/switchracer",
 		"status": "Abandoned",
 		"screenshots": [
 			"img/switchracer1.png"
+		]
+	},
+	{
+		"name": "Poksy",
+		"description": "Mobile pokemon quiz made in Godot",
+		"detailedDescription": "The game is using data from PokeAPI. I am not associated with Nintendo, this is just a non-commercial prototype.",
+		"srcUrl": "https://github.com/rxtthin/poksy",
+		"status": "Finished",
+		"screenshots": [
 		]
 	}
 ]
