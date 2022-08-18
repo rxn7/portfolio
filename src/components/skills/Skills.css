@@ -1,0 +1,14 @@
+#skills-container {
+	max-width: 500px;
+	padding: 10px;
+}
+
+#skills-list {
+	list-style-type: none;
+}
+
+#skills-list>li {
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 20px;
+}

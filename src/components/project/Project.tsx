@@ -1,6 +1,7 @@
 import './Project.css';
 import { Link, useParams } from 'react-router-dom';
 import projects from '../../data/projects.json';
+import Frame from '../frame/Frame';
 
 export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned';
 
@@ -49,13 +50,13 @@ export default function Project() {
 			<GoBackHomeLink />
 
 			<h1 className="title">{data.name}</h1>
-			<div id="project-frame" className="frame">
+			<Frame>
 				<h2 className='title'>Details</h2>
 				<p>{data.description}</p>
 				<p>{data.detailedDescription}</p>
 				<p>Status: <span style={{fontWeight: 'bold'}}>{data.status}</span></p>
 				<a target="_blank" rel="noreferrer" href={data.srcUrl}>Source code</a>
-			</div>
+			</Frame>
 
 			<div id="project-screenshots-frame" className="frame">
 				<h2 className='title'>Screenshots</h2>

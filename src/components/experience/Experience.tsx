@@ -1,69 +1,14 @@
+import Frame from "../frame/Frame";
 import "./Experience.css";
 
 export default function Experience() {
 	return (
-		<div id="experience-container" className="frame">
-			<h2 className="title">My experience</h2>
+		<Frame title="My Experience">
 			<ul id="experience-list">
-				<li>
-					Frontend:
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JS</li>
-						<li>ReactJS</li>
-					</ul>
-				</li>
-				<li>
-					Backend:
-					<ul>
-						<li>NodeJS</li>
-						<li>ExpressJS</li>
-						<li>NestJS</li>
-						<li>Prisma</li>
-						<li>PassportJS</li>
-						<li>JWT</li>
-					</ul>
-				</li>
-				<li>
-					Software Development:
-					<ul>
-						<li>C# (WinForms, WPF)</li>
-						<li>C++ (Qt, GTK)</li>
-						<li>C (GTK)</li>
-					</ul>
-				</li>
-				<li>
-					Game Development:
-					<ul>
-						<li>C# (Unity, Godot, OpenTK)</li>
-						<li>C++ (UnrealEngine, OpenGL, DirectX, SFML, SDL2, Allegro)</li>
-						<li>C (OpenGL, SDL2, Allegro)</li>
-						<li>Java (Minecraft plugins, LWJGL)</li>
-						<li>GLSL (OpenGL shaders)</li>
-						<li>GDScript (Godot)</li>
-						<li>Client/Server networking</li>
-					</ul>
-				</li>
-				<li>
-					Tools:
-					<ul>
-						<li>Visual Studio 2019/2022</li>
-						<li>Rider</li>
-						<li>Visual Studio Code</li>
-						<li>Vim/Neovim</li>
-						<li>Intellij Idea</li>
-						<li>Eclipse</li>
-					</ul>
-				</li>
-				<li>
-					Other:
-					<ul>
-						<li>Shell/Bash scripting</li>
-						<li>Linux command line</li>
-					</ul>
-				</li>
+				<li>Studying programming at <a href="https://zstrzeszow.pl" target="_blank" rel="noopener noreferrer">ZST Rzeszów high school</a> (01/09/2021 - present).</li>
+				<li>Internship at <a href="https://cetuspro.com" target="_blank" rel="noopener noreferrer">CetusPro</a> as a backend developer (NestJS + Prisma + PassportJS + JWT) (22/06/2022 - 22/07/2022).</li>
+				<li>Experience gain by developing my own projects.</li>
 			</ul>
-		</div>
+		</Frame>
 	);
 }

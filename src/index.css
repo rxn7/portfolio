@@ -3,19 +3,10 @@
 body {
 	box-sizing: border-box;
 	margin: 0;
-	background-color: #383838;
+	background-color: rgb(54, 59, 78);
+
 	color: #eee;
 	font-family: 'M PLUS Code Latin', sans-serif;
-}
-
-.frame {
-	max-width: 600px;
-	border: 2px solid #bbb;
-	border-radius: 5px;
-	text-align: center;
-	background-color: rgb(70, 70, 100);
-	margin: auto;
-	padding: 20px;
 }
 
 .icon {
@@ -25,10 +16,6 @@ body {
 	margin-right: 5px;
 	color: white;
 	user-select: none;
-}
-
-div[class*="frame"]:not(:first-of-type) {
-	margin-top: 50px;
 }
 
 a {

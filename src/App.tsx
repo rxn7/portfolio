@@ -4,6 +4,7 @@ import Experience from './components/experience/Experience';
 import Header from './components/header/Header';
 import Project from './components/project/Project';
 import Projects from './components/projects/Projects';
+import Skills from './components/skills/Skills';
 
 function HomePage() {
 	return (
@@ -11,6 +12,7 @@ function HomePage() {
 			<Header />
 			<Contact />
 			<Experience />
+			<Skills />
 			<Projects />
 		</>
 	);

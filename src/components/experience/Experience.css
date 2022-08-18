@@ -4,11 +4,10 @@
 }
 
 #experience-list {
-	list-style-type: none;
+	list-style-type: circle;
+	text-align: left;
 }
 
-#experience-list>li {
-	list-style-type: none;
-	text-align: left;
+#experience-list>li:not(:last-child) {
 	margin-bottom: 20px;
 }

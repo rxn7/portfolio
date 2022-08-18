@@ -1,0 +1,13 @@
+div[class*="frame"]:not(:first-of-type) {
+	margin-top: 50px;
+}
+
+.frame {
+	max-width: 600px;
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgb(77, 83, 107);
+	margin: auto;
+	padding: 20px;
+}

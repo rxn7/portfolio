@@ -66,10 +66,14 @@
 	{
 		"name": "Poksy",
 		"description": "Mobile pokemon quiz made in Godot",
-		"detailedDescription": "The game is using data from PokeAPI. I am not associated with Nintendo, this is just a non-commercial prototype.",
+		"detailedDescription": "The game is using data from PokeAPI. I am not associated with Nintendo, this is just a non-commercial prototype. Note: In this game everything is in Polish",
 		"srcUrl": "https://github.com/rxtthin/poksy",
 		"status": "Finished",
 		"screenshots": [
+			"img/projects/poksy1.jpg",
+			"img/projects/poksy2.jpg",
+			"img/projects/poksy3.jpg",
+			"img/projects/poksy4.jpg"
 		]
 	}
 ]

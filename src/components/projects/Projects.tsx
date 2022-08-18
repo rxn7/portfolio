@@ -1,6 +1,7 @@
 import './Projects.css';
 import projects from '../../data/projects.json';
 import { Link } from 'react-router-dom';
+import Frame from '../frame/Frame';
 
 export default function Projects() {
 	let idx: number = 0;
@@ -13,12 +14,10 @@ export default function Projects() {
 	);
 
 	return (
-		<div id="projects-frame" className="frame">
-			<h2 className="title">My projects</h2>
-
+		<Frame title="My Projects">
 			<div id="projects-container">
 				{projectsElements}
 			</div>
-		</div>
+		</Frame>
 	);
 }
