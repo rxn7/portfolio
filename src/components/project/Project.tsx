@@ -1,5 +1,5 @@
 import './Project.css';
-import { Link, useParams } from 'react-router-dom';
+import { Link, Params, useParams } from 'react-router-dom';
 import projects from '../../data/projects.json';
 import Frame from '../frame/Frame';
 
@@ -28,9 +28,9 @@ function ErrorScreen() {
 }
 
 export default function Project() {
-	const params = useParams();
-	let idx: number = parseInt(params.id as string);
-	
+	const params: Params = useParams();
+	let idx: number = parseInt((params.id || '-1') as string);
+
 	if(idx < 0 || idx >= projects.length) {
 		console.error(`Failed to find project of idx: ${idx}`);
 		return <ErrorScreen />;
