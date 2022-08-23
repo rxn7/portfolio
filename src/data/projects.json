@@ -44,6 +44,17 @@
 		]
 	},
 	{
+		"name": "Telestick",
+		"description": "Teleport-menu minecraft plugin (Spigot 1.19) written in Java.",
+		"detailedDescription": "Minecraft teleport-menu plugin with multi-language support (language is automatically detected for each client), the GUI is scaled according to the player count, the players' heads have their skins in the GUI.",
+		"srcUrl": "https://github.com/rxtthin/telestick",
+		"status": "Maintained",
+		"screenshots": [
+			"https://github.com/rxtthin/telestick/raw/master/.github/ss1.png",
+			"https://github.com/rxtthin/telestick/raw/master/.github/ss2.png"
+		]
+	},
+	{
 		"name": "RottLike",
 		"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
 		"detailedDescription": "The prototype has a chat system and synchronized player movement/interactions.",
