@@ -27,9 +27,21 @@
 		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
 		"detailedDescription": "Pjgen can create Makefile-based C or C++ projects, static web projects (HTML + CSS + JS) and python projects. I created it because I hated the process of writing makefiles for each C/C++ project.",
 		"srcUrl": "https://github.com/rxtthin/pjgen",
-		"status": "Finished",
+		"status": "Maintained/Finished",
 		"screenshots": [
 			"img/projects/pjgen1.png"
+		]
+	},
+	{
+		"name": "Chess",
+		"description": "Chess game written in C++ using SFML library for rendering.",
+		"detailedDescription": "This chess game currently doesn't have all of the core chess rules implemented. The implemented chess mechanics are: Allowing only legal moves (currently it's not taking checks in count), highlighting legal moves, highlighting previous move, sound effects.",
+		"srcUrl": "https://github.com/rxtthin/chess",
+		"status": "Maintained",
+		"screenshots": [
+			"img/projects/chess1.png",
+			"img/projects/chess2.png",
+			"img/projects/chess3.png"
 		]
 	},
 	{
