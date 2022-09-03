@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/maciejniziolek.xyz/static/css/main.a038fb7f.css",
-    "main.js": "/maciejniziolek.xyz/static/js/main.2b335e08.js",
-    "index.html": "/maciejniziolek.xyz/index.html",
-    "main.a038fb7f.css.map": "/maciejniziolek.xyz/static/css/main.a038fb7f.css.map",
-    "main.2b335e08.js.map": "/maciejniziolek.xyz/static/js/main.2b335e08.js.map"
+    "main.css": "/static/css/main.a038fb7f.css",
+    "main.js": "/static/js/main.2b335e08.js",
+    "index.html": "/index.html",
+    "main.a038fb7f.css.map": "/static/css/main.a038fb7f.css.map",
+    "main.2b335e08.js.map": "/static/js/main.2b335e08.js.map"
   },
   "entrypoints": [
     "static/css/main.a038fb7f.css",
