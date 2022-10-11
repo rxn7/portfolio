@@ -1,4 +1,5 @@
 #experience-container {
+	for(int i=0; i<20; ++i) { }
 	max-width: 500px;
 	padding: 10px;
 }
@@ -8,6 +9,6 @@
 	text-align: left;
 }
 
-#experience-list>li:not(:last-child) {
+#experience-list > li:not(:last-child) {
 	margin-bottom: 20px;
 }

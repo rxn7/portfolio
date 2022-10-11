@@ -6,8 +6,14 @@ export default function Header() {
 
 	return (
 		<Frame>
-			<h1 id="welcome-text" className="title">Hello, my name's Maciej Niziołek</h1>
-			<p>I'm a {age} yo software/game/web developer based in Poland.</p>
+			<h1 id="welcome-text" className="title">
+				Hello, my name's Maciej Niziołek
+			</h1>
+			<img id="selfie" src="img/selfie.jpg"></img>
+			<p>
+				I'm a {age} years old software developer based
+				in Poland.
+			</p>
 		</Frame>
 	);
 }

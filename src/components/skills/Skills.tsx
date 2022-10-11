@@ -1,4 +1,4 @@
-import "./Skills.css";
+import './Skills.css';
 
 export default function Skills() {
 	return (
@@ -8,59 +8,120 @@ export default function Skills() {
 				<li>
 					Frontend:
 					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JS</li>
-						<li>ReactJS</li>
+						<li>
+							ReactJS frontend
+							(TypeScript)
+						</li>
+						<li>
+							HTML + CSS + JS/TS
+							frontend
+						</li>
 					</ul>
 				</li>
 				<li>
 					Backend:
 					<ul>
-						<li>NodeJS</li>
-						<li>ExpressJS</li>
-						<li>NestJS</li>
-						<li>Prisma</li>
-						<li>PassportJS</li>
+						<li>
+							ExpressJS REST API
+							backend
+						</li>
+						<li>NestJS REST API</li>
+						<li>
+							NestJS Prisma
+							integration
+						</li>
+						<li>
+							PassportJS authorization
+						</li>
 						<li>JWT</li>
 					</ul>
 				</li>
 				<li>
 					Software Development:
 					<ul>
-						<li>C# (WinForms, WPF)</li>
-						<li>C++ (Qt, GTK)</li>
-						<li>C (GTK)</li>
+						<li>
+							WinForms desktop
+							applications (C#)
+						</li>
+						<li>
+							WPF desktop applications
+							(C#)
+						</li>
+						<li>
+							GTK desktop applications
+							(C, C++)
+						</li>
+						<li>
+							QT desktop applications
+							(C++)
+						</li>
 					</ul>
 				</li>
 				<li>
 					Game Development:
 					<ul>
-						<li>C# (Unity, Godot, OpenTK)</li>
-						<li>C++ (UnrealEngine, OpenGL, DirectX, SFML, SDL2, Allegro)</li>
-						<li>C (OpenGL, SDL2, Allegro)</li>
-						<li>Java (Minecraft plugins, LWJGL)</li>
-						<li>GLSL (OpenGL shaders)</li>
-						<li>GDScript (Godot)</li>
-						<li>Client/Server networking</li>
+						<li>Unity Scripting (C#)</li>
+						<li>Unity VR Scripting (C#)</li>
+						<li>
+							Godot 2D/3D Scripting
+							(C#, GDScript)
+						</li>
+						<li>
+							UnrealEngine4 C++
+							Scripting
+						</li>
+						<li>
+							OpenGL programming (C,
+							C++)
+						</li>
+						<li>
+							WinAPI programming (C++)
+						</li>
+						<li>
+							Creating games with SFML
+							(C++)
+						</li>
+						<li>
+							Creating games with SDL2
+							(C, C++)
+						</li>
+						<li>
+							Creating games with
+							Allegro (C++)
+						</li>
+						<li>
+							Minecraft Spigot plugins
+							(Java)
+						</li>
+						<li>
+							Creating games with
+							LWJGL (Java)
+						</li>
+						<li>
+							Creating shaders in GLSL
+						</li>
+						<li>
+							Client/Server networking
+							using TCP and UDP
+						</li>
 					</ul>
 				</li>
 				<li>
 					Tools:
 					<ul>
 						<li>Visual Studio 2019/2022</li>
-						<li>Rider</li>
+						<li>Jetbrains Rider</li>
 						<li>Visual Studio Code</li>
 						<li>Vim/Neovim</li>
-						<li>Intellij Idea</li>
-						<li>Eclipse</li>
+						<li>Jetbrains Intellij Idea</li>
+						<li>Eclipse IDE</li>
 					</ul>
 				</li>
 				<li>
 					Other:
 					<ul>
 						<li>Shell/Bash scripting</li>
-						<li>Linux command line</li>
+						<li>Linux</li>
 					</ul>
 				</li>
 			</ul>
