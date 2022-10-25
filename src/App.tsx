@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Header from './components/header/Header';
@@ -22,13 +22,15 @@ export default function App() {
 	return (
 		<>
 			<Routes>
-				<Route path="/" element={<HomePage/>}/>
+				<Route path="/" element={<HomePage />} />
 
 				<Route path="/projects">
-					<Route path=":id" element={<Project/>}/>
+					<Route
+						path=":id"
+						element={<Project />}
+					/>
 				</Route>
 			</Routes>
-
 		</>
 	);
 }

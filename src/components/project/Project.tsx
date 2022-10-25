@@ -9,7 +9,8 @@ export declare type ProjectData = {
 	name: string;
 	description: string;
 	detailedDescription: string;
-	srcUrl: string;
+	srcUrl?: string;
+	websiteUrl?: string;
 	status: string;
 	screenshots: string[];
 };
@@ -68,13 +69,32 @@ export default function Project() {
 						{data.status}
 					</span>
 				</p>
-				<a
-					target="_blank"
-					rel="noreferrer"
-					href={data.srcUrl}
-				>
-					Source code
-				</a>
+
+				{data.srcUrl ? (
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href={data.srcUrl}
+					>
+						Source code
+					</a>
+				) : (
+					<></>
+				)}
+
+				<br></br>
+
+				{data.websiteUrl ? (
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href={data.websiteUrl}
+					>
+						Website
+					</a>
+				) : (
+					<></>
+				)}
 			</Frame>
 
 			<div id="project-screenshots-frame" className="frame">
