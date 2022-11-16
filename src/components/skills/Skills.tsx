@@ -62,6 +62,7 @@ export default function Skills() {
 					<ul>
 						<li>Unity Scripting (C#)</li>
 						<li>Unity VR Scripting (C#)</li>
+						<li>Unity Custom Editor Scripting (C#)</li>
 						<li>
 							Godot 2D/3D Scripting
 							(C#, GDScript)

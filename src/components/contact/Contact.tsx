@@ -24,7 +24,7 @@ export default function Contact() {
 			</p>
 			<p>
 				<a
-					href="https://github.com/rxtthin"
+					href="https://github.com/rxn7"
 					target="_blank"
 					rel="noreferrer"
 				>
