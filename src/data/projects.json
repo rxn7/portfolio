@@ -3,7 +3,7 @@
 		"name": "Game of Life",
 		"description": "Conway's Game of Life-based game written in C++ using SFML library",
 		"detailedDescription": "The cells are rendered as a single Vertex Array. Only the visible cells are renderered. Conway's Game of Life logic is calculated on a different thread. Vertex Array is being rebuilt when needed and on a seperate thread.",
-		"srcUrl": "https://github.com/rxtthin/game_of_life",
+		"srcUrl": "https://github.com/rxn7/game_of_life",
 		"status": "Finished",
 		"screenshots": [
 			"img/projects/game_of_life1.gif",
@@ -14,7 +14,7 @@
 		"name": "RGL",
 		"description": "C game framework with Input, Sound, Rendering, Texture Loading, and Animation built-in.",
 		"detailedDescription": "Using RGL you can create games in C or C++ without the boilerplate needed by OpenGL and X11. RGL has 3 examples on the github repository. Keep in mind that RGL onle supports Linux.",
-		"srcUrl": "https://github.com/rxtthin/rgl",
+		"srcUrl": "https://github.com/rxn7/rgl",
 		"status": "Finished",
 		"screenshots": [
 			"img/projects/rgl1.png",
@@ -26,7 +26,7 @@
 		"name": "Pjgen",
 		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
 		"detailedDescription": "Pjgen can create Makefile-based C or C++ projects, static web projects (HTML + CSS + JS) and python projects. I created it because I hated the process of writing makefiles for each C/C++ project.",
-		"srcUrl": "https://github.com/rxtthin/pjgen",
+		"srcUrl": "https://github.com/rxn7/pjgen",
 		"status": "Finished",
 		"screenshots": ["img/projects/pjgen1.png"]
 	},
@@ -34,7 +34,7 @@
 		"name": "Chess",
 		"description": "Chess game written in C++ using SFML library for rendering.",
 		"detailedDescription": "This chess game currently doesn't have all of the core chess rules implemented. The implemented chess mechanics are: Allowing only legal moves (currently it's not taking checks in count), highlighting legal moves, highlighting previous move, sound effects.",
-		"srcUrl": "https://github.com/rxtthin/chess",
+		"srcUrl": "https://github.com/rxn7/chess",
 		"status": "Abandoned",
 		"screenshots": [
 			"img/projects/chess1.png",
@@ -46,8 +46,8 @@
 		"name": "Particle Sim",
 		"description": "Particle Simulation written in Typescript using WebGL2.",
 		"detailedDescription": "Particle logic is running on GPU using transform feedback.",
-		"srcUrl": "https://github.com/rxtthin/particle_sim",
-		"websiteUrl": "https://rxtthin.github.io/particle_sim/",
+		"srcUrl": "https://github.com/rxn7/particle_sim",
+		"websiteUrl": "https://rxn7.github.io/particle_sim/",
 		"status": "Maintained",
 		"screenshots": ["img/projects/particle_sim1.png"]
 	},
@@ -55,7 +55,7 @@
 		"name": "Canvastein",
 		"description": "Raycaster prototype written in Typescript inspired by Wolfenstein3D.",
 		"detailedDescription": "The prototype has a WebGL renderer and a Canvas2D renderer. The raycaster has fog rendering and hacky shadow/reflection rendering implemented for WebGL renderer. I hope to finish this project someday.",
-		"srcUrl": "https://github.com/rxtthin/canvastein",
+		"srcUrl": "https://github.com/rxn7/canvastein",
 		"status": "Finished",
 		"screenshots": [
 			"img/projects/canvastein1.png",
@@ -63,21 +63,31 @@
 		]
 	},
 	{
+		"name": "ttc",
+		"description": "Tic-Tac-Toe game written in Typescript as a static website",
+		"detailedDescription": "",
+		"srcUrl": "https://github.com/rxn7/ttc",
+		"status": "Maintained",
+		"screenshots": [
+			"https://raw.githubusercontent.com/rxn7/ttc/master/.github/screenshot.png",
+		]
+	},
+	{
 		"name": "Telestick",
 		"description": "Teleport-menu minecraft plugin (Spigot 1.19) written in Java.",
 		"detailedDescription": "Minecraft teleport-menu plugin with multi-language support (language is automatically detected for each client), the GUI is scaled according to the player count, the players' heads have their skins in the GUI.",
-		"srcUrl": "https://github.com/rxtthin/telestick",
+		"srcUrl": "https://github.com/rxn7/telestick",
 		"status": "Finished",
 		"screenshots": [
-			"https://github.com/rxtthin/telestick/raw/master/.github/ss1.png",
-			"https://github.com/rxtthin/telestick/raw/master/.github/ss2.png"
+			"https://github.com/rxn7/telestick/raw/master/.github/ss1.png",
+			"https://github.com/rxn7/telestick/raw/master/.github/ss2.png"
 		]
 	},
 	{
 		"name": "RottLike",
 		"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
 		"detailedDescription": "The prototype has a chat system and synchronized player movement/interactions.",
-		"srcUrl": "https://github.com/rxtthin/RottLike",
+		"srcUrl": "https://github.com/rxn7/RottLike",
 		"status": "Abandoned",
 		"screenshots": ["img/projects/rottlike1.png"]
 	},
@@ -85,7 +95,7 @@
 		"name": "Switchracer",
 		"description": "Typing game written in Typescript highly inspired by MonkeyType",
 		"detailedDescription": "",
-		"srcUrl": "https://github.com/rxtthin/switchracer",
+		"srcUrl": "https://github.com/rxn7/switchracer",
 		"status": "Abandoned",
 		"screenshots": ["img/projects/switchracer1.png"]
 	},
@@ -93,7 +103,7 @@
 		"name": "Poksy",
 		"description": "Mobile pokemon quiz made in Godot",
 		"detailedDescription": "The game is using data from PokeAPI. I am not associated with Nintendo, this is just a non-commercial prototype. Note: In this game everything is in Polish",
-		"srcUrl": "https://github.com/rxtthin/poksy",
+		"srcUrl": "https://github.com/rxn7/poksy",
 		"status": "Finished",
 		"screenshots": [
 			"img/projects/poksy1.jpg",

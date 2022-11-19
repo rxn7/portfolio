@@ -34,7 +34,7 @@ export default function Contact() {
 						className="icon"
 						src="img/icons/github.svg"
 					/>
-					@rxtthin
+					@rxn7
 				</a>
 			</p>
 			<p>
