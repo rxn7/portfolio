@@ -67,6 +67,7 @@
 		"description": "Tic-Tac-Toe game written in Typescript as a static website",
 		"detailedDescription": "",
 		"srcUrl": "https://github.com/rxn7/ttc",
+		"websiteUrl": "https://rxn7.github.io/ttc",
 		"status": "Maintained",
 		"screenshots": [
 			"https://raw.githubusercontent.com/rxn7/ttc/master/.github/screenshot.png"
