@@ -48,7 +48,7 @@
 		"detailedDescription": "Particle logic is running on GPU using transform feedback.",
 		"srcUrl": "https://github.com/rxn7/particle_sim",
 		"websiteUrl": "https://rxn7.github.io/particle_sim/",
-		"status": "Maintained",
+		"status": "Finished",
 		"screenshots": ["img/projects/particle_sim1.png"]
 	},
 	{
@@ -68,7 +68,7 @@
 		"detailedDescription": "",
 		"srcUrl": "https://github.com/rxn7/ttc",
 		"websiteUrl": "https://rxn7.github.io/ttc",
-		"status": "Maintained",
+		"status": "Finished",
 		"screenshots": [
 			"https://raw.githubusercontent.com/rxn7/ttc/master/.github/screenshot.png"
 		]
@@ -78,7 +78,7 @@
 		"description": "Teleport-menu minecraft plugin (Spigot 1.19) written in Java.",
 		"detailedDescription": "Minecraft teleport-menu plugin with multi-language support (language is automatically detected for each client), the GUI is scaled according to the player count, the players' heads have their skins in the GUI.",
 		"srcUrl": "https://github.com/rxn7/telestick",
-		"status": "Finished",
+		"status": "Abandoned",
 		"screenshots": [
 			"https://github.com/rxn7/telestick/raw/master/.github/ss1.png",
 			"https://github.com/rxn7/telestick/raw/master/.github/ss2.png"
