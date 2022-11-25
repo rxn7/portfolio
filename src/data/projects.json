@@ -65,7 +65,7 @@
 	{
 		"name": "ttc",
 		"description": "Tic-Tac-Toe game made using TS/HTML/CSS",
-		"detailedDescription": "This project has all features of tic-tac-toe implemented, win detection, winning combo line drawing etc.",
+		"detailedDescription": "This project has all features of tic-tac-toe implemented.",
 		"srcUrl": "https://github.com/rxn7/ttc",
 		"websiteUrl": "https://rxn7.github.io/ttc",
 		"status": "Finished",

@@ -16,7 +16,7 @@ export default function Projects() {
 	));
 
 	return (
-		<Frame title="My Projects">
+		<Frame maxWidth="1000px" title="My Projects">
 			<div id="projects-container">{projectsElements}</div>
 		</Frame>
 	);

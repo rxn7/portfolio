@@ -3,16 +3,10 @@
 	border: 1px solid #aaa;
 }
 
-#projects-frame {
-	padding: 0 10px;
-	max-width: 1000px;
-	width: 92%;
-}
-
 #projects-container {
 	display: grid;
 	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .project-container {
