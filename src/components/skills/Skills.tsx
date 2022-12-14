@@ -1,9 +1,9 @@
+import Frame from '../frame/Frame';
 import './Skills.css';
 
 export default function Skills() {
 	return (
-		<div id="skills-container" className="frame">
-			<h2 className="title">My skills</h2>
+		<Frame id="skills-container" title="My skills" maxWidth="500px">
 			<ul id="skills-list">
 				<li>
 					Frontend:
@@ -62,7 +62,10 @@ export default function Skills() {
 					<ul>
 						<li>Unity Scripting (C#)</li>
 						<li>Unity VR Scripting (C#)</li>
-						<li>Unity Custom Editor Scripting (C#)</li>
+						<li>
+							Unity Custom Editor
+							Scripting (C#)
+						</li>
 						<li>
 							Godot 2D/3D Scripting
 							(C#, GDScript)
@@ -98,9 +101,7 @@ export default function Skills() {
 							Creating games with
 							LWJGL (Java)
 						</li>
-						<li>
-							Creating shaders in GLSL
-						</li>
+						<li>Writing shaders in GLSL</li>
 						<li>
 							Client/Server networking
 							using TCP and UDP
@@ -126,6 +127,6 @@ export default function Skills() {
 					</ul>
 				</li>
 			</ul>
-		</div>
+		</Frame>
 	);
 }

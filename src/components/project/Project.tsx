@@ -59,8 +59,7 @@ export default function Project() {
 			<GoBackHomeLink />
 
 			<h1 className="title">{data.name}</h1>
-			<Frame>
-				<h2 className="title">Details</h2>
+			<Frame title="Details">
 				<p>{data.description}</p>
 				<p>{data.detailedDescription}</p>
 				<p>
@@ -97,14 +96,16 @@ export default function Project() {
 				)}
 			</Frame>
 
-			<div id="project-screenshots-frame" className="frame">
-				<h2 className="title">Screenshots</h2>
+			<Frame
+				id="project-screenshots-frame"
+				title="Screenshots"
+			>
 				{screenshotElements.length > 0 ? (
 					screenshotElements
 				) : (
 					<p>Empty!</p>
 				)}
-			</div>
+			</Frame>
 		</>
 	);
 }

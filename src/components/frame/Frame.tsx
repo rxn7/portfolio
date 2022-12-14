@@ -1,6 +1,7 @@
 import './Frame.css';
 
 export interface IFrameProps {
+	id?: string;
 	title?: string;
 	maxWidth?: string;
 	children?: JSX.Element[] | JSX.Element;
@@ -9,6 +10,7 @@ export interface IFrameProps {
 export default function Frame(props: IFrameProps) {
 	return (
 		<div
+			id={props.id}
 			className="frame"
 			style={{maxWidth: props.maxWidth || '600px'}}
 		>
