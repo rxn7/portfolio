@@ -14,7 +14,7 @@ export default function Experience() {
 					>
 						CetusPro
 					</a>{' '}
-					as a backend developer (10/2022 -
+					as a backend developer (09/2022 -
 					present).
 				</li>
 				<li>
