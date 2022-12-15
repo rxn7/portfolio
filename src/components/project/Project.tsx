@@ -96,16 +96,14 @@ export default function Project() {
 				)}
 			</Frame>
 
-			<Frame
-				id="project-screenshots-frame"
-				title="Screenshots"
-			>
-				{screenshotElements.length > 0 ? (
-					screenshotElements
-				) : (
-					<p>Empty!</p>
-				)}
-			</Frame>
+			{screenshotElements.length > 0 &&
+				<Frame
+					id="project-screenshots-frame"
+					title="Screenshots"
+				>
+					{ screenshotElements }
+				</Frame>
+			}
 		</>
 	);
 }
