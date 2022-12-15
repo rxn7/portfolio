@@ -63,6 +63,17 @@
 		]
 	},
 	{
+		"name": "Isometric grid",
+		"description": "2D isometric grid with 3D effect and animations (Canvas2D)",
+		"detailedDescription": "This project is using Canvas2D API to render the images. Features: zooming, changing multiple properties via UI",
+		"status": "Maintained",
+		"websiteUrl": "https://rxn7.github.io/isometric_grid",
+		"screenshots": [
+			"https://raw.githubusercontent.com/rxn7/isometric_grid/master/.github/img/snake.png",
+			"https://raw.githubusercontent.com/rxn7/isometric_grid/master/.github/img/red.png"
+		]
+	},
+	{
 		"name": "ttc",
 		"description": "Tic-Tac-Toe game made using TS/HTML/CSS",
 		"detailedDescription": "This project has all features of tic-tac-toe implemented.",
