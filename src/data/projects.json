@@ -54,7 +54,7 @@
 	{
 		"name": "Canvastein",
 		"description": "Raycaster prototype written in Typescript inspired by Wolfenstein3D.",
-		"detailedDescription": "The prototype has a WebGL renderer and a Canvas2D renderer. The raycaster has fog rendering and hacky shadow/reflection rendering implemented for WebGL renderer. I hope to finish this project someday.",
+		"detailedDescription": "The prototype has a WebGL renderer and a Canvas2D renderer. The raycaster has fog rendering and hacky shadow/reflection rendering implemented for WebGL renderer.",
 		"srcUrl": "https://github.com/rxn7/canvastein",
 		"status": "Finished",
 		"screenshots": [
