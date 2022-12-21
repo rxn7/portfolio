@@ -68,6 +68,7 @@
 		"description": "2D isometric grid with 3D effect and animations (Canvas2D)",
 		"detailedDescription": "This project is using Canvas2D API to render the isometric tile grid",
 		"status": "Maintained",
+		"srcUrl": "https://github.com/rxn7/isometric_grid",
 		"websiteUrl": "https://rxn7.github.io/isometric_grid",
 		"screenshots": [
 			"https://raw.githubusercontent.com/rxn7/isometric_grid/master/.github/img/snake.png",
