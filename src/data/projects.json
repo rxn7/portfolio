@@ -106,11 +106,12 @@
 		"screenshots": ["img/projects/rottlike1.png"]
 	},
 	{
-		"name": "Switchracer",
+		"name": "SwitchRacer",
 		"description": "Typing game written in Typescript highly inspired by MonkeyType",
-		"detailedDescription": "",
+		"detailedDescription": "You can play SwitchRacer to check your WPM (words per minute) CPM (characters per minute) and accuracy (correct letters to all letters ratio)",
 		"srcUrl": "https://github.com/rxn7/switchracer",
-		"status": "Abandoned",
+		"websiteUrl": "https://rxn7.github.io/switchracer/",
+		"status": "Finished",
 		"screenshots": ["img/projects/switchracer1.png"]
 	},
 	{
