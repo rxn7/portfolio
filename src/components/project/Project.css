@@ -6,3 +6,8 @@
 	width: 100%;
 	border-radius: 7px;
 }
+
+#project-name {
+	font-family: 'Kalam', cursive;
+	text-align: center;
+}

@@ -47,7 +47,7 @@ export default function Project() {
 
 	return (
 		<>
-			<h1 className="title">{data.displayName}</h1>
+			<h1 id="project-name">{data.displayName}</h1>
 			<Frame title="Details">
 				<p>{data.description}</p>
 				<p>{data.detailedDescription}</p>

@@ -5,53 +5,65 @@ export default function Skills() {
 	return (
 		<div id="skills-container">
 			<Frame id="frontend-skills-frame" title="Frontend" maxWidth="1000px">
-				<p>ReactJS frontend (TypeScript)</p>
-				<p>HTML + CSS + JS/TS frontend</p>
+				<ul>
+					<li>ReactJS frontend (TypeScript)</li>
+					<li>HTML + CSS + JS/TS frontend</li>
+				</ul>
 			</Frame>
 
 			<Frame id="backend-skills-frame" title="Backend" maxWidth="1000px">
-				<p>ExpressJS REST API backend</p>
-				<p>NestJS REST API</p>
-				<p>NestJS Prisma integration</p>
-				<p>PassportJS authorization</p>
-				<p>JWT</p>
+				<ul>
+					<li>ExpressJS REST API backend</li>
+					<li>NestJS REST API</li>
+					<li>NestJS Prisma integration</li>
+					<li>PassportJS authorization</li>
+					<li>JWT</li>
+				</ul>
 			</Frame>
 
 			<Frame id="gui-skills-frame" title="GUI Apps" maxWidth="1000px">
-				<p>WinForms desktop apppcations (C#)</p>
-				<p>WPF desktop apppcations (C#)</p>
-				<p>GTK desktop apppcations (C, C++)</p>
-				<p>QT desktop apppcations (C++)</p>
+				<ul>
+					<li>WinForms desktop apppcations (C#)</li>
+					<li>WPF desktop apppcations (C#)</li>
+					<li>GTK desktop apppcations (C, C++)</li>
+					<li>QT desktop apppcations (C++)</li>
+				</ul>
 			</Frame>
 
 			<Frame id="gamedev-skills-frame" title="Game Dev" maxWidth="1000px">
-				<p>Unity Scripting (C#)</p>
-				<p>Unity VR Scripting (C#)</p>
-				<p>Unity Custom Editor Scripting (C#)</p>
-				<p>Godot 2D/3D Scripting (C#, GDScript)</p>
-				<p>UnrealEngine4 C++ Scripting</p>
-				<p>OpenGL programming (C, C++)</p>
-				<p>WinAPI programming (C++)</p>
-				<p>Creating games with SFML (C++)</p>
-				<p>Creating games with SDL2 (C, C++)</p>
-				<p>Creating games with Allegro (C++)</p>
-				<p>Minecraft Spigot plugins (Java)</p>
-				<p>Creating games with LWJGL (Java)</p>
-				<p>Writing shaders in GLSL</p>
-				<p>Cpent/Server networking using TCP and UDP</p>
+				<ul>
+					<li>Unity Scripting (C#)</li>
+					<li>Unity VR Scripting (C#)</li>
+					<li>Unity Custom Editor Scripting (C#)</li>
+					<li>Godot 2D/3D Scripting (C#, GDScript)</li>
+					<li>UnrealEngine4 C++ Scripting</li>
+					<li>OpenGL programming (C, C++)</li>
+					<li>WinAPI programming (C++)</li>
+					<li>Creating games with SFML (C++)</li>
+					<li>Creating games with SDL2 (C, C++)</li>
+					<li>Creating games with Allegro (C++)</li>
+					<li>Minecraft Spigot plugins (Java)</li>
+					<li>Creating games with LWJGL (Java)</li>
+					<li>Writing shaders in GLSL</li>
+					<li>Cpent/Server networking using TCP and UDP</li>
+				</ul>
 			</Frame>
 
 			<Frame id="tools-skills-frame" title="Tools" maxWidth="1000px">
-				<p>Visual Studio 2019/2022</p>
-				<p>Jetbrains Rider</p>
-				<p>Visual Studio Code</p>
-				<p>Vim/Neovim</p>
-				<p>Jetbrains Intelpj Idea</p>
+				<ul>
+					<li>Visual Studio 2019/2022</li>
+					<li>Jetbrains Rider</li>
+					<li>Visual Studio Code</li>
+					<li>Vim/Neovim</li>
+					<li>Jetbrains Intelpj Idea</li>
+				</ul>
 			</Frame>
 
 			<Frame id="other-skills-frame" title="Other" maxWidth="1000px">
-				<p>Shell/Bash scripting</p>
-				<p>Linux</p>
+				<ul>
+					<li>Shell/Bash scripting</li>
+					<li>Linux</li>
+				</ul>
 			</Frame>
 		</div>
 	)
