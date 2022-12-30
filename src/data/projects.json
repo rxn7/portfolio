@@ -1,6 +1,7 @@
 [
 	{
-		"name": "Game of Life",
+		"name": "game_of_life",
+		"displayName": "Game of Life",
 		"description": "Conway's Game of Life-based game written in C++ using SFML library",
 		"detailedDescription": "The cells are rendered as a single Vertex Array. Only the visible cells are renderered. Conway's Game of Life logic is calculated on a different thread. Vertex Array is being rebuilt when needed and on a seperate thread.",
 		"srcUrl": "https://github.com/rxn7/game_of_life",
@@ -11,7 +12,8 @@
 		]
 	},
 	{
-		"name": "RGL",
+		"name": "rgl",
+		"displayName": "RGL",
 		"description": "C game framework with Input, Sound, Rendering, Texture Loading, and Animation built-in.",
 		"detailedDescription": "Using RGL you can create games in C or C++ without the boilerplate needed by OpenGL and X11. RGL has 3 examples on the github repository. Keep in mind that RGL onle supports Linux.",
 		"srcUrl": "https://github.com/rxn7/rgl",
@@ -23,7 +25,8 @@
 		]
 	},
 	{
-		"name": "Pjgen",
+		"name": "pjgen",
+		"displayName": "Pjgen",
 		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
 		"detailedDescription": "Pjgen can create Makefile-based C or C++ projects, static web projects (HTML + CSS + JS) and python projects. I created it because I hated the process of writing makefiles for each C/C++ project.",
 		"srcUrl": "https://github.com/rxn7/pjgen",
@@ -31,7 +34,8 @@
 		"screenshots": ["img/projects/pjgen1.png"]
 	},
 	{
-		"name": "Chess",
+		"name": "chess",
+		"displayName": "Chess",
 		"description": "Chess game written in C++ using SFML library for rendering.",
 		"detailedDescription": "This chess game currently doesn't have all of the core chess rules implemented. The implemented chess mechanics are: Allowing only legal moves (currently it's not taking checks in count), highlighting legal moves, highlighting previous move, sound effects.",
 		"srcUrl": "https://github.com/rxn7/chess",
@@ -43,7 +47,8 @@
 		]
 	},
 	{
-		"name": "Particle Sim",
+		"name": "particle_sim",
+		"displayName": "Particle Sim",
 		"description": "Particle Simulation written in Typescript using WebGL2.",
 		"detailedDescription": "Particle logic is running on GPU using transform feedback.",
 		"srcUrl": "https://github.com/rxn7/particle_sim",
@@ -52,19 +57,18 @@
 		"screenshots": ["img/projects/particle_sim1.png"]
 	},
 	{
-		"name": "Canvastein",
+		"name": "canvastein",
+		"displayName": "Canvastein",
 		"description": "Raycaster prototype written in Typescript inspired by Wolfenstein3D.",
 		"detailedDescription": "The prototype has a WebGL renderer and a Canvas2D renderer. The raycaster has fog rendering and hacky shadow/reflection rendering implemented for WebGL renderer.",
 		"srcUrl": "https://github.com/rxn7/canvastein",
 		"websiteUrl": "https://rxn7.github.io/canvastein/",
 		"status": "Finished",
-		"screenshots": [
-			"img/projects/canvastein1.png",
-			"img/projects/canvastein2.png"
-		]
+		"screenshots": ["img/projects/canvastein1.png", "img/projects/canvastein2.png"]
 	},
 	{
-		"name": "Isometric grid",
+		"name": "isometric_grid",
+		"displayName": "Isometric grid",
 		"description": "2D isometric grid with 3D effect and animations (Canvas2D)",
 		"detailedDescription": "This project is using Canvas2D API to render the isometric tile grid",
 		"status": "Maintained",
@@ -77,6 +81,7 @@
 	},
 	{
 		"name": "ttc",
+		"displayName": "ttc",
 		"description": "Tic-Tac-Toe game made using TS/HTML/CSS",
 		"detailedDescription": "This project has all features of tic-tac-toe implemented.",
 		"srcUrl": "https://github.com/rxn7/ttc",
@@ -87,7 +92,8 @@
 		]
 	},
 	{
-		"name": "Telestick",
+		"name": "telestick",
+		"displayName": "Telestick",
 		"description": "Teleport-menu minecraft plugin (Spigot 1.19) written in Java.",
 		"detailedDescription": "Minecraft teleport-menu plugin with multi-language support (language is automatically detected for each client), the GUI is scaled according to the player count, the players' heads have their skins in the GUI.",
 		"srcUrl": "https://github.com/rxn7/telestick",
@@ -98,7 +104,8 @@
 		]
 	},
 	{
-		"name": "RottLike",
+		"name": "rottlike",
+		"displayName": "RottLike",
 		"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
 		"detailedDescription": "The prototype has a chat system and synchronized player movement/interactions.",
 		"srcUrl": "https://github.com/rxn7/RottLike",
@@ -106,7 +113,8 @@
 		"screenshots": ["img/projects/rottlike1.png"]
 	},
 	{
-		"name": "SwitchRacer",
+		"name": "switchracer",
+		"displayName": "SwitchRacer",
 		"description": "Typing game written in Typescript highly inspired by MonkeyType",
 		"detailedDescription": "You can play SwitchRacer to check your WPM (words per minute) CPM (characters per minute) and accuracy (correct letters to all letters ratio)",
 		"srcUrl": "https://github.com/rxn7/switchracer",
@@ -115,7 +123,8 @@
 		"screenshots": ["img/projects/switchracer1.png"]
 	},
 	{
-		"name": "Poksy",
+		"name": "poksy",
+		"displayName": "Poksy",
 		"description": "Mobile pokemon quiz made in Godot",
 		"detailedDescription": "The game is using data from PokeAPI. I am not associated with Nintendo, this is just a non-commercial prototype. Note: In this game everything is in Polish",
 		"srcUrl": "https://github.com/rxn7/poksy",

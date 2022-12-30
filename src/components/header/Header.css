@@ -1,4 +1,41 @@
-#selfie {
-	max-width: 300px;
-	border-radius: 40px;
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	max-width: 80%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-item {
+	font-size: 1.3em;
+	user-select: none;
+	margin: 0 2rem;
+	text-decoration: none;
+	transition: linear 0.1s;
+}
+
+.nav-item-current {
+	color: darkgray !important;
+	border-bottom: 1px solid var(--primary-color);
+}
+
+.nav-item:hover:not(.nav-item-current) {
+	border-bottom-color: var(--secondary-color);
+	color: var(--primary-color) !important;
+}
+
+@media screen and (max-width: 650px) {
+	nav {
+		height: auto;
+		flex-direction: column;
+		margin-bottom: 50px;
+		width: 100% !important;
+	}
+
+	.nav-item {
+		margin: 10px;
+	}
 }

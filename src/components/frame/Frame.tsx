@@ -1,10 +1,10 @@
-import './Frame.css';
+import './Frame.css'
 
 export interface IFrameProps {
-	id?: string;
-	title?: string;
-	maxWidth?: string;
-	children?: JSX.Element[] | JSX.Element;
+	id?: string
+	title?: string
+	maxWidth?: string
+	children?: JSX.Element[] | JSX.Element
 }
 
 export default function Frame(props: IFrameProps) {
@@ -14,10 +14,8 @@ export default function Frame(props: IFrameProps) {
 			className="frame"
 			style={{maxWidth: props.maxWidth || '600px'}}
 		>
-			{props.title && (
-				<h2 className="title">{props.title}</h2>
-			)}
+			{props.title && <h2 className="title">{props.title}</h2>}
 			{props.children}
 		</div>
-	);
+	)
 }

@@ -1,9 +1,9 @@
-import Frame from '../frame/Frame';
-import './Contact.css';
+import Frame from '../frame/Frame'
+import './Contact.css'
 
 export default function Contact() {
 	return (
-		<Frame title="Contact" maxWidth="300px">
+		<Frame title="Contact" maxWidth="500px">
 			<p>
 				<img
 					alt=""
@@ -23,11 +23,7 @@ export default function Contact() {
 				rotthin_dev@pm.me
 			</p>
 			<p>
-				<a
-					href="https://github.com/rxn7"
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href="https://github.com/rxn7" target="_blank" rel="noreferrer">
 					<img
 						alt=""
 						draggable="false"
@@ -38,11 +34,7 @@ export default function Contact() {
 				</a>
 			</p>
 			<p>
-				<a
-					href="https://twitter.com/rxtthin"
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href="https://twitter.com/rxtthin" target="_blank" rel="noreferrer">
 					<img
 						alt=""
 						draggable="false"
@@ -53,5 +45,5 @@ export default function Contact() {
 				</a>
 			</p>
 		</Frame>
-	);
+	)
 }

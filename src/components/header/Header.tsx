@@ -1,19 +1,33 @@
-import Frame from '../frame/Frame';
-import './Header.css';
+import {Link, useLocation} from 'react-router-dom'
+import './Header.css'
 
-export default function Header() {
-	const age: number = new Date().getFullYear() - 2006;
+interface IHeaderNavLinkProps {
+	path: string
+	text: string
+}
+
+function HeaderNavLink(props: IHeaderNavLinkProps) {
+	const currentPath = useLocation().pathname
+	let className: string =
+		'nav-item' + (currentPath === props.path ? ' nav-item-current' : '')
 
 	return (
-		<Frame>
-			<h1 id="welcome-text" className="title">
-				Hello, my name's Maciej Niziołek
-			</h1>
-			<img id="selfie" src="img/selfie.jpg"></img>
-			<p>
-				I'm a {age} years old software developer based
-				in Poland.
-			</p>
-		</Frame>
-	);
+		<Link className={className} to={props.path}>
+			{props.text}
+		</Link>
+	)
+}
+
+export default function Header() {
+	return (
+		<header>
+			<nav>
+				<HeaderNavLink path="/" text="Home" />
+				<HeaderNavLink path="/projects" text="Projects" />
+				<HeaderNavLink path="/skills" text="Skills" />
+				<HeaderNavLink path="/experience" text="Experience" />
+				<HeaderNavLink path="/contact" text="Contact" />
+			</nav>
+		</header>
+	)
 }

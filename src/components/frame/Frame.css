@@ -4,10 +4,11 @@ div[class*='frame']:not(:first-of-type) {
 
 .frame {
 	max-width: 600px;
-	border: 2px solid #bbb;
+	width: 70%;
+	border: 2px solid var(--secondary-color);
 	border-radius: 5px;
 	text-align: center;
-	background-color: rgb(77, 83, 107);
+	background-color: var(--secondary-background-color);
 	margin: auto;
 	padding: 20px;
 }

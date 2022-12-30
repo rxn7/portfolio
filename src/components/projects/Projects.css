@@ -1,6 +1,6 @@
 .project-container {
 	padding: 40px;
-	border: 1px solid #aaa;
+	border-radius: 10px;
 }
 
 #projects-container {
@@ -10,5 +10,5 @@
 }
 
 .project-container {
-	background-color: rgb(70, 70, 90);
+	background-color: var(--primary-background-color);
 }

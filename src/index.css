@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=M+PLUS+Code+Latin&display=swap');
 
 body {
+	--primary-background-color: #32302f;
+	--secondary-background-color: #3c3836;
+	--primary-color: #ebdbb2;
+	--secondary-color: #affa;
+
 	box-sizing: border-box;
 	margin: 0;
-	background-color: rgb(54, 59, 78);
+	background-color: var(--primary-background-color);
 
-	color: #eee;
 	font-family: 'M PLUS Code Latin', sans-serif;
+
+	color: var(--primary-color);
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
 }
 
 .icon {
@@ -19,15 +32,16 @@ body {
 }
 
 a {
-	color: #affa;
+	color: var(--secondary-color);
 	text-decoration: none;
 }
 
 a:visited {
-	color: #affa;
+	color: var(--secondary-color);
 }
 
-h1, .title {
+h1,
+.title {
 	font-family: 'Kalam', cursive;
 	text-align: center;
 }

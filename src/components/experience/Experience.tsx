@@ -1,5 +1,5 @@
-import Frame from '../frame/Frame';
-import './Experience.css';
+import Frame from '../frame/Frame'
+import './Experience.css'
 
 export default function Experience() {
 	return (
@@ -14,8 +14,7 @@ export default function Experience() {
 					>
 						CetusPro
 					</a>{' '}
-					as a backend developer (09/2022 -
-					present).
+					as a backend developer (09/2022 - present).
 				</li>
 				<li>
 					Internship at{' '}
@@ -26,14 +25,10 @@ export default function Experience() {
 					>
 						CetusPro
 					</a>{' '}
-					as a backend developer (22/06/2022 -
-					22/07/2022).
+					as a backend developer (22/06/2022 - 22/07/2022).
 				</li>
-				<li>
-					Experience gained by developing my own
-					projects (since 2019).
-				</li>
+				<li>Experience gained by developing my own projects (since 2019).</li>
 			</ul>
 		</Frame>
-	);
+	)
 }

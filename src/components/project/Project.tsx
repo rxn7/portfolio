@@ -1,80 +1,62 @@
-import './Project.css';
-import {Link, Params, useParams} from 'react-router-dom';
-import projects from '../../data/projects.json';
-import Frame from '../frame/Frame';
+import './Project.css'
+import {Params, useParams} from 'react-router-dom'
+import projects from '../../data/projects.json'
+import Frame from '../frame/Frame'
 
-export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned';
+export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
 export declare type ProjectData = {
-	name: string;
-	description: string;
-	detailedDescription: string;
-	srcUrl?: string;
-	websiteUrl?: string;
-	status: string;
-	screenshots: string[];
-};
-
-function GoBackHomeLink() {
-	return (
-		<Link className="project-go-back-home" to="/">
-			Go back home
-		</Link>
-	);
+	name: string
+	displayName: string
+	description: string
+	detailedDescription: string
+	srcUrl?: string
+	websiteUrl?: string
+	status: string
+	screenshots: string[]
 }
 
 function ErrorScreen() {
 	return (
 		<>
-			<GoBackHomeLink />
 			<h3>Failed to load the project page!</h3>
 		</>
-	);
+	)
 }
 
 export default function Project() {
-	const params: Params = useParams();
-	let idx: number = parseInt((params.id || '-1') as string);
+	const params: Params = useParams()
+	let name: string = params.name as string
 
-	if (idx < 0 || idx >= projects.length) {
-		console.error(`Failed to find project of idx: ${idx}`);
-		return <ErrorScreen />;
+	if (!name) {
+		console.error(`Name parameter is missing`)
+		return <ErrorScreen />
 	}
 
-	const data: ProjectData = projects[idx];
+	const data: ProjectData = projects.filter(p => p.name === name)[0] || null
+
 	if (!data) {
-		console.error(
-			`Project data (idx: ${idx}) is undefined or null!`
-		);
-		return <ErrorScreen />;
+		console.error(`Project data (idx: ${name}) is undefined or null!`)
+		return <ErrorScreen />
 	}
 
-	let i: number = 0;
+	let i: number = 0
 	const screenshotElements: JSX.Element[] = data.screenshots.map(ss => (
 		<img key={i++} alt="" src={ss}></img>
-	));
+	))
 
 	return (
 		<>
-			<GoBackHomeLink />
-
-			<h1 className="title">{data.name}</h1>
+			<h1 className="title">{data.displayName}</h1>
 			<Frame title="Details">
 				<p>{data.description}</p>
 				<p>{data.detailedDescription}</p>
 				<p>
-					Status:{' '}
-					<span style={{fontWeight: 'bold'}}>
-						{data.status}
-					</span>
+					Status: <span style={{fontWeight: 'bold'}}>{data.status}</span>
 				</p>
 
 				{data.srcUrl ? (
-					<a
-						target="_blank"
-						rel="noreferrer"
-						href={data.srcUrl}
-					>
+					<a target="_blank" rel="noreferrer" href={data.srcUrl}>
 						Source code
 					</a>
 				) : (
@@ -84,11 +66,7 @@ export default function Project() {
 				<br></br>
 
 				{data.websiteUrl ? (
-					<a
-						target="_blank"
-						rel="noreferrer"
-						href={data.websiteUrl}
-					>
+					<a target="_blank" rel="noreferrer" href={data.websiteUrl}>
 						Website
 					</a>
 				) : (
@@ -96,14 +74,11 @@ export default function Project() {
 				)}
 			</Frame>
 
-			{screenshotElements.length > 0 &&
-				<Frame
-					id="project-screenshots-frame"
-					title="Screenshots"
-				>
-					{ screenshotElements }
+			{screenshotElements.length > 0 && (
+				<Frame id="project-screenshots-frame" title="Screenshots">
+					{screenshotElements}
 				</Frame>
-			}
+			)}
 		</>
-	);
+	)
 }
