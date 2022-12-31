@@ -9,7 +9,7 @@ export default function Home() {
 					Hello, my name's Maciej Niziołek
 				</h1>
 				<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
-				<p>I'm a 16 years old software developer based in Poland.</p>
+				<p>I'm a 16 year old software developer based in Poland.</p>
 			</Frame>
 		</>
 	)
