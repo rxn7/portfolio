@@ -39,13 +39,14 @@ export default function Skills() {
 					<li>UnrealEngine4 C++ Scripting</li>
 					<li>OpenGL programming (C, C++)</li>
 					<li>WinAPI programming (C++)</li>
+					<li>Using ECS (entt)</li>
 					<li>Creating games with SFML (C++)</li>
 					<li>Creating games with SDL2 (C, C++)</li>
 					<li>Creating games with Allegro (C++)</li>
 					<li>Minecraft Spigot plugins (Java)</li>
 					<li>Creating games with LWJGL (Java)</li>
 					<li>Writing shaders in GLSL</li>
-					<li>Cpent/Server networking using TCP and UDP</li>
+					<li>Client/Server networking using TCP and UDP</li>
 				</ul>
 			</Frame>
 
