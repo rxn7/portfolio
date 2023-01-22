@@ -1,7 +1,7 @@
 import './Projects.css'
-import projects from '../../data/projects.json'
 import {Link} from 'react-router-dom'
 import Frame from '../frame/Frame'
+import projects from '../../data/projects.json'
 
 export default function Projects() {
 	const projectsElements: JSX.Element[] = projects.map(project => (

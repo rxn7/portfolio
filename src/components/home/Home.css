@@ -1,5 +1,6 @@
 #selfie {
 	max-width: 300px;
 	width: 70%;
-	border-radius: 40px;
+	border-radius: var(--border-radius);
+	border: var(--border-thickness) solid var(--secondary-color);
 }

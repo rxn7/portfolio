@@ -4,8 +4,10 @@ body {
 	--primary-background-color: #32302f;
 	--secondary-background-color: #3c3836;
 	--primary-color: #ebdbb2;
-	--secondary-color: #539194;
-	--tertiary-color: #83a598;
+	--secondary-color: #b8bb26;
+	--tertiary-color: #98971a;
+	--border-radius: 10px;
+	--border-thickness: 2px;
 
 	box-sizing: border-box;
 	margin: 0;
@@ -41,13 +43,14 @@ a:visited {
 	color: var(--secondary-color);
 }
 
-.title {
-	font-family: 'Kalam', cursive;
-	text-align: center;
-	border-bottom: 2px solid var(--tertiary-color);
-	border-radius: 20px;
+hr {
+	border-color: var(--tertiary-color);
 }
 
-h3 {
+.title {
+	font-family: 'Kalam', cursive;
+	text-shadow: 2px 2px #000;
 	text-align: center;
+	border-bottom: 2px solid var(--tertiary-color);
+	border-radius: 0px;
 }

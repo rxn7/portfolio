@@ -2,6 +2,7 @@ import './Project.css'
 import {Params, useParams} from 'react-router-dom'
 import projects from '../../data/projects.json'
 import Frame from '../frame/Frame'
+import ErrorText from '../errorText/ErrorText'
 
 export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
@@ -17,16 +18,12 @@ export declare type ProjectData = {
 }
 
 function ErrorScreen() {
-	return (
-		<>
-			<h3>Failed to load the project page!</h3>
-		</>
-	)
+	return <ErrorText text={'Failed to load the project page!'} />
 }
 
 export default function Project() {
-	const params: Params = useParams()
-	let name: string = params.name as string
+	const urlParams: Params = useParams()
+	const name: string = urlParams?.name as string
 
 	if (!name) {
 		console.error(`Name parameter is missing`)
@@ -40,10 +37,26 @@ export default function Project() {
 		return <ErrorScreen />
 	}
 
-	let i: number = 0
+	let screenshotElementIdx: number = 0
 	const screenshotElements: JSX.Element[] = data.screenshots.map(ss => (
-		<img key={i++} alt="" src={ss}></img>
+		<img key={screenshotElementIdx++} alt="" src={ss}></img>
 	))
+
+	const sourceCodeLinkElement: JSX.Element = data.srcUrl ? (
+		<a target="_blank" rel="noreferrer" href={data.srcUrl}>
+			Source code
+		</a>
+	) : (
+		<></>
+	)
+
+	const websiteLinkElement: JSX.Element = data.websiteUrl ? (
+		<a target="_blank" rel="noreferrer" href={data.websiteUrl}>
+			Website
+		</a>
+	) : (
+		<></>
+	)
 
 	return (
 		<>
@@ -55,23 +68,9 @@ export default function Project() {
 					Status: <span style={{fontWeight: 'bold'}}>{data.status}</span>
 				</p>
 
-				{data.srcUrl ? (
-					<a target="_blank" rel="noreferrer" href={data.srcUrl}>
-						Source code
-					</a>
-				) : (
-					<></>
-				)}
-
-				<br></br>
-
-				{data.websiteUrl ? (
-					<a target="_blank" rel="noreferrer" href={data.websiteUrl}>
-						Website
-					</a>
-				) : (
-					<></>
-				)}
+				{websiteLinkElement}
+				<br />
+				{sourceCodeLinkElement}
 			</Frame>
 
 			{screenshotElements.length > 0 && (

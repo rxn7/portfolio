@@ -1,12 +1,12 @@
-div[class*='frame']:not(:first-of-type) {
+.frame:not(:first-of-type) {
 	margin-top: 50px;
 }
 
 .frame {
 	max-width: 600px;
 	width: 70%;
-	border: 2px solid var(--secondary-color);
-	border-radius: 5px;
+	border: var(--border-thickness) solid var(--secondary-color);
+	border-radius: var(---border-radius);
 	text-align: center;
 	background-color: var(--secondary-background-color);
 	margin: auto;

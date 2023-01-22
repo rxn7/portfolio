@@ -7,9 +7,9 @@ interface IHeaderNavLinkProps {
 }
 
 function HeaderNavLink(props: IHeaderNavLinkProps) {
-	const currentPath = useLocation().pathname
-	let className: string =
-		'nav-item' + (currentPath === props.path ? ' nav-item-current' : '')
+	const currentPath: string = useLocation().pathname
+	const isNavItemCurrent: boolean = currentPath === props.path
+	const className: string = 'nav-item' + (isNavItemCurrent ? ' nav-item-current' : '')
 
 	return (
 		<Link className={className} to={props.path}>
