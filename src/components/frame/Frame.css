@@ -6,7 +6,7 @@
 	max-width: 600px;
 	width: 70%;
 	border: var(--border-thickness) solid var(--secondary-color);
-	border-radius: var(---border-radius);
+	border-radius: var(--border-radius);
 	text-align: center;
 	background-color: var(--secondary-background-color);
 	margin: auto;

@@ -1,3 +1,7 @@
 #contact-frame {
 	max-width: 300px;
 }
+
+.contact-element {
+	margin: 5px;
+}

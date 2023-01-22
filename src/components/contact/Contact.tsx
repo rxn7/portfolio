@@ -1,49 +1,51 @@
 import Frame from '../frame/Frame'
 import './Contact.css'
 
+interface IContactIconProps {
+	iconSrc: string
+	text: string
+	href?: string
+}
+
+function ContactIcon(props: IContactIconProps) {
+	const imgElement: JSX.Element = (
+		<img alt="" draggable="false" className="icon" src={props.iconSrc} />
+	)
+
+	if (props.href) {
+		return (
+			<p className="contact-element">
+				{imgElement}
+				<a target="_blank" rel="noreferrer" href={props.href}>
+					{props.text}
+				</a>
+			</p>
+		)
+	}
+
+	return (
+		<p className="contact-element">
+			{imgElement}
+			{props.text}
+		</p>
+	)
+}
+
 export default function Contact() {
 	return (
-		<Frame title="Contact" maxWidth="500px">
-			<p>
-				<img
-					alt=""
-					draggable="false"
-					className="icon"
-					src="img/icons/discord.svg"
-				/>
-				rxn#4972
-			</p>
-			<p>
-				<img
-					alt=""
-					draggable="false"
-					className="icon"
-					src="img/icons/envelope.svg"
-				/>
-				rotthin_dev@pm.me
-			</p>
-			<p>
-				<a href="https://github.com/rxn7" target="_blank" rel="noreferrer">
-					<img
-						alt=""
-						draggable="false"
-						className="icon"
-						src="img/icons/github.svg"
-					/>
-					@rxn7
-				</a>
-			</p>
-			<p>
-				<a href="https://twitter.com/rxtthin" target="_blank" rel="noreferrer">
-					<img
-						alt=""
-						draggable="false"
-						className="icon"
-						src="img/icons/twitter.svg"
-					/>
-					@rxtthin
-				</a>
-			</p>
+		<Frame title="Contact" maxWidth="250px">
+			<ContactIcon iconSrc="img/icons/discord.svg" text="rxn#4972" />
+			<ContactIcon iconSrc="img/icons/envelope.svg" text="rotthin_dev@pm.me" />
+			<ContactIcon
+				iconSrc="img/icons/github.svg"
+				text="@rxn7"
+				href="https://github.com/rxn7"
+			/>
+			<ContactIcon
+				iconSrc="img/icons/twitter.svg"
+				text="@rxtthin"
+				href="https://twitter.com/rxtthin"
+			/>
 		</Frame>
 	)
 }
