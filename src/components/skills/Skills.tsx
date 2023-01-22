@@ -39,7 +39,7 @@ export default function Skills() {
 					<li>UnrealEngine4 C++ Scripting</li>
 					<li>OpenGL programming (C, C++)</li>
 					<li>WinAPI programming (C++)</li>
-					<li>Using ECS (entt)</li>
+					<li>Using ECS with entt (C++)</li>
 					<li>Creating games with SFML (C++)</li>
 					<li>Creating games with SDL2 (C, C++)</li>
 					<li>Creating games with Allegro (C++)</li>
