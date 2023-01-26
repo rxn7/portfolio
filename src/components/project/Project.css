@@ -11,3 +11,11 @@
 	font-family: 'Kalam', cursive;
 	text-align: center;
 }
+
+.project-website-url {
+	display: block;
+}
+
+.project-website-url:not(:last-of-type) {
+	margin-bottom: 10px;
+}

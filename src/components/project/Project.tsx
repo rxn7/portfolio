@@ -13,6 +13,7 @@ export declare type ProjectData = {
 	detailedDescription: string
 	srcUrl?: string
 	websiteUrl?: string
+	downloadUrl?: string
 	status: string
 	screenshots: string[]
 }
@@ -43,7 +44,12 @@ export default function Project() {
 	))
 
 	const sourceCodeLinkElement: JSX.Element = data.srcUrl ? (
-		<a target="_blank" rel="noreferrer" href={data.srcUrl}>
+		<a
+			className="project-website-url"
+			target="_blank"
+			rel="noreferrer"
+			href={data.srcUrl}
+		>
 			Source code
 		</a>
 	) : (
@@ -51,8 +57,26 @@ export default function Project() {
 	)
 
 	const websiteLinkElement: JSX.Element = data.websiteUrl ? (
-		<a target="_blank" rel="noreferrer" href={data.websiteUrl}>
+		<a
+			className="project-website-url"
+			target="_blank"
+			rel="noreferrer"
+			href={data.websiteUrl}
+		>
 			Website
+		</a>
+	) : (
+		<></>
+	)
+
+	const downloadLinkElement: JSX.Element = data.downloadUrl ? (
+		<a
+			className="project-website-url"
+			target="_blank"
+			rel="noreferrer"
+			href={data.downloadUrl}
+		>
+			Download
 		</a>
 	) : (
 		<></>
@@ -68,9 +92,11 @@ export default function Project() {
 					Status: <span style={{fontWeight: 'bold'}}>{data.status}</span>
 				</p>
 
+				<hr />
+
 				{websiteLinkElement}
-				<br />
 				{sourceCodeLinkElement}
+				{downloadLinkElement}
 			</Frame>
 
 			{screenshotElements.length > 0 && (

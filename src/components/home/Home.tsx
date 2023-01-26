@@ -21,7 +21,8 @@ export default function Home() {
 			<hr />
 
 			<p>
-				Check out my <Link to="/projects">projects</Link>!
+				Check out my <Link to="/projects">projects</Link> and my{' '}
+				<Link to="/skills">skills</Link>!
 			</p>
 		</Frame>
 	)
