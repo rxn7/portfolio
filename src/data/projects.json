@@ -117,6 +117,16 @@
 		]
 	},
 	{
+		"name": "flappy_bird_clone",
+		"displayName": "fb",
+		"description": "Flappy bird clone written in C++ using SDL2",
+		"detailedDescription": "",
+		"srcUrl": "https://github.com/rxn7/fb",
+		"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
+		"status": "Maintained",
+		"screenshots": ["img/projects/fb1.png"]
+	},
+	{
 		"name": "rottlike",
 		"displayName": "RottLike",
 		"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
