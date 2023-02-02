@@ -127,6 +127,16 @@
 		"screenshots": ["img/projects/fb1.png"]
 	},
 	{
+		"name": "clock",
+		"displayName": "Clock",
+		"description": "Real-time analog clock written in Typescript.",
+		"detailedDescription": "Made in about 50 minutes with Typescript and Canvas2D",
+		"srcUrl": "https://github.com/rxn7/clock",
+		"websiteUrl": "https://rxn7.github.io/clock",
+		"status": "Finished",
+		"screenshots": ["img/projects/clock1.png", "img/projects/clock2.png"]
+	},
+	{
 		"name": "rottlike",
 		"displayName": "RottLike",
 		"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
