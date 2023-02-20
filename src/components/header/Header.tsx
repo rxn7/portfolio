@@ -1,34 +1,5 @@
-import {Link, useLocation} from 'react-router-dom'
+import NavBar from '../navbar/Navbar'
 import './Header.css'
-
-interface IHeaderNavLinkProps {
-	path: string
-	text: string
-}
-
-function HeaderNavLink(props: IHeaderNavLinkProps) {
-	const currentPath: string = useLocation().pathname
-	const isNavItemCurrent: boolean = currentPath === props.path
-	const className: string = 'nav-item' + (isNavItemCurrent ? ' nav-item-current' : '')
-
-	return (
-		<Link className={className} to={props.path}>
-			{props.text}
-		</Link>
-	)
-}
-
-function NavBar() {
-	return (
-		<nav>
-			<HeaderNavLink path="/" text="Home" />
-			<HeaderNavLink path="/projects" text="Projects" />
-			<HeaderNavLink path="/skills" text="Skills" />
-			<HeaderNavLink path="/experience" text="Experience" />
-			<HeaderNavLink path="/contact" text="Contact" />
-		</nav>
-	)
-}
 
 export default function Header() {
 	return (

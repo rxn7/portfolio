@@ -8,9 +8,10 @@ export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
 export declare type ProjectData = {
 	name: string
+	tags?: string[]
 	displayName: string
 	description: string
-	detailedDescription: string
+	detailedDescription?: string
 	srcUrl?: string
 	websiteUrl?: string
 	downloadUrl?: string
