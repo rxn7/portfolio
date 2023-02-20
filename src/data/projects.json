@@ -107,7 +107,7 @@
 		"name": "rgl",
 		"displayName": "RGL",
 		"description": "C game framework with Input, Sound, Rendering, Texture Loading, and Animation built-in.",
-		"detailedDescription": "Using RGL you can create games in C or C++ without the boilerplate needed by OpenGL and X11. RGL has 3 examples on the github repository. Keep in mind that RGL onle supports Linux.",
+		"detailedDescription": "Using RGL you can create games in C or C++ without the boilerplate needed by OpenGL and X11. RGL has 3 examples on the github repository. Keep in mind that RGL only supports Linux.",
 		"srcUrl": "https://github.com/rxn7/rgl",
 		"status": "Finished",
 		"screenshots": [
@@ -151,7 +151,7 @@
 		"description": "Teleport-menu minecraft plugin (Spigot 1.19) written in Java.",
 		"detailedDescription": "Minecraft teleport-menu plugin with multi-language support (language is automatically detected for each client), the GUI is scaled according to the player count, the players' heads have their skins in the GUI.",
 		"srcUrl": "https://github.com/rxn7/telestick",
-		"status": "Abandoned",
+		"status": "Finished",
 		"screenshots": [
 			"https://github.com/rxn7/telestick/raw/master/.github/ss1.png",
 			"https://github.com/rxn7/telestick/raw/master/.github/ss2.png"
