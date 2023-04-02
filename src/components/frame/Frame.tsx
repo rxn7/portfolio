@@ -1,6 +1,6 @@
 import './Frame.css'
 
-const defaultMaxWidth: string = '600px';
+const defaultMaxWidth: string = '600px'
 
 export interface IFrameProps {
 	id?: string
