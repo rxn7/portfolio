@@ -7,6 +7,12 @@
 	border-radius: 7px;
 }
 
+#project-videos-frame .yt-embed iframe {
+	width: 100%;
+	height: 480px;
+	border-radius: 7px;
+}
+
 #project-name {
 	font-family: 'Kalam', cursive;
 	text-align: center;

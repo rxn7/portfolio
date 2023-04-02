@@ -13,6 +13,19 @@
 		]
 	},
 	{
+		"name": "vsr",
+		"displayName": "Virtual shooting Range",
+		"description": "VsR is a VR game with realistic weapon physics",
+		"detailedDescription": "All animations are procedular, every weapon part is interactable, the videos are a little bit old, I will publish an update later this month.",
+		"srcUrl": "https://github.com/rxn7/vsr",
+		"downloadUrl": "https://github.com/rxn7/vsr/releases/latest",
+		"status": "Maintained",
+		"videosEmbedIDs": [
+			"RkDt_JvWdto",
+			"XtA2o2hMgpE"
+		]
+	},
+	{
 		"name": "pjgen",
 		"displayName": "Pjgen",
 		"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
