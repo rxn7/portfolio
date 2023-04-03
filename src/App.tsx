@@ -1,6 +1,5 @@
-import {Route, Routes} from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Contact from './components/contact/Contact'
-import Experience from './components/experience/Experience'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Project from './components/project/Project'
@@ -21,7 +20,6 @@ export default function App() {
 
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/skills" element={<Skills />} />
-				<Route path="/experience" element={<Experience />} />
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
 		</>

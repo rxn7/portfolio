@@ -25,3 +25,8 @@
 .project-website-url:not(:last-of-type) {
 	margin-bottom: 10px;
 }
+
+.project-website-preview {
+	max-width: 80%;
+	max-height: 80%;
+}

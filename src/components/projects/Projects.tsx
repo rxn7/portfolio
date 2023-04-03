@@ -1,5 +1,5 @@
 import './Projects.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Frame from '../frame/Frame'
 import projects from '../../data/projects.json'
 

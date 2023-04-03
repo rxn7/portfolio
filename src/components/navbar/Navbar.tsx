@@ -1,5 +1,5 @@
-import {useState} from 'react'
-import {Link, useLocation} from 'react-router-dom'
+import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 
 interface IHeaderNavLinkProps {
@@ -36,7 +36,6 @@ export default function NavBar() {
 				<HeaderNavLink onClick={hideNav} path="/" text="Home" />
 				<HeaderNavLink onClick={hideNav} path="/projects" text="Projects" />
 				<HeaderNavLink onClick={hideNav} path="/skills" text="Skills" />
-				<HeaderNavLink onClick={hideNav} path="/experience" text="Experience" />
 				<HeaderNavLink onClick={hideNav} path="/contact" text="Contact" />
 			</div>
 

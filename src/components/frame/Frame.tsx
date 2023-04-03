@@ -1,6 +1,6 @@
 import './Frame.css'
 
-const defaultMaxWidth: string = '600px'
+const defaultMaxWidth: string = '900px'
 
 export interface IFrameProps {
 	id?: string
@@ -14,7 +14,7 @@ export default function Frame(props: IFrameProps) {
 		<div
 			id={props.id}
 			className="frame"
-			style={{maxWidth: props.maxWidth || defaultMaxWidth}}
+			style={{ maxWidth: props.maxWidth || defaultMaxWidth }}
 		>
 			{props.title && <h2 className="title">{props.title}</h2>}
 			{props.children}
