@@ -1,11 +1,18 @@
-#projects-container {
+.projects-container {
+	max-width: 100%;
 	display: grid;
-	grid-gap: 20px;
+	justify-items: center;
+	grid-gap: 60px;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .project-container {
+	max-width: 300px;
 	padding: 20px;
 	border-radius: var(--border-radius);
 	background-color: var(--primary-background-color);
+}
+
+.categories-container {
+	width: 100%;
 }

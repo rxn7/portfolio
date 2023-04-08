@@ -1,26 +1,14 @@
 import './Project.css'
 import { Params, useParams } from 'react-router-dom'
-import projects from '../../data/projects.json'
+import projectsData from '../../data/projects.json'
 import Frame from '../frame/Frame'
 import ErrorText from '../errorText/ErrorText'
 import YoutubeEmbed from '../youtubeEmbed/YoutubeEmbed'
+import { ProjectData } from '../../data/ProjectData'
 
 export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
-export declare type ProjectData = {
-	name: string
-	tags?: string[]
-	showWebsitePreview?: boolean,
-	displayName: string
-	description: string
-	detailedDescription?: string
-	srcUrl?: string
-	websiteUrl?: string
-	downloadUrl?: string
-	status?: string
-	screenshots?: string[]
-	videosEmbedIDs?: string[]
-}
+const allProjects: ProjectData[] = projectsData.flatMap(c => [...c.projects])
 
 export default function Project(): JSX.Element {
 	const urlParams: Params = useParams()
@@ -31,7 +19,7 @@ export default function Project(): JSX.Element {
 		return <ErrorScreen />
 	}
 
-	const data: ProjectData = projects.filter(p => p.name === name)[0] || null
+	let data: ProjectData | null = allProjects.filter(p => p.name === name)[0] || null
 
 	if (!data) {
 		console.error(`Project data (idx: ${name}) is undefined or null!`)
