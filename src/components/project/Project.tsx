@@ -10,7 +10,7 @@ export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 export declare type ProjectData = {
 	name: string
 	tags?: string[]
-	showWebsitePreview: boolean,
+	showWebsitePreview?: boolean,
 	displayName: string
 	description: string
 	detailedDescription?: string
