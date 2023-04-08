@@ -20,6 +20,10 @@
 	transition: linear 0.1s;
 }
 
+.nav-item img {
+	height: 26px;
+}
+
 .nav-item-current {
 	color: darkgray !important;
 	cursor: default;

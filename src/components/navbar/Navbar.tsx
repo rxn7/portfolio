@@ -6,6 +6,7 @@ interface IHeaderNavLinkProps {
 	onClick: () => void
 	path: string
 	text: string
+	iconSrc: string
 }
 
 function HeaderNavLink(props: IHeaderNavLinkProps) {
@@ -15,6 +16,7 @@ function HeaderNavLink(props: IHeaderNavLinkProps) {
 
 	return (
 		<Link onClick={props.onClick} className={className} to={props.path}>
+			<img alt="" draggable="false" className="icon" src={props.iconSrc} />
 			{props.text}
 		</Link>
 	)
@@ -33,10 +35,10 @@ export default function NavBar() {
 	return (
 		<nav className="nav">
 			<div className={`nav-items ${navItemsClass}`}>
-				<HeaderNavLink onClick={hideNav} path="/" text="Home" />
-				<HeaderNavLink onClick={hideNav} path="/projects" text="Projects" />
-				<HeaderNavLink onClick={hideNav} path="/skills" text="Skills" />
-				<HeaderNavLink onClick={hideNav} path="/contact" text="Contact" />
+				<HeaderNavLink onClick={hideNav} path="/" text="Home" iconSrc="img/icons/home.svg" />
+				<HeaderNavLink onClick={hideNav} path="/projects" text="Projects" iconSrc="img/icons/projects.svg" />
+				<HeaderNavLink onClick={hideNav} path="/skills" text="Skills" iconSrc="img/icons/skills.svg" />
+				<HeaderNavLink onClick={hideNav} path="/contact" text="Contact" iconSrc="img/icons/contact.svg" />
 			</div>
 
 			<div onClick={toggleNav} className={`nav-toggler ${navTogglerClass}`}>
