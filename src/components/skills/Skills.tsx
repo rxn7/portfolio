@@ -43,6 +43,8 @@ export default function Skills() {
 					<li>Creating games with SFML (C++)</li>
 					<li>Creating games with SDL2 (C, C++)</li>
 					<li>Creating games with Allegro (C++)</li>
+					<li>Writing CMake files</li>
+					<li>Writing Unix Make files</li>
 					<li>Minecraft Spigot plugins (Java)</li>
 					<li>Creating games with LWJGL (Java)</li>
 					<li>Writing shaders in GLSL</li>
