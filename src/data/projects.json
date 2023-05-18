@@ -16,14 +16,14 @@
 				]
 			},
 			{
-				"name": "pjgen",
-				"displayName": "Pjgen",
-				"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
-				"detailedDescription": "Pjgen can create Makefile-based C or C++ projects, static web projects (HTML + CSS + JS) and python projects. I created it because I hated the process of writing makefiles for each C/C++ project.",
-				"srcUrl": "https://github.com/rxn7/pjgen",
-				"status": "Finished",
-				"screenshots": [
-					"img/projects/pjgen1.png"
+				"name": "fif",
+				"displayName": "Fif",
+				"description": "Fast and lightweight game engine with editor (fifed) written in C++ with OpenGL",
+				"detailedDescription": "Fif is split into modules: core, gfx, input, imgui, native_scripting, lua_scripting, each independent of the other. The rendering is so fast because the renderer is batching everything into a single draw call.",
+				"srcUrl": "https://github.com/rxn7/fif",
+				"status": "Maintained",
+				"videosEmbedIDs": [
+					"SBmAfcvbEHw"
 				]
 			},
 			{
@@ -35,6 +35,17 @@
 				"status": "Maintained",
 				"videosEmbedIDs": [
 					"videoseries?list=PLVsn5gXfgBQcwPg6fdQcR0NCpo5vr9-6O"
+				]
+			},
+			{
+				"name": "pjgen",
+				"displayName": "Pjgen",
+				"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
+				"detailedDescription": "Pjgen can create Makefile-based C or C++ projects, static web projects (HTML + CSS + JS) and python projects. I created it because I hated the process of writing makefiles for each C/C++ project.",
+				"srcUrl": "https://github.com/rxn7/pjgen",
+				"status": "Finished",
+				"screenshots": [
+					"img/projects/pjgen1.png"
 				]
 			},
 			{
