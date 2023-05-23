@@ -58,7 +58,7 @@ export default function Skills() {
 					<li>Jetbrains Rider</li>
 					<li>Visual Studio Code</li>
 					<li>Vim/Neovim</li>
-					<li>Jetbrains Intelpj Idea</li>
+					<li>Jetbrains Intellij Idea</li>
 				</ul>
 			</Frame>
 
