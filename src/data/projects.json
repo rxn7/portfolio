@@ -117,6 +117,19 @@
 				"screenshots": []
 			},
 			{
+				"name": "battleships",
+				"displayName": "Battleships",
+				"description": "Online multiplayer battleships game written in Typescript using WebSockets and BunJS",
+				"detailedDescription": "This is a battleships game that has all the of the rules implemented. You can play with your friend by creating a room. The game has sound and visual effects for each action (miss, hit, sunk)",
+				"srcUrl": "https://github.com/rxn7/battleships",
+				"status": "Maintained",
+				"screenshots": [
+					"https://raw.githubusercontent.com/rxn7/battleships/master/docs/game2.png",
+					"https://raw.githubusercontent.com/rxn7/battleships/master/docs/lobby.png",
+					"https://raw.githubusercontent.com/rxn7/battleships/master/docs/game1.png"
+				]
+			},
+			{
 				"name": "canvastein",
 				"displayName": "Canvastein",
 				"showWebsitePreview": true,
