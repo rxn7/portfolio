@@ -32,7 +32,7 @@
 				"description": "Billiards game written in C++ using SFML and GLM",
 				"detailedDescription": "The balls are rendered as quads with 4 vertices, the trick to make it look like they are 3D spheres is to calculate normals of each pixel in fragment shader",
 				"srcUrl": "https://github.com/rxn7/billiards",
-				"status": "Maintained",
+				"status": "Finished",
 				"videosEmbedIDs": [
 					"videoseries?list=PLVsn5gXfgBQcwPg6fdQcR0NCpo5vr9-6O"
 				]
@@ -95,7 +95,7 @@
 				"detailedDescription": "",
 				"srcUrl": "https://github.com/rxn7/fb",
 				"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
-				"status": "Maintained",
+				"status": "Finished",
 				"screenshots": [
 					"img/projects/fb1.png"
 				]
@@ -122,12 +122,23 @@
 				"description": "Online multiplayer battleships game written in Typescript using WebSockets and BunJS",
 				"detailedDescription": "This is a battleships game that has all the of the rules implemented. You can play with your friend by creating a room. The game has sound and visual effects for each action (miss, hit, sunk)",
 				"srcUrl": "https://github.com/rxn7/battleships",
-				"status": "Maintained",
+				"status": "Finished",
 				"screenshots": [
 					"https://raw.githubusercontent.com/rxn7/battleships/master/docs/game2.png",
 					"https://raw.githubusercontent.com/rxn7/battleships/master/docs/lobby.png",
 					"https://raw.githubusercontent.com/rxn7/battleships/master/docs/game1.png"
 				]
+			},
+			{
+				"name": "game_of_life_ts",
+				"displayName": "Game of Life TS",
+				"description": "Conway's game of life written in Typescript using Canvas2D",
+				"showWebsitePreview": true,
+				"detailedDescription": "",
+				"srcUrl": "https://github.com/rxn7/particle_sim",
+				"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
+				"status": "Maintained",
+				"screenshots": []
 			},
 			{
 				"name": "canvastein",
@@ -201,7 +212,7 @@
 				"detailedDescription": "All animations are procedular, every weapon part is interactable, the videos are a little bit old, I will publish an update later this month.",
 				"srcUrl": "https://github.com/rxn7/vsr",
 				"downloadUrl": "https://github.com/rxn7/vsr/releases/latest",
-				"status": "Maintained",
+				"status": "Abandoned",
 				"videosEmbedIDs": [
 					"videoseries?list=PLVsn5gXfgBQfYgtF6s7GCnvCpkDz7X0Hu"
 				]
