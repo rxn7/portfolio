@@ -6,7 +6,7 @@ body {
 	--primary-color: #ebdbb2;
 	--secondary-color: #b8bb26;
 	--tertiary-color: #98971a;
-	--border-radius: 10px;
+	--border-radius: 3px;
 	--border-thickness: 2px;
 
 	box-sizing: border-box;
