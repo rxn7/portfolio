@@ -6,7 +6,8 @@ export default function Skills() {
 		<div id="skills-container">
 			<Frame id="frontend-skills-frame" title="Frontend" maxWidth="1000px">
 				<ul>
-					<li>ReactJS (TypeScript)</li>
+					<li>NextJS (SSR)</li>
+					<li>ReactJS</li>
 					<li>HTML + CSS + JS/TS</li>
 					<li>Canvas2D</li>
 					<li>WebGL</li>
@@ -18,8 +19,9 @@ export default function Skills() {
 				<ul>
 					<li>BaoJS WebSockets</li>
 					<li>ExpressJS REST API</li>
+					<li>NextJS REST API</li>
 					<li>NestJS REST API</li>
-					<li>NestJS Prisma integration</li>
+					<li>Prisma ORM</li>
 					<li>PassportJS authorization</li>
 					<li>JWT</li>
 				</ul>
@@ -58,10 +60,10 @@ export default function Skills() {
 
 			<Frame id="tools-skills-frame" title="Tools" maxWidth="1000px">
 				<ul>
+					<li>Vim/Neovim</li>
+					<li>Visual Studio Code</li>
 					<li>Visual Studio 2019/2022</li>
 					<li>Jetbrains Rider</li>
-					<li>Visual Studio Code</li>
-					<li>Vim/Neovim</li>
 					<li>Jetbrains Intellij Idea</li>
 					<li>Tmux</li>
 					<li>Linux</li>
