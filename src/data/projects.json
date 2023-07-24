@@ -178,7 +178,7 @@
 			},
 			{
 				"name": "ttc",
-				"displayName": "ttc",
+				"displayName": "Tic-Tac-Toe",
 				"showWebsitePreview": true,
 				"description": "Tic-Tac-Toe game made using TS/HTML/CSS",
 				"detailedDescription": "This project has all features of tic-tac-toe implemented.",
@@ -194,9 +194,20 @@
 				"displayName": "Clock",
 				"showWebsitePreview": true,
 				"description": "Real-time analog clock written in Typescript.",
-				"detailedDescription": "Made in about 50 minutes with Typescript and Canvas2D",
+				"detailedDescription": "Made with Typescript and Canvas2D",
 				"srcUrl": "https://github.com/rxn7/clock",
 				"websiteUrl": "https://rxn7.github.io/clock",
+				"status": "Finished",
+				"screenshots": []
+			},
+			{
+				"name": "chess_timer",
+				"displayName": "Chess Timer",
+				"showWebsitePreview": true,
+				"description": "Switch-clock for competitive chess games. Written in Typescript",
+				"detailedDescription": "There are 3 time limits available: bullet (1 min), blitz (5 min), rapid (10 min). Press 'space' to switch the clocks.",
+				"srcUrl": "https://github.com/rxn7/chess_timer",
+				"websiteUrl": "https://rxn7.github.io/chess_timer",
 				"status": "Finished",
 				"screenshots": []
 			},
