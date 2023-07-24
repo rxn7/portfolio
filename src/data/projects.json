@@ -99,6 +99,17 @@
 				"screenshots": [
 					"img/projects/fb1.png"
 				]
+			},
+			{
+				"name": "redflag",
+				"displayName": "RedFlag",
+				"description": "c99 library for option/flag management in CLI applications",
+				"detailedDescription": "With RedFlag you can easily add options/flags to a CLI applications",
+				"srcUrl": "https://github.com/rxn7/redflag",
+				"status": "Maintained",
+				"screenshots": [
+					"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
+				]
 			}
 		]
 	},

@@ -27,12 +27,11 @@ export default function Skills() {
 				</ul>
 			</Frame>
 
-			<Frame id="gui-skills-frame" title="GUI Apps" maxWidth="1000px">
+			<Frame id="software-development-skills-frame" title="Software Development" maxWidth="1000px">
 				<ul>
-					<li>WinForms desktop apppcations (C#)</li>
-					<li>WPF desktop apppcations (C#)</li>
-					<li>GTK desktop apppcations (C, C++)</li>
-					<li>QT desktop apppcations (C++)</li>
+					<li>Writing CMake files</li>
+					<li>Writing Unix Makefiles</li>
+					<li>Client/Server networking using TCP and UDP</li>
 				</ul>
 			</Frame>
 
@@ -49,12 +48,18 @@ export default function Skills() {
 					<li>Creating games with SFML (C++)</li>
 					<li>Creating games with SDL2 (C, C++)</li>
 					<li>Creating games with Allegro (C++)</li>
-					<li>Writing CMake files</li>
-					<li>Writing Unix Make files</li>
 					<li>Minecraft Spigot plugins (Java)</li>
 					<li>Creating games with LWJGL (Java)</li>
 					<li>Writing shaders in GLSL</li>
-					<li>Client/Server networking using TCP and UDP</li>
+				</ul>
+			</Frame>
+
+			<Frame id="gui-skills-frame" title="GUI Apps" maxWidth="1000px">
+				<ul>
+					<li>WinForms desktop apppcations (C#)</li>
+					<li>WPF desktop apppcations (C#)</li>
+					<li>GTK desktop apppcations (C, C++)</li>
+					<li>QT desktop apppcations (C++)</li>
 				</ul>
 			</Frame>
 
