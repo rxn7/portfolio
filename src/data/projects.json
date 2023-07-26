@@ -104,7 +104,7 @@
 				"name": "redflag",
 				"displayName": "RedFlag",
 				"description": "c99 library for option/flag management in CLI applications",
-				"detailedDescription": "With RedFlag you can easily add options/flags to a CLI applications",
+				"detailedDescription": "With RedFlag you can easily add options/flags to CLI applications",
 				"srcUrl": "https://github.com/rxn7/redflag",
 				"status": "Maintained",
 				"screenshots": [
