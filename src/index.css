@@ -48,9 +48,9 @@ hr {
 }
 
 .title {
+	font-weight: bold;
+	font-size: 1.8em;
 	font-family: 'Kalam', cursive;
 	text-shadow: 2px 2px #000;
 	text-align: center;
-	border-bottom: 2px solid var(--tertiary-color);
-	border-radius: 0px;
 }

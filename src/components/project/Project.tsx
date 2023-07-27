@@ -4,7 +4,7 @@ import projectsData from '../../data/projects.json'
 import Frame from '../frame/Frame'
 import ErrorText from '../errorText/ErrorText'
 import YoutubeEmbed from '../youtubeEmbed/YoutubeEmbed'
-import { ProjectData } from '../../data/ProjectData'
+import { ProjectIcon, ProjectData } from '../../data/ProjectData'
 
 export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
@@ -29,38 +29,42 @@ export default function Project(): JSX.Element {
 	return (
 		<>
 			<h1 id="project-name">{data.displayName}</h1>
-			<Frame title="Details">
-				<p>{data.description}</p>
-				<p>{data.detailedDescription}</p>
-				<p>
-					Status: <span style={{ fontWeight: 'bold' }}>{data.status}</span>
-				</p>
 
-				<hr />
+			<ProjectIcon project={data} size={128} style={{margin: 0, padding: 0}}/>
 
-				{GetLinkElement(data.websiteUrl, "Website")}
-				{GetLinkElement(data.downloadUrl, "Download")}
-				{GetLinkElement(data.srcUrl, "Source Code")}
+			<div style={{marginTop: 50}}>
+				<Frame title="Details">
+					<p>{data.description}</p>
+					<p>{data.detailedDescription}</p>
+					<p>
+						Status: <span style={{ fontWeight: 'bold' }}>{data.status}</span>
+					</p>
 
-			</Frame>
+					<br />
 
-			{data.showWebsitePreview && data.websiteUrl && (
-				< Frame id="project-preview-frame" title="Preview">
-					{GetWebistePreviewElement(data)}
+					{GetLinkElement(data.websiteUrl, "Website")}
+					{GetLinkElement(data.downloadUrl, "Download")}
+					{GetLinkElement(data.srcUrl, "Source Code")}
 				</Frame>
-			)}
 
-			{data.screenshots && data.screenshots.length > 0 && (
-				<Frame id="project-screenshots-frame" title="Screenshots">
-					{GetScreenshotElements(data)}
-				</Frame>
-			)}
+				{data.showWebsitePreview && data.websiteUrl && (
+					<Frame id="project-preview-frame" title="Preview">
+						{GetWebistePreviewElement(data)}
+					</Frame>
+				)}
 
-			{data.videosEmbedIDs && data.videosEmbedIDs.length > 0 && (
-				<Frame id="project-videos-frame" title="Videos">
-					{GetVideoElements(data)}
-				</Frame>
-			)}
+				{data.screenshots && data.screenshots.length > 0 && (
+					<Frame id="project-screenshots-frame" title="Screenshots">
+						{GetScreenshotElements(data)}
+					</Frame>
+				)}
+
+				{data.videosEmbedIDs && data.videosEmbedIDs.length > 0 && (
+					<Frame id="project-videos-frame" title="Videos">
+						{GetVideoElements(data)}
+					</Frame>
+				)}
+			</div>
 		</>
 	)
 }

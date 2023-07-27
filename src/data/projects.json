@@ -3,6 +3,21 @@
 		"category": "C++",
 		"projects": [
 			{
+				"name": "fif",
+				"icon": {
+					"src": "https://raw.githubusercontent.com/rxn7/fif/master/docs/logo.png",
+					"pixelArt": true
+				},
+				"displayName": "Fif",
+				"description": "Fast and lightweight game engine with editor (fifed) written in C++ with OpenGL",
+				"detailedDescription": "Fif is split into modules: core, gfx, input, imgui, native_scripting, lua_scripting, each independent of the other. The rendering is so fast because the renderer is batching everything into a single draw call.",
+				"srcUrl": "https://github.com/rxn7/fif",
+				"status": "Maintained",
+				"videosEmbedIDs": [
+					"videoseries?list=PLVsn5gXfgBQdGu5HlANJsB8m-KE0Luu-6"
+				]
+			},
+			{
 				"name": "game_of_life",
 				"displayName": "Game of Life",
 				"description": "Conway's Game of Life-based game written in C++ using SFML library",
@@ -13,17 +28,6 @@
 				"screenshots": [
 					"img/projects/game_of_life1.gif",
 					"img/projects/game_of_life2.gif"
-				]
-			},
-			{
-				"name": "fif",
-				"displayName": "Fif",
-				"description": "Fast and lightweight game engine with editor (fifed) written in C++ with OpenGL",
-				"detailedDescription": "Fif is split into modules: core, gfx, input, imgui, native_scripting, lua_scripting, each independent of the other. The rendering is so fast because the renderer is batching everything into a single draw call.",
-				"srcUrl": "https://github.com/rxn7/fif",
-				"status": "Maintained",
-				"videosEmbedIDs": [
-					"videoseries?list=PLVsn5gXfgBQdGu5HlANJsB8m-KE0Luu-6"
 				]
 			},
 			{
@@ -89,6 +93,21 @@
 				]
 			},
 			{
+				"name": "redflag",
+				"icon": {
+					"src": "https://raw.githubusercontent.com/rxn7/redflag/master/.github/icon.png",
+					"pixelArt": true
+				},
+				"displayName": "RedFlag",
+				"description": "c99 library for option/flag management in CLI applications",
+				"detailedDescription": "With RedFlag you can easily add options/flags to CLI applications",
+				"srcUrl": "https://github.com/rxn7/redflag",
+				"status": "Maintained",
+				"screenshots": [
+					"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
+				]
+			},
+			{
 				"name": "flappy_bird_clone",
 				"displayName": "fb",
 				"description": "Flappy bird clone written in C using SDL2",
@@ -98,17 +117,6 @@
 				"status": "Finished",
 				"screenshots": [
 					"img/projects/fb1.png"
-				]
-			},
-			{
-				"name": "redflag",
-				"displayName": "RedFlag",
-				"description": "c99 library for option/flag management in CLI applications",
-				"detailedDescription": "With RedFlag you can easily add options/flags to CLI applications",
-				"srcUrl": "https://github.com/rxn7/redflag",
-				"status": "Maintained",
-				"screenshots": [
-					"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
 				]
 			}
 		]
@@ -225,23 +233,6 @@
 		]
 	},
 	{
-		"category": "Unity",
-		"projects": [
-			{
-				"name": "vsr",
-				"displayName": "Virtual shooting Range",
-				"description": "VsR is a VR game with realistic weapon physics",
-				"detailedDescription": "All animations are procedular, every weapon part is interactable, the videos are a little bit old, I will publish an update later this month.",
-				"srcUrl": "https://github.com/rxn7/vsr",
-				"downloadUrl": "https://github.com/rxn7/vsr/releases/latest",
-				"status": "Abandoned",
-				"videosEmbedIDs": [
-					"videoseries?list=PLVsn5gXfgBQfYgtF6s7GCnvCpkDz7X0Hu"
-				]
-			}
-		]
-	},
-	{
 		"category": "Godot",
 		"projects": [
 			{
@@ -267,6 +258,23 @@
 					"img/projects/poksy2.jpg",
 					"img/projects/poksy3.jpg",
 					"img/projects/poksy4.jpg"
+				]
+			}
+		]
+	},
+	{
+		"category": "Unity",
+		"projects": [
+			{
+				"name": "vsr",
+				"displayName": "Virtual shooting Range",
+				"description": "VsR is a VR game with realistic weapon physics",
+				"detailedDescription": "All animations are procedular, every weapon part is interactable, the videos are a little bit old, I will publish an update later this month.",
+				"srcUrl": "https://github.com/rxn7/vsr",
+				"downloadUrl": "https://github.com/rxn7/vsr/releases/latest",
+				"status": "Abandoned",
+				"videosEmbedIDs": [
+					"videoseries?list=PLVsn5gXfgBQfYgtF6s7GCnvCpkDz7X0Hu"
 				]
 			}
 		]

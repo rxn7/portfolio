@@ -2,14 +2,14 @@ import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 
-interface IHeaderNavLinkProps {
+type HeaderNavLinkProps = {
 	onClick: () => void
 	path: string
 	text: string
 	iconSrc: string
 }
 
-function HeaderNavLink(props: IHeaderNavLinkProps) {
+function HeaderNavLink(props: HeaderNavLinkProps) {
 	const currentPath: string = useLocation().pathname
 	const isNavItemCurrent: boolean = currentPath === props.path
 	const className: string = 'nav-item' + (isNavItemCurrent ? ' nav-item-current' : '')
@@ -24,7 +24,6 @@ function HeaderNavLink(props: IHeaderNavLinkProps) {
 
 export default function NavBar() {
 	const [isActive, setIsActive] = useState(false)
-
 	const hideNav = () => setIsActive(false)
 	const showNav = () => setIsActive(true)
 	const toggleNav = () => (isActive ? hideNav() : showNav())

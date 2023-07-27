@@ -1,13 +1,13 @@
 import Frame from '../frame/Frame'
 import './Contact.css'
 
-interface IContactIconProps {
+type ContactIconProps = {
 	iconSrc: string
 	text: string
 	href?: string
 }
 
-function ContactIcon(props: IContactIconProps) {
+function ContactIcon(props: ContactIconProps) {
 	const imgElement: JSX.Element = (
 		<img alt="" draggable="false" className="icon" src={props.iconSrc} />
 	)
