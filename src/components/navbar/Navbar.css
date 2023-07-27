@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	height: 8vh;
 }
 
 .nav-items {
@@ -37,21 +36,19 @@
 .nav-toggler {
 	cursor: pointer;
 	display: none;
+	width: 40px;
+	height: 40px;
 }
 
 .nav-toggler > div {
-	width: 2.5rem;
-	height: 0.2rem;
+	width: 100%;
+	height: 10%;
 	background: var(--primary-color);
 	transition: transform 0.1s linear;
 }
 
-.nav-toggler-bar div {
-	margin: 0.4rem;
-}
-
 .nav-toggler-x .nav-toggler-line1 {
-	transform: rotate(-45deg) translateY(4px);
+	transform: translateY(10px) rotate(-45deg);
 }
 
 .nav-toggler-x .nav-toggler-line2 {
@@ -59,16 +56,29 @@
 }
 
 .nav-toggler-x .nav-toggler-line3 {
-	transform: rotate(45deg) translateY(-4px);
+	transform: translateY(-5px) rotate(45deg);
+}
+
+.nav-toggler-screen-overlay {
+	display: none;
+}
+
+.nav-toggler-screen-overlay-active {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
 @media screen and (max-width: 768px) {
 	.nav-toggler {
-		display: block;
-	}
-
-	.nav-items {
-		transition: transform 1s linear;
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		justify-content: center;
+		gap: 10%;
 	}
 
 	.nav-items-hidden {
@@ -79,21 +89,22 @@
 	.nav-items-active {
 		display: flex;
 		position: fixed;
-		top: 7vh;
+		top: 80px;
 		left: 50%;
 		transform: translateX(-50%);
-		width: auto;
+		min-width: 80%;
 		height: auto;
 		flex-direction: column;
 		gap: 0;
 		z-index: 100;
 		border-radius: var(--border-radius);
-		border: 1px solid var(--primary-color);
+		border: 2px solid var(--tertiary-color);
 		background-color: var(--secondary-background-color);
 	}
 
 	.nav-item {
 		margin: 20px 50px;
+		width: 100%;
 		text-align: center;
 	}
 }

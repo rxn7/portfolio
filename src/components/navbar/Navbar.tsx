@@ -30,6 +30,7 @@ export default function NavBar() {
 
 	const navItemsClass = isActive ? 'nav-items-active' : 'nav-items-hidden'
 	const navTogglerClass = isActive ? 'nav-toggler-x' : 'nav-toggler-bar'
+	const navTogglerOverlayClass = isActive ? 'nav-toggler-screen-overlay-active' : 'nav-toggler-screen-overlay';
 
 	return (
 		<nav className="nav">
@@ -39,6 +40,8 @@ export default function NavBar() {
 				<HeaderNavLink onClick={hideNav} path="/skills" text="Skills" iconSrc="img/icons/skills.svg" />
 				<HeaderNavLink onClick={hideNav} path="/contact" text="Contact" iconSrc="img/icons/contact.svg" />
 			</div>
+
+			<div className={navTogglerOverlayClass} onClick={hideNav}/>
 
 			<div onClick={toggleNav} className={`nav-toggler ${navTogglerClass}`}>
 				<div className="nav-toggler-line1"></div>
