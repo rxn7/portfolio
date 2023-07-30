@@ -42,6 +42,19 @@
 				]
 			},
 			{
+				"name": "chess",
+				"displayName": "Chess",
+				"description": "Chess game written in C++",
+				"detailedDescription": "Most of the rules are implemented (legal moves, pawn promotion, checks), the only rules yet to be implemented are: checkmates, stalemates, en passant, castling",
+				"srcUrl": "https://github.com/rxn7/chess",
+				"status": "Maintained",
+				"screenshots": [
+					"img/projects/chess1.png",
+					"img/projects/chess2.png",
+					"img/projects/chess3.png"
+				]
+			},
+			{
 				"name": "pjgen",
 				"displayName": "Pjgen",
 				"description": "Project generator for multiple languages (e.g. C, C++, Web(HTML + CSS + JS), Python) ",
@@ -58,22 +71,9 @@
 				"description": "Client-Server multiplayer game-prototype written in C++ using SFML.",
 				"detailedDescription": "The prototype has a chat system and synchronized player movement/interactions.",
 				"srcUrl": "https://github.com/rxn7/RottLike",
-				"status": "Abandoned",
+				"status": "Stopped",
 				"screenshots": [
 					"img/projects/rottlike1.png"
-				]
-			},
-			{
-				"name": "chess",
-				"displayName": "Chess",
-				"description": "Chess game written in C++ using SFML library for rendering.",
-				"detailedDescription": "This chess game currently doesn't have all of the core chess rules implemented. The implemented chess mechanics are: Allowing only legal moves (currently it's not taking checks in count), highlighting legal moves, highlighting previous move, sound effects.",
-				"srcUrl": "https://github.com/rxn7/chess",
-				"status": "Abandoned",
-				"screenshots": [
-					"img/projects/chess1.png",
-					"img/projects/chess2.png",
-					"img/projects/chess3.png"
 				]
 			}
 		]
@@ -241,7 +241,7 @@
 				"description": "FPS game made in Godot and C#",
 				"detailedDescription": "Wheops has a config system which you can share with other players, and there's (not fully implemented) networking so you can play with your friends",
 				"srcUrl": "https://github.com/rxn7/wheops",
-				"status": "Abandoned",
+				"status": "Stopped",
 				"videosEmbedIDs": [
 					"videoseries?list=PLVsn5gXfgBQdc7Nkj0kMEkQ4y_AzU5nbp"
 				]
@@ -272,7 +272,7 @@
 				"detailedDescription": "All animations are procedular, every weapon part is interactable, the videos are a little bit old, I will publish an update later this month.",
 				"srcUrl": "https://github.com/rxn7/vsr",
 				"downloadUrl": "https://github.com/rxn7/vsr/releases/latest",
-				"status": "Abandoned",
+				"status": "Stopped",
 				"videosEmbedIDs": [
 					"videoseries?list=PLVsn5gXfgBQfYgtF6s7GCnvCpkDz7X0Hu"
 				]
