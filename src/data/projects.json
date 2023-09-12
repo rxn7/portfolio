@@ -125,6 +125,24 @@
 		"category": "Web",
 		"projects": [
 			{
+				"name": "truckres",
+				"icon": {
+					"src": "img/icons/truckres.png",
+					"pixelArt": false
+				},
+				"displayName": "TruckRes",
+				"showWebsitePreview": false,
+				"description": "Website with truck offers with admin dashboard",
+				"detailedDescription": "Built with NextJS, MantineUI, NextAuth, Prisma, PostgreSQL.",
+				"websiteUrl": "https://truckres.pl",
+				"status": "Maintained",
+				"screenshots": [
+					"img/projects/truckres-main.png",
+					"img/projects/truckres-admin-dashboard.png",
+					"img/projects/truckres-admin-dashboard-edit-modal.png"
+				]
+			},
+			{
 				"name": "particle_sim",
 				"displayName": "Particle Sim",
 				"showWebsitePreview": true,
@@ -198,17 +216,6 @@
 				]
 			},
 			{
-				"name": "clock",
-				"displayName": "Clock",
-				"showWebsitePreview": true,
-				"description": "Real-time analog clock written in Typescript.",
-				"detailedDescription": "Made with Typescript and Canvas2D",
-				"srcUrl": "https://github.com/rxn7/clock",
-				"websiteUrl": "https://rxn7.github.io/clock",
-				"status": "Finished",
-				"screenshots": []
-			},
-			{
 				"name": "chess_timer",
 				"displayName": "Chess Timer",
 				"showWebsitePreview": true,
@@ -227,6 +234,17 @@
 				"detailedDescription": "You can play SwitchRacer to check your WPM (words per minute) CPM (characters per minute) and accuracy (correct letters to all letters ratio)",
 				"srcUrl": "https://github.com/rxn7/switchracer",
 				"websiteUrl": "https://rxn7.github.io/switchracer/",
+				"status": "Finished",
+				"screenshots": []
+			},
+			{
+				"name": "clock",
+				"displayName": "Clock",
+				"showWebsitePreview": true,
+				"description": "Real-time analog clock written in Typescript.",
+				"detailedDescription": "Made with Typescript and Canvas2D",
+				"srcUrl": "https://github.com/rxn7/clock",
+				"websiteUrl": "https://rxn7.github.io/clock",
 				"status": "Finished",
 				"screenshots": []
 			}

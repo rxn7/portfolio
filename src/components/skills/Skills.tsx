@@ -6,7 +6,7 @@ export default function Skills() {
 		<div id="skills-container">
 			<Frame id="frontend-skills-frame" title="Frontend" maxWidth="1000px">
 				<ul>
-					<li>NextJS (SSR)</li>
+					<li>NextJS</li>
 					<li>ReactJS</li>
 					<li>HTML + CSS + JS/TS</li>
 					<li>Canvas2D</li>
@@ -22,6 +22,7 @@ export default function Skills() {
 					<li>NextJS REST API</li>
 					<li>NestJS REST API</li>
 					<li>Prisma ORM</li>
+					<li>NextAuth authorizatio</li>
 					<li>PassportJS authorization</li>
 					<li>JWT</li>
 				</ul>
@@ -29,6 +30,8 @@ export default function Skills() {
 
 			<Frame id="software-development-skills-frame" title="Software Development" maxWidth="1000px">
 				<ul>
+					<li>WinAPI programming (C++)</li>
+					<li>X11 programming (C)</li>
 					<li>Writing CMake files</li>
 					<li>Writing Unix Makefiles</li>
 					<li>Client/Server networking using TCP and UDP</li>
@@ -43,7 +46,6 @@ export default function Skills() {
 					<li>Godot 2D/3D Scripting (C#, GDScript)</li>
 					<li>UnrealEngine4 C++ Scripting</li>
 					<li>OpenGL programming (C, C++)</li>
-					<li>WinAPI programming (C++)</li>
 					<li>Using ECS with entt (C++)</li>
 					<li>Creating games with SFML (C++)</li>
 					<li>Creating games with SDL2 (C, C++)</li>
