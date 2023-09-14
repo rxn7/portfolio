@@ -10,7 +10,7 @@ function getProjectsFromCategory(category: CategoryData): JSX.Element[] {
 		return <div className="project-container" key={project.name}>
 			<h2 style={{marginBottom: '5px'}} className="project-name title">{project.displayName}</h2>
 			<ProjectIcon project={project} size={64} />
-			<p className="project-description">{project.description}</p>
+			<p dangerouslySetInnerHTML={{__html: project.description || ""}}/>
 			<Link to={`/project/${project.name}`}>Learn more</Link>
 		</div>
 	});

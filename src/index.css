@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=M+PLUS+Code+Latin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=M+PLUS+Code+Latin&family=Victor+Mono:wght@100;700&display=swap');
 
 body {
 	--primary-background-color: #252829;
@@ -13,7 +13,8 @@ body {
 	margin: 0;
 	background-color: var(--primary-background-color);
 
-	font-family: 'M PLUS Code Latin', sans-serif;
+	font-family: 'Victor Mono', monospace, sans-serif;
+	font-size: 500;
 
 	color: var(--primary-color);
 }
@@ -51,6 +52,6 @@ hr {
 	font-weight: bold;
 	font-size: 1.8em;
 	font-family: 'Kalam', cursive;
-	text-shadow: 2px 2px #000;
+	text-shadow: 1px 1px #000;
 	text-align: center;
 }

@@ -5,6 +5,7 @@ import Frame from '../frame/Frame'
 import ErrorText from '../errorText/ErrorText'
 import YoutubeEmbed from '../youtubeEmbed/YoutubeEmbed'
 import { ProjectIcon, ProjectData } from '../../data/ProjectData'
+import { useEffect } from 'react'
 
 export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
@@ -13,6 +14,14 @@ const allProjects: ProjectData[] = projectsData.flatMap(c => [...c.projects])
 export default function Project(): JSX.Element {
 	const urlParams: Params = useParams()
 	const name: string = urlParams?.name as string
+
+	useEffect(() => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: 'auto'
+		})
+	}, [])
 
 	if (!name) {
 		console.error(`Name parameter is missing`)
@@ -30,12 +39,12 @@ export default function Project(): JSX.Element {
 		<>
 			<h1 id="project-name">{data.displayName}</h1>
 
-			<ProjectIcon project={data} size={128} style={{margin: 0, padding: 0}}/>
+			<ProjectIcon project={data} size={128} style={{ margin: 0, padding: 0 }} />
 
-			<div style={{marginTop: 50}}>
+			<div style={{ marginTop: 50 }}>
 				<Frame title="Details">
-					<p>{data.description}</p>
-					<p>{data.detailedDescription}</p>
+					<p dangerouslySetInnerHTML={{__html: data.description || ""}}/>
+					<p dangerouslySetInnerHTML={{ __html: data.detailedDescription as string }}/>
 					<p>
 						Status: <span style={{ fontWeight: 'bold' }}>{data.status}</span>
 					</p>
