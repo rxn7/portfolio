@@ -157,8 +157,8 @@
 				"name": "treegen",
 				"displayName": "TreeGen",
 				"showWebsitePreview": true,
-				"description": "Tree Generator written in <b>TypeScript</b> using <b>Lindenmayer Systems</b> recursive algorithm.",
-				"detailedDescription": "<a href=\"https://www.ekino.fr/publications/the-beauty-of-l-systems\">L-Systems algorithm explanation.</a>",
+				"description": "<b>L-Systems visualizer</b> written in <b>TypeScript</b>.",
+				"detailedDescription": "TreeGen can <b>visualize trees</b>, various <b>fractals</b> using <a href=\"https://en.wikipedia.org/wiki/L-system\">L-Systems</a>.",
 				"srcUrl": "https://github.com/rxn7/treegen",
 				"status": "Maintained",
 				"websiteUrl": "https://rxn7.github.io/treegen/"
