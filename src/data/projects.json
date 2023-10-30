@@ -254,6 +254,17 @@
 				"websiteUrl": "https://rxn7.github.io/clock",
 				"status": "Finished",
 				"screenshots": []
+			},
+			{
+				"name": "random_pics",
+				"displayName": "Random Pics",
+				"showWebsitePreview": true,
+				"description": "<b>Random pictures</b> from <a href=\"https://lorem.picsum\">lorem picsum</a> jumping around",
+				"detailedDescription": "Made with <b>Typescript</b> and <b>Canvas2D</b>",
+				"srcUrl": "https://github.com/rxn7/random_pics",
+				"websiteUrl": "https://rxn7.github.io/random_pics",
+				"status": "Finished",
+				"screenshots": []
 			}
 		]
 	},
