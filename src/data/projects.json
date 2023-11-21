@@ -272,6 +272,20 @@
 		"category": "Godot",
 		"projects": [
 			{
+				"icon": {
+					"src": "img/icons/shroompage.png",
+					"pixelArt": true
+				},
+				"name": "shroompage",
+				"displayName": "ShroomPage",
+				"description": "Game we made in <b>just 3 days</b> with a few friends for the <a href=\"https://itch.io/jam/pjp-game-jam-2023-2\" target=\"_blank\">PJP 2023-2</a> <b>game jam</b>.",
+				"detailedDescription": "<br>Together with: <ul style=\"list-style: none; text-align: left;\"><li><a href=\"http://blackshibe.github.io\" target=\"_blank\">blackshibe</a>  -  OST creator, animator and level designer</li> <li><a target=\"_blank\">orchids</a>  -  artist</li> <li><a target=\"_blank\">moss</a>  -  sound effects creator</li> <li><a href=\"https://erizo.cc\" target=\"_blank\">erizo</a>  -  idea guy</li> <li><a target=\"_blank\">science6uru</a>  -  particle effects creator</li> </ul> and <b>myself as the programmer</b>, we made this masterpiece of a game.",
+				"srcUrl": "https://github.com/rxn7/shroompage",
+				"websiteUrl": "https://black-shibe.itch.io/shroom-rampage",
+				"status": "Finished",
+				"screenshots": ["img/projects/shroompage/shroompage-1.png", "img/projects/shroompage/shroompage-2.png", "img/projects/shroompage/shroompage-3.png"]
+			},
+			{
 				"name": "wheops",
 				"displayName": "Wheops",
 				"description": "<b>FPS</b> game made in <b>Godot</b> and <b>C#</b>",
