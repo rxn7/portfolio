@@ -283,7 +283,10 @@
 				"srcUrl": "https://github.com/rxn7/shroompage",
 				"websiteUrl": "https://black-shibe.itch.io/shroom-rampage",
 				"status": "Finished",
-				"screenshots": ["img/projects/shroompage/shroompage-1.png", "img/projects/shroompage/shroompage-2.png", "img/projects/shroompage/shroompage-3.png"]
+				"screenshots": ["img/projects/shroompage/shroompage-1.png", "img/projects/shroompage/shroompage-2.png", "img/projects/shroompage/shroompage-3.png"],
+				"videosEmbedIDs": [
+					"Op6_0-xizfs"
+				]
 			},
 			{
 				"name": "wheops",

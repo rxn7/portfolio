@@ -1,5 +1,6 @@
 export declare type ProjectData = {
     name: string
+    categories?: string[]
     icon?: {
         src: string,
         pixelArt?: boolean,
