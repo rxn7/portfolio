@@ -12,11 +12,12 @@
 }
 
 .nav-item {
+	color: var(--primary-color) !important;
 	font-size: 1.3em;
 	user-select: none;
 	margin: 0.2rem;
 	text-decoration: none;
-	transition: linear 0.1s;
+	transition: color linear 0.1s;
 }
 
 .nav-item img {
@@ -24,13 +25,12 @@
 }
 
 .nav-item-current {
-	color: darkgray !important;
+	color: var(--secondary-color) !important;
 	cursor: default;
 }
 
 .nav-item:hover:not(.nav-item-current) {
-	border-bottom-color: var(--secondary-color);
-	color: var(--primary-color) !important;
+	color: var(--tertiary-color) !important;
 }
 
 .nav-toggler {
@@ -72,6 +72,19 @@
 	height: 100vh;
 }
 
+.nav-bar-overlay {
+	z-index: -1 !important;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
 @media screen and (max-width: 768px) {
 	.nav-toggler {
 		display: flex;
@@ -87,18 +100,20 @@
 	}
 
 	.nav-items-active {
+		box-sizing: border-box;
 		display: flex;
 		position: fixed;
 		top: 80px;
 		left: 50%;
 		transform: translateX(-50%);
-		min-width: 80%;
+		width: 100%;
 		height: auto;
 		flex-direction: column;
 		gap: 0;
 		z-index: 100;
+
 		border-radius: var(--border-radius);
-		border: 2px solid var(--tertiary-color);
+		border: var(--border-thickness) solid var(--tertiary-color);
 		background-color: var(--secondary-background-color);
 	}
 
@@ -106,5 +121,10 @@
 		margin: 20px 50px;
 		width: 100%;
 		text-align: center;
+	}
+
+	.nav-bar-overlay-active {
+		display: block;
+		opacity: 1;
 	}
 }

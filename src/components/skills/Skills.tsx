@@ -1,9 +1,18 @@
+import {useEffect} from 'react'
 import Frame from '../frame/Frame'
 import './Skills.css'
 
 export default function Skills() {
+	useEffect(() => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: 'auto',
+		})
+	}, [])
+
 	return (
-		<div id="skills-container">
+		<div className="skills-container">
 			<Frame id="frontend-skills-frame" title="Frontend" maxWidth="1000px">
 				<ul>
 					<li>NextJS</li>
@@ -28,7 +37,11 @@ export default function Skills() {
 				</ul>
 			</Frame>
 
-			<Frame id="software-development-skills-frame" title="Software Development" maxWidth="1000px">
+			<Frame
+				id="software-development-skills-frame"
+				title="Software Development"
+				maxWidth="1000px"
+			>
 				<ul>
 					<li>WinAPI programming (C++)</li>
 					<li>X11 programming (C)</li>

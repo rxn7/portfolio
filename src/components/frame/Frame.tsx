@@ -14,7 +14,7 @@ export default function Frame(props: FrameProps) {
 		<div
 			id={props.id}
 			className="frame"
-			style={{ maxWidth: props.maxWidth || defaultMaxWidth }}
+			style={{maxWidth: props.maxWidth || defaultMaxWidth}}
 		>
 			{props.title && <p className="title">{props.title}</p>}
 			{props.children}

@@ -1,28 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=M+PLUS+Code+Latin&family=Victor+Mono:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&family=Victor+Mono:wght@100;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
 
-body {
-	--primary-background-color: #252829;
-	--secondary-background-color: #2c2f30;
-	--primary-color: #ebdbb2;
-	--secondary-color: #b8bb26;
-	--tertiary-color: #98971a;
-	--border-radius: 3px;
-	--border-thickness: 2px;
-
+* {
 	box-sizing: border-box;
-	margin: 0;
+}
+
+:root {
+	--primary-background-color: #2c2f30;
+	--secondary-background-color: #252829;
+	--primary-color: #ebdbb2;
+	--secondary-color: rgb(92, 135, 178);
+	--tertiary-color: slategray;
+	--border-radius: 3px;
+	--border-thickness: 1px;
+
 	background-color: var(--primary-background-color);
 
-	font-family: 'Victor Mono', monospace, sans-serif;
+	font-family: 'M PLUS Code Latin', monospace, sans-serif;
 	font-size: 500;
 
 	color: var(--primary-color);
 }
 
+body {
+	margin: 0;
+}
+
 #root {
+	margin: 0;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
 	align-items: center;
 }
 
@@ -40,6 +48,10 @@ a {
 	text-decoration: none;
 }
 
+b {
+	color: var(--tertiary-color);
+}
+
 a:visited {
 	color: var(--secondary-color);
 }
@@ -51,7 +63,11 @@ hr {
 .title {
 	font-weight: bold;
 	font-size: 1.8em;
-	font-family: 'Kalam', cursive;
+	font-family: 'Victor Mono', monospace;
 	text-shadow: 1px 1px #000;
 	text-align: center;
+}
+
+.category-icon {
+	font-size: 32px;
 }

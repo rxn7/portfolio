@@ -1,32 +1,28 @@
+import {IconDefinition} from '@fortawesome/fontawesome-svg-core'
 import Frame from '../frame/Frame'
 import './Contact.css'
+import {faDiscord, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 type ContactIconProps = {
-	iconSrc: string
+	icon: IconDefinition
 	text: string
 	href?: string
 }
 
-function ContactIcon(props: ContactIconProps) {
-	const imgElement: JSX.Element = (
-		<img alt="" draggable="false" className="icon" src={props.iconSrc} />
-	)
+function ContactElement(props: ContactIconProps) {
+	return (
+		<p className="contact-element">
+			<FontAwesomeIcon icon={props.icon} style={{marginRight: 5}} />
 
-	if (props.href) {
-		return (
-			<p className="contact-element">
-				{imgElement}
+			{props.href ? (
 				<a target="_blank" rel="noreferrer" href={props.href}>
 					{props.text}
 				</a>
-			</p>
-		)
-	}
-
-	return (
-		<p className="contact-element">
-			{imgElement}
-			{props.text}
+			) : (
+				<span>{props.text}</span>
+			)}
 		</p>
 	)
 }
@@ -34,15 +30,11 @@ function ContactIcon(props: ContactIconProps) {
 export default function Contact() {
 	return (
 		<Frame title="Contact" maxWidth="250px">
-			<ContactIcon iconSrc="img/icons/discord.svg" text="rxn#4972" />
-			<ContactIcon iconSrc="img/icons/envelope.svg" text="rotthin_dev@pm.me" />
-			<ContactIcon
-				iconSrc="img/icons/github.svg"
-				text="@rxn7"
-				href="https://github.com/rxn7"
-			/>
-			<ContactIcon
-				iconSrc="img/icons/twitter.svg"
+			<ContactElement icon={faDiscord} text="@rxn77" />
+			<ContactElement icon={faEnvelope} text="rotthin_dev@pm.me" />
+			<ContactElement icon={faGithub} text="@rxn7" href="https://github.com/rxn7" />
+			<ContactElement
+				icon={faTwitter}
 				text="@rxtthin"
 				href="https://twitter.com/rxtthin"
 			/>

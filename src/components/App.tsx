@@ -1,10 +1,10 @@
-import { Route, Routes } from 'react-router-dom'
-import Contact from './components/contact/Contact'
-import Header from './components/header/Header'
-import Home from './components/home/Home'
-import Project from './components/project/Project'
-import Projects from './components/projects/Projects'
-import Skills from './components/skills/Skills'
+import {Route, Routes} from 'react-router-dom'
+import Contact from './contact/Contact'
+import Header from './header/Header'
+import Home from './home/Home'
+import Project from './project/Project'
+import Projects from './projects/Projects'
+import Skills from './skills/Skills'
 
 export default function App() {
 	return (

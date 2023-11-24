@@ -1,15 +1,13 @@
 import './Project.css'
-import { Params, useParams } from 'react-router-dom'
+import {Params, useParams} from 'react-router-dom'
 import projectsData from '../../data/projects.json'
 import Frame from '../frame/Frame'
 import ErrorText from '../errorText/ErrorText'
 import YoutubeEmbed from '../youtubeEmbed/YoutubeEmbed'
-import { ProjectIcon, ProjectData } from '../../data/ProjectData'
-import { useEffect } from 'react'
+import {ProjectData} from '../../data/ProjectData'
+import {useEffect} from 'react'
 
 export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
-
-const allProjects: ProjectData[] = projectsData.flatMap(c => [...c.projects])
 
 export default function Project(): JSX.Element {
 	const urlParams: Params = useParams()
@@ -19,7 +17,7 @@ export default function Project(): JSX.Element {
 		window.scrollTo({
 			top: 0,
 			left: 0,
-			behavior: 'auto'
+			behavior: 'auto',
 		})
 	}, [])
 
@@ -28,7 +26,8 @@ export default function Project(): JSX.Element {
 		return <ErrorScreen />
 	}
 
-	let data: ProjectData | null = allProjects.filter(p => p.name === name)[0] || null
+	const data: ProjectData | null =
+		projectsData.projects.filter(p => p.name === name)[0] || null
 
 	if (!data) {
 		console.error(`Project data (idx: ${name}) is undefined or null!`)
@@ -39,21 +38,36 @@ export default function Project(): JSX.Element {
 		<>
 			<h1 id="project-name">{data.displayName}</h1>
 
-			<ProjectIcon project={data} size={128} style={{ margin: 0, padding: 0 }} />
+			{data.banner && (
+				<img
+					style={{
+						imageRendering: data.banner.pixelArt ? 'pixelated' : 'auto',
+						maxWidth: '100%',
+						maxHeight: '200px',
+						width: 'auto',
+					}}
+					src={data.banner.src}
+					alt="icon"
+				/>
+			)}
 
-			<div style={{ marginTop: 50 }}>
+			<div className="project-frames-container" style={{marginTop: 50}}>
 				<Frame title="Details">
-					<p dangerouslySetInnerHTML={{__html: data.description || ""}}/>
-					<p dangerouslySetInnerHTML={{ __html: data.detailedDescription as string }}/>
+					<p dangerouslySetInnerHTML={{__html: data.description || ''}} />
+					<p
+						dangerouslySetInnerHTML={{
+							__html: data.detailedDescription || '',
+						}}
+					/>
 					<p>
-						Status: <span style={{ fontWeight: 'bold' }}>{data.status}</span>
+						Status: <span style={{fontWeight: 'bold'}}>{data.status}</span>
 					</p>
 
 					<br />
 
-					{GetLinkElement(data.websiteUrl, "Website")}
-					{GetLinkElement(data.downloadUrl, "Download")}
-					{GetLinkElement(data.srcUrl, "Source Code")}
+					{GetLinkElement(data.websiteUrl, 'Website')}
+					{GetLinkElement(data.downloadUrl, 'Download')}
+					{GetLinkElement(data.srcUrl, 'Source Code')}
 				</Frame>
 
 				{data.showWebsitePreview && data.websiteUrl && (
@@ -69,7 +83,7 @@ export default function Project(): JSX.Element {
 				)}
 
 				{data.videosEmbedIDs && data.videosEmbedIDs.length > 0 && (
-					<Frame id="project-videos-frame" title="Videos">
+					<Frame id="project-videos-frame" title="Videos" maxWidth="100%">
 						{GetVideoElements(data)}
 					</Frame>
 				)}
@@ -84,26 +98,25 @@ function ErrorScreen(): JSX.Element {
 
 function GetScreenshotElements(data: ProjectData): JSX.Element[] {
 	let screenshotElementIdx: number = 0
-	return data.screenshots?.map(ss => (
-		<img key={screenshotElementIdx++} alt="" src={ss}></img>
-	)) || []
+	return (
+		data.screenshots?.map(ss => (
+			<img key={screenshotElementIdx++} alt="" src={ss}></img>
+		)) || []
+	)
 }
 
 function GetVideoElements(data: ProjectData): JSX.Element[] {
 	let videoElementIdx: number = 0
-	return data.videosEmbedIDs?.map(embedId => (
-		<YoutubeEmbed key={videoElementIdx} embedID={embedId}></YoutubeEmbed>
-	)) || []
+	return (
+		data.videosEmbedIDs?.map(embedId => (
+			<YoutubeEmbed key={videoElementIdx} embedID={embedId} />
+		)) || []
+	)
 }
 
 function GetLinkElement(url?: string, text?: string): JSX.Element {
 	return url ? (
-		<a
-			className="project-website-url"
-			target="_blank"
-			rel="noreferrer"
-			href={url}
-		>
+		<a className="project-website-url" target="_blank" rel="noreferrer" href={url}>
 			{text}
 		</a>
 	) : (
@@ -113,7 +126,12 @@ function GetLinkElement(url?: string, text?: string): JSX.Element {
 
 function GetWebistePreviewElement(data: ProjectData): JSX.Element {
 	return (
-		<iframe width="960" height="960" title={data.websiteUrl} src={data.websiteUrl} className="project-website-preview">
-		</iframe>
-	);
+		<iframe
+			width="960"
+			height="960"
+			title={data.websiteUrl}
+			src={data.websiteUrl}
+			className="project-website-preview"
+		></iframe>
+	)
 }

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Frame from '../frame/Frame'
 import './Home.css'
 
@@ -14,7 +14,7 @@ function getAge(): number {
 
 export default function Home() {
 	return (
-		<Frame title="Hello, my name's Maciej Niziołek">
+		<Frame maxWidth="400" title="Hi, I'm Maciej Niziołek">
 			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
 			<p>I'm a {getAge()} year old software developer based in Poland.</p>
 

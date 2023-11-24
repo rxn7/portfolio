@@ -1,11 +1,7 @@
-.frame:not(:first-of-type) {
-	margin-top: 50px;
-}
-
 .frame {
 	max-width: 600px;
-	width: 70%;
-	border: var(--border-thickness) solid var(--secondary-color);
+	width: 90%;
+	border: var(--border-thickness) solid var(--tertiary-color);
 	border-radius: var(--border-radius);
 	text-align: center;
 	background-color: var(--secondary-background-color);

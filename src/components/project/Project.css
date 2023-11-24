@@ -2,6 +2,14 @@
 	text-align: center;
 }
 
+.project-frames-container {
+	margin-bottom: 40px;
+}
+
+.project-frames-container > .frame:not(:first-of-type) {
+	margin-top: 40px;
+}
+
 #project-screenshots-frame img {
 	width: 100%;
 	border-radius: 7px;
@@ -14,7 +22,7 @@
 }
 
 #project-name {
-	font-family: 'Kalam', cursive;
+	font-family: 'Victor Mono', monospace;
 	text-align: center;
 }
 
@@ -28,5 +36,5 @@
 
 .project-website-preview {
 	max-width: 80%;
-	max-height: 80%;
+	max-height: 50vh;
 }

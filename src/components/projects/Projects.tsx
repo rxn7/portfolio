@@ -1,33 +1,55 @@
 import './Projects.css'
-import { Link } from 'react-router-dom'
-import Frame from '../frame/Frame'
+import {useNavigate} from 'react-router-dom'
 import projectsData from '../../data/projects.json'
-import { CategoryData } from '../../data/CategoryData'
-import { ProjectIcon } from '../../data/ProjectData'
-
-function getProjectsFromCategory(category: CategoryData): JSX.Element[] {
-	return category.projects.map(project => {
-		return <div className="project-container" key={project.name}>
-			<h2 style={{marginBottom: '5px'}} className="project-name title">{project.displayName}</h2>
-			<ProjectIcon project={project} size={64} />
-			<p dangerouslySetInnerHTML={{__html: project.description || ""}}/>
-			<Link to={`/project/${project.name}`}>Learn more</Link>
-		</div>
-	});
-}
-
-const categoriesElements: JSX.Element[] = projectsData.map(category => (
-	<Frame maxWidth="1000" title={category.category} key={category.category} >
-		<div className='projects-container'>
-			{getProjectsFromCategory(category)}
-		</div>
-	</Frame >
-))
+import {ProjectData} from '../../data/ProjectData'
+import getCategoryIconString from '../../categoryIcon'
 
 export default function Projects() {
-	return (
-		<div className="categories-container">
-			{categoriesElements}
-		</div>
+	const navigate = useNavigate()
+
+	const projectsElements: JSX.Element[] = projectsData.projects.map(
+		(project: ProjectData) => {
+			const categoryIconsElements: JSX.Element[] =
+				project.categories?.map(category => {
+					console.log(getCategoryIconString(category))
+					return (
+						<i
+							className={`${getCategoryIconString(category)} category-icon`}
+						/>
+					)
+				}) || []
+
+			return (
+				<div
+					className="project-container"
+					key={project.name}
+					onClick={() => navigate(`/project/${project.name}`)}
+				>
+					{project.banner && (
+						<img
+							style={{
+								objectFit: 'contain',
+								imageRendering: project.banner.pixelArt
+									? 'pixelated'
+									: 'auto',
+								maxHeight: '50px',
+							}}
+							src={project.banner.src}
+							alt="icon"
+						/>
+					)}
+
+					<h2 style={{marginBottom: '5px'}} className="project-name title">
+						{project.displayName}
+					</h2>
+
+					<p dangerouslySetInnerHTML={{__html: project.description || ''}} />
+
+					<div className="category-icon-container">{categoryIconsElements}</div>
+				</div>
+			)
+		}
 	)
+
+	return <div className="projects-container">{projectsElements}</div>
 }
