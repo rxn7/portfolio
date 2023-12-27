@@ -169,7 +169,7 @@
 			"srcUrl": "https://github.com/rxn7/galton_board",
 			"websiteUrl": "https://rxn7.github.io/galton_board/",
 			"status": "Maintained",
-			"screenshots": []
+			"screenshots": ["img/projects/galton_board1.png"]
 		},
 		{
 			"name": "poksy",
