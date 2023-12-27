@@ -72,7 +72,7 @@
 			"displayName": "TruckRes",
 			"showWebsitePreview": false,
 			"description": "<b>Website</b> with <b>truck offers</b> and <b>admin dashboard</b>.",
-			"detailedDescription": "Built with <b>NextJS</b>, <b>MantineUI</b>, <b>NextAuth</b>, <b>Prisma</b>, <b>PostgreSQL</b>.<br> <b>Hosted</b> on <a href=\"https://mikr.us/?r=989a944a\">mikr.us.</a>",
+			"detailedDescription": "Built with <b>NextJS</b>, <b>MantineUI</b>, <b>NextAuth</b>, <b>Prisma</b>, <b>PostgreSQL</b>.<br> <b>Hosted</b> on <a href=\"https://mikr.us/?r=989a944a\" target=\"_blank\">mikr.us.</a>",
 			"websiteUrl": "https://truckres.pl",
 			"status": "Maintained",
 			"screenshots": [
@@ -91,7 +91,7 @@
 			"displayName": "ShroomPage",
 			"description": "Game we made in <b>just 3 days</b> with a few friends for the <a href=\"https://itch.io/jam/pjp-game-jam-2023-2\" target=\"_blank\">PJP 2023-2</a> <b>game jam</b>.",
 			"detailedDescription": "<br>Together with: <ul style=\"list-style: circle; text-align: left;\"><li><a href=\"http://blackshibe.github.io\" target=\"_blank\">blackshibe</a>  -  OST creator, animator and level designer</li> <li><a target=\"_blank\">orchids</a>  -  artist</li> <li><a target=\"_blank\">moss</a>  -  sound effects creator</li> <li><a href=\"https://erizo.cc\" target=\"_blank\">erizo</a>  -  idea guy</li> <li><a target=\"_blank\">science6uru</a>  -  particle effects creator</li> </ul> and <b>myself as the programmer</b>, we made this masterpiece of a game.",
-			"srcUrl": "https://github.com/rxn7/shroompage",
+			"srcUrl": "https://github.com/rxn7/shroompage-jam-version",
 			"websiteUrl": "https://black-shibe.itch.io/shroom-rampage",
 			"status": "Finished",
 			"screenshots": [
@@ -157,6 +157,18 @@
 			"srcUrl": "https://github.com/rxn7/particle_sim",
 			"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
 			"status": "Finished",
+			"screenshots": []
+		},
+		{
+			"name": "galton_board",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Galton Board",
+			"description": "<b>Galton Board</b> simulation written in <b>Typescript</b> using <b>Canvas2D</b>",
+			"detailedDescription": "This simulation proves the <a href=\"https://en.wikipedia.org/wiki/Central_limit_theorem\" target=\"_blank\">central limit theorem</a>.",
+			"showWebsitePreview": true,
+			"srcUrl": "https://github.com/rxn7/galton_board",
+			"websiteUrl": "https://rxn7.github.io/galton_board/",
+			"status": "Maintained",
 			"screenshots": []
 		},
 		{
