@@ -16,7 +16,17 @@ export default function Home() {
 	return (
 		<Frame maxWidth="400" title="Hi, I'm Maciej Niziołek">
 			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
-			<p>I'm a {getAge()} year old software developer based in Poland.</p>
+			<p>I'm a {getAge()} year old <b>software developer</b> based in <b>Poland</b>.</p>
+
+			<hr/>
+
+			<p>I'm mainly interested in: </p>
+
+			<ul style={{listStyle: "none"}}>
+				<li><b>Game Engine Development</b>,</li>
+				<li><b>Game Development</b>,</li>
+				<li><b>FullStack Web Development</b></li>
+			</ul>
 
 			<hr />
 
@@ -24,6 +34,8 @@ export default function Home() {
 				Check out my <Link to="/projects">projects</Link> and my{' '}
 				<Link to="/skills">skills</Link>!
 			</p>
+
+			<Link to="/skills">Contact me</Link>
 		</Frame>
 	)
 }

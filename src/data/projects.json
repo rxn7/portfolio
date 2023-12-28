@@ -49,20 +49,6 @@
 			]
 		},
 		{
-			"name": "game_of_life",
-			"categories": ["cplusplus"],
-			"displayName": "Game of Life",
-			"description": "Conway's Game of Life game written in <b>C++</b> using <b>SFML</b> library.",
-			"detailedDescription": "The cells are rendered as a <b>single Vertex Array</b>. <br><b>Only the visible</b> cells are <b>renderered</b>. <br><b>Logic</b> is calculated on a <b>different thread</b>. <br>Vertex Array is being <b>rebuilt</b> when needed and on a <b>seperate thread</b>.",
-			"srcUrl": "https://github.com/rxn7/game_of_life",
-			"downloadUrl": "https://github.com/rxn7/game_of_life/releases/latest",
-			"status": "Finished",
-			"screenshots": [
-				"img/projects/game_of_life1.gif",
-				"img/projects/game_of_life2.gif"
-			]
-		},
-		{
 			"name": "truckres",
 			"categories": ["nextjs", "postgresql"],
 			"banner": {
@@ -79,6 +65,24 @@
 				"img/projects/truckres-main.png",
 				"img/projects/truckres-admin-dashboard.png",
 				"img/projects/truckres-admin-dashboard-edit-modal.png"
+			]
+		},
+		{
+			"banner": {
+				"src": "img/icons/oredustry.png",
+				"pixelArt": true
+			},
+			"name": "oredustry",
+			"displayName": "Oredustry",
+			"categories": ["cplusplus", "opengl"],
+			"description": "Mining <b>game</b> written in <b>C++</b> and <b>OpenGL</b>.",
+			"detailedDescription": "The game uses its <b>own engine</b> \"od\" that <b>can be used for other games</b>, thanks to its <b>flexability</b>. <br><br><b>Engine features</b>: <ul style=\"list-style: circle; text-align: left;\"><li>Input</li><li>Batched renderer (everything is batched to be as fast as possible)</li><li>Shaders</li><li>Assets (Textures, Texture Atlases, Fonts)</li><li>Scene Management</li><li>Immediate UI with widgets (Button, Text, Color Rect, Image)</li><li>Entities</li></ul>",
+			"srcUrl": "https://github.com/rxn7/oredustry",
+			"status": "Maintained",
+			"screenshots": [
+				"img/projects/oredustry1.png",
+				"img/projects/oredustry2.png",
+				"img/projects/oredustry3.png"
 			]
 		},
 		{
@@ -100,6 +104,20 @@
 				"img/projects/shroompage/shroompage-3.png"
 			],
 			"videosEmbedIDs": ["Op6_0-xizfs"]
+		},
+		{
+			"name": "game_of_life",
+			"categories": ["cplusplus"],
+			"displayName": "Game of Life",
+			"description": "Conway's Game of Life game written in <b>C++</b> using <b>SFML</b> library.",
+			"detailedDescription": "The cells are rendered as a <b>single Vertex Array</b>. <br><b>Only the visible</b> cells are <b>renderered</b>. <br><b>Logic</b> is calculated on a <b>different thread</b>. <br>Vertex Array is being <b>rebuilt</b> when needed and on a <b>seperate thread</b>.",
+			"srcUrl": "https://github.com/rxn7/game_of_life",
+			"downloadUrl": "https://github.com/rxn7/game_of_life/releases/latest",
+			"status": "Finished",
+			"screenshots": [
+				"img/projects/game_of_life1.gif",
+				"img/projects/game_of_life2.gif"
+			]
 		},
 		{
 			"name": "wheops",
