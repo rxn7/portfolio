@@ -16,7 +16,7 @@ export default function Home() {
 	return (
 		<Frame maxWidth="400" title="Hi, I'm Maciej Niziołek">
 			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
-			<p>I'm a {getAge()} year old <b>software developer</b> based in <b>Poland</b>.</p>
+			<p>I'm a {getAge()} year old <b>software developer</b> based in <b>Poland</b>. I have been <b>obsessed</b> with <b>programming since 2020</b>.</p>
 
 			<hr/>
 
