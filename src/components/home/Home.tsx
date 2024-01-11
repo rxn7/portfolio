@@ -35,7 +35,7 @@ export default function Home() {
 				<Link to="/skills">skills</Link>!
 			</p>
 
-			<Link to="/skills">Contact me</Link>
+			<Link to="/contact">Contact me</Link>
 		</Frame>
 	)
 }
