@@ -25,6 +25,63 @@
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdH8-gz2yCKSTPtxs6qk7iQ"]
 		},
 		{
+			"name": "truckres",
+			"categories": ["nextjs", "postgresql"],
+			"banner": {
+				"src": "img/icons/truckres.png",
+				"pixelArt": false
+			},
+			"displayName": "TruckRes",
+			"showWebsitePreview": false,
+			"description": "<b>Website</b> with <b>truck offers</b> and <b>admin dashboard</b>.",
+			"detailedDescription": "Built with <b>NextJS</b>, <b>MantineUI</b>, <b>NextAuth</b>, <b>Prisma</b>, <b>PostgreSQL</b>.<br> <b>Hosted</b> on <a href=\"https://mikr.us/?r=989a944a\" target=\"_blank\">mikr.us.</a>",
+			"websiteUrl": "https://truckres.pl",
+			"status": "Maintained",
+			"screenshots": [
+				"img/projects/truckres-main.png",
+				"img/projects/truckres-admin-dashboard.png",
+				"img/projects/truckres-admin-dashboard-edit-modal.png"
+			]
+		},
+		{
+			"banner": {
+				"src": "img/banners/shroompage.png",
+				"pixelArt": false
+			},
+			"categories": ["godot", "csharp"],
+			"name": "shroompage",
+			"displayName": "ShroomPage",
+			"description": "Game we made in <b>just 3 days</b> with a few friends for the <a href=\"https://itch.io/jam/pjp-game-jam-2023-2\" target=\"_blank\">PJP 2023-2</a> <b>game jam</b>.",
+			"detailedDescription": "<br>Together with: <ul style=\"list-style: circle; text-align: left;\"><li><a href=\"http://blackshibe.github.io\" target=\"_blank\">blackshibe</a>  -  OST creator, animator and level designer</li> <li><a target=\"_blank\">orchids</a>  -  artist</li> <li><a target=\"_blank\">moss</a>  -  sound effects creator</li> <li><a href=\"https://erizo.cc\" target=\"_blank\">erizo</a>  -  idea guy</li> <li><a target=\"_blank\">science6uru</a>  -  particle effects creator</li> </ul> and <b>myself as the programmer</b>, we made this masterpiece of a game.",
+			"srcUrl": "https://github.com/rxn7/shroompage-jam-version",
+			"websiteUrl": "https://black-shibe.itch.io/shroom-rampage",
+			"status": "Finished",
+			"screenshots": [
+				"img/projects/shroompage/shroompage-1.png",
+				"img/projects/shroompage/shroompage-2.png",
+				"img/projects/shroompage/shroompage-3.png"
+			],
+			"videosEmbedIDs": ["Op6_0-xizfs"]
+		},
+		{
+			"banner": {
+				"src": "img/icons/oredustry.png",
+				"pixelArt": true
+			},
+			"name": "oredustry",
+			"displayName": "Oredustry",
+			"categories": ["cplusplus", "opengl"],
+			"description": "Mining <b>game</b> written in <b>C++</b> and <b>OpenGL</b>.",
+			"detailedDescription": "The game uses its <b>own engine</b> \"od\" that <b>can be used for other games</b>, thanks to its <b>flexability</b>. <br><br><b>Engine features</b>: <ul style=\"list-style: circle; text-align: left;\"><li>Input</li><li>Batched renderer (everything is batched to be as fast as possible)</li><li>Shaders</li><li>Assets (Textures, Texture Atlases, Fonts)</li><li>Scene Management</li><li>Immediate UI with widgets (Button, Text, Color Rect, Image)</li><li>Entities</li></ul>",
+			"srcUrl": "https://github.com/rxn7/oredustry",
+			"status": "Maintained",
+			"screenshots": [
+				"img/projects/oredustry1.png",
+				"img/projects/oredustry2.png",
+				"img/projects/oredustry3.png"
+			]
+		},
+		{
 			"name": "billiards",
 			"categories": ["cplusplus", "opengl"],
 			"displayName": "Billiards",
@@ -47,63 +104,6 @@
 				"img/projects/chess2.png",
 				"img/projects/chess3.png"
 			]
-		},
-		{
-			"name": "truckres",
-			"categories": ["nextjs", "postgresql"],
-			"banner": {
-				"src": "img/icons/truckres.png",
-				"pixelArt": false
-			},
-			"displayName": "TruckRes",
-			"showWebsitePreview": false,
-			"description": "<b>Website</b> with <b>truck offers</b> and <b>admin dashboard</b>.",
-			"detailedDescription": "Built with <b>NextJS</b>, <b>MantineUI</b>, <b>NextAuth</b>, <b>Prisma</b>, <b>PostgreSQL</b>.<br> <b>Hosted</b> on <a href=\"https://mikr.us/?r=989a944a\" target=\"_blank\">mikr.us.</a>",
-			"websiteUrl": "https://truckres.pl",
-			"status": "Maintained",
-			"screenshots": [
-				"img/projects/truckres-main.png",
-				"img/projects/truckres-admin-dashboard.png",
-				"img/projects/truckres-admin-dashboard-edit-modal.png"
-			]
-		},
-		{
-			"banner": {
-				"src": "img/icons/oredustry.png",
-				"pixelArt": true
-			},
-			"name": "oredustry",
-			"displayName": "Oredustry",
-			"categories": ["cplusplus", "opengl"],
-			"description": "Mining <b>game</b> written in <b>C++</b> and <b>OpenGL</b>.",
-			"detailedDescription": "The game uses its <b>own engine</b> \"od\" that <b>can be used for other games</b>, thanks to its <b>flexability</b>. <br><br><b>Engine features</b>: <ul style=\"list-style: circle; text-align: left;\"><li>Input</li><li>Batched renderer (everything is batched to be as fast as possible)</li><li>Shaders</li><li>Assets (Textures, Texture Atlases, Fonts)</li><li>Scene Management</li><li>Immediate UI with widgets (Button, Text, Color Rect, Image)</li><li>Entities</li></ul>",
-			"srcUrl": "https://github.com/rxn7/oredustry",
-			"status": "Maintained",
-			"screenshots": [
-				"img/projects/oredustry1.png",
-				"img/projects/oredustry2.png",
-				"img/projects/oredustry3.png"
-			]
-		},
-		{
-			"banner": {
-				"src": "img/banners/shroompage.png",
-				"pixelArt": false
-			},
-			"categories": ["godot", "csharp"],
-			"name": "shroompage",
-			"displayName": "ShroomPage",
-			"description": "Game we made in <b>just 3 days</b> with a few friends for the <a href=\"https://itch.io/jam/pjp-game-jam-2023-2\" target=\"_blank\">PJP 2023-2</a> <b>game jam</b>.",
-			"detailedDescription": "<br>Together with: <ul style=\"list-style: circle; text-align: left;\"><li><a href=\"http://blackshibe.github.io\" target=\"_blank\">blackshibe</a>  -  OST creator, animator and level designer</li> <li><a target=\"_blank\">orchids</a>  -  artist</li> <li><a target=\"_blank\">moss</a>  -  sound effects creator</li> <li><a href=\"https://erizo.cc\" target=\"_blank\">erizo</a>  -  idea guy</li> <li><a target=\"_blank\">science6uru</a>  -  particle effects creator</li> </ul> and <b>myself as the programmer</b>, we made this masterpiece of a game.",
-			"srcUrl": "https://github.com/rxn7/shroompage-jam-version",
-			"websiteUrl": "https://black-shibe.itch.io/shroom-rampage",
-			"status": "Finished",
-			"screenshots": [
-				"img/projects/shroompage/shroompage-1.png",
-				"img/projects/shroompage/shroompage-2.png",
-				"img/projects/shroompage/shroompage-3.png"
-			],
-			"videosEmbedIDs": ["Op6_0-xizfs"]
 		},
 		{
 			"name": "game_of_life",
@@ -261,46 +261,6 @@
 			"screenshots": ["img/projects/pjgen1.png"]
 		},
 		{
-			"name": "redflag",
-			"categories": ["c"],
-			"banner": {
-				"src": "https://raw.githubusercontent.com/rxn7/redflag/master/.github/icon.png",
-				"pixelArt": true
-			},
-			"displayName": "RedFlag",
-			"description": "<b>c99</b> library for <b>option/flag management</b>.",
-			"detailedDescription": "With RedFlag you can <b>easily add options/flags</b> to an application.",
-			"srcUrl": "https://github.com/rxn7/redflag",
-			"status": "Maintained",
-			"screenshots": [
-				"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
-			]
-		},
-		{
-			"name": "flappy_bird_clone",
-			"categories": ["c"],
-			"displayName": "fb",
-			"description": "<b>Flappy bird</b> clone written in <b>C</b> using <b>SDL2</b>",
-			"detailedDescription": "",
-			"srcUrl": "https://github.com/rxn7/fb",
-			"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
-			"status": "Finished",
-			"screenshots": ["img/projects/fb1.png"]
-		},
-		{
-			"name": "telestick",
-			"categories": ["java"],
-			"displayName": "Telestick",
-			"description": "<b>Teleport-menu minecraft plugin</b> (Spigot 1.19) written in <b>Java</b>.",
-			"detailedDescription": "Minecraft teleport-menu plugin with <b>multi-language support</b> (language is automatically detected for each client). <br><br> The GUI is scaled according to the player count, the <b>players' heads</b> have <b>their skins</b> in the GUI.",
-			"srcUrl": "https://github.com/rxn7/telestick",
-			"status": "Finished",
-			"screenshots": [
-				"https://github.com/rxn7/telestick/raw/master/.github/ss1.png",
-				"https://github.com/rxn7/telestick/raw/master/.github/ss2.png"
-			]
-		},
-		{
 			"name": "ttc",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Tic-Tac-Toe",
@@ -349,6 +309,56 @@
 			"websiteUrl": "https://rxn7.github.io/clock",
 			"status": "Finished",
 			"screenshots": []
+		},
+		{
+			"name": "nano_bird",
+			"categories": ["arduino", "cplusplus"],
+			"displayName": "Nano Bird",
+			"description": "<b>Flappy Bird</b> for <b>Arduino Nano</b> with oled display and a button",
+			"detailedDescription": "The code is abstracted to make it easy for me to add more games to it. I'm using <b>u8g2 library</b> to use the oled screen.",
+			"srcUrl": "https://github.com/rxn7/nano_bird",
+			"status": "Maintained",
+			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
+		},
+		{
+			"name": "flappy_bird_clone",
+			"categories": ["c"],
+			"displayName": "fb",
+			"description": "<b>Flappy bird</b> clone written in <b>C</b> using <b>SDL2</b>",
+			"detailedDescription": "",
+			"srcUrl": "https://github.com/rxn7/fb",
+			"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
+			"status": "Finished",
+			"screenshots": ["img/projects/fb1.png"]
+		},
+		{
+			"name": "telestick",
+			"categories": ["java"],
+			"displayName": "Telestick",
+			"description": "<b>Teleport-menu minecraft plugin</b> (Spigot 1.19) written in <b>Java</b>.",
+			"detailedDescription": "Minecraft teleport-menu plugin with <b>multi-language support</b> (language is automatically detected for each client). <br><br> The GUI is scaled according to the player count, the <b>players' heads</b> have <b>their skins</b> in the GUI.",
+			"srcUrl": "https://github.com/rxn7/telestick",
+			"status": "Finished",
+			"screenshots": [
+				"https://github.com/rxn7/telestick/raw/master/.github/ss1.png",
+				"https://github.com/rxn7/telestick/raw/master/.github/ss2.png"
+			]
+		},
+		{
+			"name": "redflag",
+			"categories": ["c"],
+			"banner": {
+				"src": "https://raw.githubusercontent.com/rxn7/redflag/master/.github/icon.png",
+				"pixelArt": true
+			},
+			"displayName": "RedFlag",
+			"description": "<b>c99</b> library for <b>option/flag management</b>.",
+			"detailedDescription": "With RedFlag you can <b>easily add options/flags</b> to an application.",
+			"srcUrl": "https://github.com/rxn7/redflag",
+			"status": "Maintained",
+			"screenshots": [
+				"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
+			]
 		},
 		{
 			"name": "random_pics",

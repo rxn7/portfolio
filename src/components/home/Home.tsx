@@ -25,7 +25,8 @@ export default function Home() {
 			<ul style={{listStyle: "none"}}>
 				<li><b>Game Engine Development</b>,</li>
 				<li><b>Game Development</b>,</li>
-				<li><b>FullStack Web Development</b></li>
+				<li><b>Full Stack Web Development</b></li>
+				<li><b>Embedded Systems Programming</b></li>
 			</ul>
 
 			<hr />

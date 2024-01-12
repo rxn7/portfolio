@@ -75,6 +75,7 @@ export default function Skills() {
 					<li>WPF desktop apppcations (C#)</li>
 					<li>GTK desktop apppcations (C, C++)</li>
 					<li>QT desktop apppcations (C++)</li>
+					<li>ImGUI desktop applications (C++)</li>
 				</ul>
 			</Frame>
 
