@@ -145,7 +145,7 @@
 			"categories": ["cplusplus", "opengl"],
 			"displayName": "Sandbox",
 			"description": "<b>Minecraft clone</b> written in <b>C++</b> with <b>OpenGL</b>.",
-			"detailedDescription": "This is my <b>2nd project written in C++</b>, so don't expect top-notch code quality, but <b>I learnt a lot about C++ and OpenGL</b> while creating this project.<hr style='margin: 20px'><ul style='list-style: circle'>Features:<br><br><li><b>Infinite world generation</b> (The screenshots are old, without terrain generation)</li><li><b>Chunk loading</b> (far away chunks are unloaded and closer chunks are loaded)</li><li><b>Voxel face culling</b> (only visible voxel faces are rendereed)</li><li><b>Custom texture packs</b> (users can create their own texture packs to use in-game)</li><li><b>Game launcher</b> (made in <b>WPF</b>)</li></ul>",
+			"detailedDescription": "This is my <b>2nd project written in C++</b>, so don't expect top-notch code quality (e.g. using raw pointers instead of smart pointers), but <b>I learned a lot about C++ and OpenGL</b> while creating this project.<hr style='margin: 20px'><ul style='list-style: circle'>Features:<br><br><li><b>Infinite world generation</b> (The screenshots are old, without terrain generation)</li><li><b>Chunk loading</b> (far away chunks are unloaded and closer chunks are loaded)</li><li><b>Voxel face culling</b> (only visible voxel faces are rendereed)</li><li><b>Custom texture packs</b> (users can create their own texture packs to use in-game)</li><li><b>Game launcher</b> (made in <b>WPF</b>)</li></ul>",
 			"srcUrl": "https://github.com/rxn7/sandbox",
 			"status": "Finished",
 			"screenshots": [
