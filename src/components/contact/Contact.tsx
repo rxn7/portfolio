@@ -1,7 +1,7 @@
 import {IconDefinition} from '@fortawesome/fontawesome-svg-core'
 import Frame from '../frame/Frame'
 import './Contact.css'
-import {faDiscord, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import {faDiscord, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
