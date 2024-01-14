@@ -43,17 +43,14 @@ body {
 	user-select: none;
 }
 
-a {
+a, a:visited {
 	color: var(--secondary-color);
 	text-decoration: none;
+	font-style: italic;
 }
 
 b {
 	color: var(--tertiary-color);
-}
-
-a:visited {
-	color: var(--secondary-color);
 }
 
 hr {

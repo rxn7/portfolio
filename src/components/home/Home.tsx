@@ -1,3 +1,5 @@
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Link} from 'react-router-dom'
 import Frame from '../frame/Frame'
 import './Home.css'
@@ -16,24 +18,27 @@ export default function Home() {
 	return (
 		<Frame maxWidth="400" title="Hi, I'm Maciej Niziołek">
 			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
-			<p>I'm a {getAge()} year old <b>software developer</b> based in <b>Poland</b>. I have been <b>obsessed</b> with <b>programming since 2020</b>.</p>
+
+			<div id="icon-container">
+				<a href="https://github.com/rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon beat={true} color="#fafafa" icon={faGithub} size='xl'/> </a>
+				<a href="https://youtube.com/@rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faYoutube} color='red' size='xl'/> </a>
+			</div>
 
 			<hr/>
 
-			<p>I'm mainly interested in: </p>
+			<p>I'm a <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br/>I have been <i>obsessed</i> with <b>programming since 2020</b>.</p>
 
+			<p>I specialize in: </p>
 			<ul style={{listStyle: "none"}}>
-				<li><b>Game Engine Development</b>,</li>
-				<li><b>Game Development</b>,</li>
-				<li><b>Full Stack Web Development</b></li>
-				<li><b>Embedded Systems Programming</b></li>
+				<li>Game (<i>Engine</i>) Development</li>
+				<li>Full Stack Web Development</li>
+				<li>Embedded Systems Programming</li>
 			</ul>
 
 			<hr />
 
 			<p>
-				Check out my <Link to="/projects">projects</Link> and my{' '}
-				<Link to="/skills">skills</Link>!
+				Check out my <Link to="/projects">projects</Link> and my <Link to="/skills">skills</Link>!
 			</p>
 
 			<Link to="/contact">Contact me</Link>

@@ -33,11 +33,6 @@ export default function Contact() {
 			<ContactElement icon={faDiscord} text="@rxn77" />
 			<ContactElement icon={faEnvelope} text="rotthin_dev@pm.me" />
 			<ContactElement icon={faGithub} text="@rxn7" href="https://github.com/rxn7" />
-			<ContactElement
-				icon={faTwitter}
-				text="@rxtthin"
-				href="https://twitter.com/rxtthin"
-			/>
 		</Frame>
 	)
 }

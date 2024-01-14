@@ -4,3 +4,13 @@
 	border-radius: var(--border-radius);
 	border: var(--border-thickness) solid var(--secondary-color);
 }
+
+#icon-container {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+}
+
+#icon-container > * {
+	cursor: pointer;
+}
