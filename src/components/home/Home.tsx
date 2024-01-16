@@ -29,11 +29,11 @@ export default function Home() {
 			<p>I'm a <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br/>I have been <i>obsessed</i> with <b>programming since 2020</b>.</p>
 
 			<p>I specialize in: </p>
-			<ul style={{listStyle: "none"}}>
-				<li>Game (<i>Engine</i>) Development</li>
-				<li>Full Stack Web Development</li>
-				<li>Embedded Systems Programming</li>
-			</ul>
+			<div id="specialization-container">
+				<p>Game (<i>Engine</i>) Development</p>
+				<p>Full Stack Web Development</p>
+				<p>Embedded Systems Programming</p>
+			</div>
 
 			<hr />
 

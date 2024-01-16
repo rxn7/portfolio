@@ -68,3 +68,7 @@ hr {
 .category-icon {
 	font-size: 28px;
 }
+
+#specialization-container > p{
+	margin: 0;
+}
