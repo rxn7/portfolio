@@ -275,6 +275,16 @@
 			"screenshots": ["img/projects/pjgen1.png"]
 		},
 		{
+			"name": "minesweeper",
+			"categories": ["cplusplus"],
+			"displayName": "Minesweeper",
+			"description": "<b>Minesweeper</b> clone written in <b>C++</b> with <b>SFML</b> graphics library.",
+			"detailedDescription": "Each <a target='_blank' href='https://github.com/rxn7/minesweeper/blob/master/src/cell_state.hpp'>cell</a> is stored as a <b>single byte</b> using <a target='_blank' href='https://en.cppreference.com/w/cpp/language/bit_field'>bit-fields</a>.<br><b>Rendering is optimized</b> by using <b>single Vertex Array</b> to render all of the cells.",
+			"srcUrl": "https://github.com/rxn7/minesweeper",
+			"status": "Finished",
+			"screenshots": ["https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss1.png", "https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss2.png"]
+		},
+		{
 			"name": "ttc",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Tic-Tac-Toe",
