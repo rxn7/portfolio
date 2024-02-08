@@ -155,6 +155,21 @@
 			]
 		},
 		{
+			"name": "2x",
+			"banner": {
+				"src": "https://github.com/rxn7/2x/blob/master/assets/textures/icon.png?raw=true",
+				"pixelArt": false
+			},
+			"categories": ["godot"],
+			"displayName": "2ˣ",
+			"description": "<b>2048</b> clone made in <b>Godot</b>",
+			"detailedDescription": "<iframe style='max-width: 100%' frameborder='0' src='https://itch.io/embed/2518279?bg_color=282828&amp;fg_color=fff&amp;link_color=edc22e' width='552' height='167'><a href='https://rxn7.itch.io/2x'>2ˣ by rxn7</a></iframe>",
+			"srcUrl": "https://github.com/rxn7/2x",
+			"status": "Maintained",
+			"websiteUrl": "https://rxn7.itch.io/2x",
+			"videosEmbedIDs": ["AEkqS6DAR1U?si=O4uALi8ZC6QuWwys"]
+		},
+		{
 			"name": "treegen",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "TreeGen",
