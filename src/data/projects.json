@@ -1,8 +1,7 @@
 {
 	"projects": [
 		{
-			"name": "fif",
-			"categories": ["cplusplus", "opengl"],
+			"name": "fif", "categories": ["cplusplus", "opengl"],
 			"banner": {
 				"src": "https://raw.githubusercontent.com/rxn7/fif/master/docs/logo.png",
 				"pixelArt": true
@@ -314,18 +313,6 @@
 			]
 		},
 		{
-			"name": "chess_timer",
-			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Chess Timer",
-			"showWebsitePreview": true,
-			"description": "Switch-clock for <b>competitive chess games</b> written in <b>Typescript</b>.",
-			"detailedDescription": "There are <b>3 time limits</b> available:<ul style='list-style: none'><li><b>bullet</b> (1 min)</li> <li><b>blitz</b> (5 min)</li> <li><b>rapid</b> (10 min)</li></ul> <br> Press <b>space</b> to <b>start or switch the clocks</b>. You can <b>choose</b> the <b>starting clock</b> by clicking on it before the clocks are started.",
-			"srcUrl": "https://github.com/rxn7/chess_timer",
-			"websiteUrl": "https://rxn7.github.io/chess_timer",
-			"status": "Finished",
-			"screenshots": []
-		},
-		{
 			"name": "switchracer",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "SwitchRacer",
@@ -334,18 +321,6 @@
 			"detailedDescription": "You can play SwitchRacer to check your: <ul style='list-style: none'> <li><b>WPM</b> (words per minute)</li> <li><b>CPM</b> (characters per minute)</li> <li><b>Accuracy</b> (correct letters to all letters ratio)</li>",
 			"srcUrl": "https://github.com/rxn7/switchracer",
 			"websiteUrl": "https://rxn7.github.io/switchracer/",
-			"status": "Finished",
-			"screenshots": []
-		},
-		{
-			"name": "clock",
-			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Clock",
-			"showWebsitePreview": true,
-			"description": "Real-time <b>analog clock</b> written in <b>Typescript</b>.",
-			"detailedDescription": "Made with <b>Typescript</b> and <b>Canvas2D</b>",
-			"srcUrl": "https://github.com/rxn7/clock",
-			"websiteUrl": "https://rxn7.github.io/clock",
 			"status": "Finished",
 			"screenshots": []
 		},
@@ -400,11 +375,47 @@
 			]
 		},
 		{
+			"name": "weird_motion_effect",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Weird Motion Effect",
+			"showWebsitePreview": true,
+			"description": "<b>Optical illusion</b> that makes you <b>see objects</b> only <b>when</b> they're <b>moving</b>.",
+			"detailedDescription": "It's written in <b>TypeScript</b> with <b>Canvas2D</b>. The effect is called <a target='_blank' href='https://en.wikipedia.org/wiki/Persistence_of_vision'>persistence of vision</a>. It's inspired by <a target='_blank' href='https://www.youtube.com/watch?v=TdTMeNXCnTs&t=2s'>this video</a>.",
+			"srcUrl": "https://github.com/rxn7/weird_motion_effect",
+			"websiteUrl": "https://rxn7.github.io/weird_motion_effect",
+			"status": "Finished",
+			"screenshots": []
+		},
+		{
+			"name": "chess_timer",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Chess Timer",
+			"showWebsitePreview": true,
+			"description": "Switch-clock for <b>competitive chess games</b> written in <b>Typescript</b>.",
+			"detailedDescription": "There are <b>3 time limits</b> available:<ul style='list-style: none'><li><b>bullet</b> (1 min)</li> <li><b>blitz</b> (5 min)</li> <li><b>rapid</b> (10 min)</li></ul> <br> Press <b>space</b> to <b>start or switch the clocks</b>. You can <b>choose</b> the <b>starting clock</b> by clicking on it before the clocks are started.",
+			"srcUrl": "https://github.com/rxn7/chess_timer",
+			"websiteUrl": "https://rxn7.github.io/chess_timer",
+			"status": "Finished",
+			"screenshots": []
+		},
+		{
+			"name": "clock",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Clock",
+			"showWebsitePreview": true,
+			"description": "Real-time <b>analog clock</b> written in <b>Typescript</b>.",
+			"detailedDescription": "Made with <b>Typescript</b> and <b>Canvas2D</b>",
+			"srcUrl": "https://github.com/rxn7/clock",
+			"websiteUrl": "https://rxn7.github.io/clock",
+			"status": "Finished",
+			"screenshots": []
+		},
+		{
 			"name": "random_pics",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Random Pics",
 			"showWebsitePreview": true,
-			"description": "<b>Random pictures</b> from <a href='https://picsum.photos'>lorem picsum</a> jumping around",
+			"description": "<b>Random pictures</b> from <a href='https://picsum.photos'>lorem picsum</a> jumping around.",
 			"detailedDescription": "Made with <b>Typescript</b> and <b>Canvas2D</b>",
 			"srcUrl": "https://github.com/rxn7/random_pics",
 			"websiteUrl": "https://rxn7.github.io/random_pics",
