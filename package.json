@@ -1,6 +1,6 @@
 {
-  "name": "maciejniziolek.xyz",
-  "homepage": "https://maciejniziolek.xyz",
+  "name": "portfolio",
+  "homepage": "https://rxn.lol",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "add-domain": "echo \"maciejniziolek.xyz\" > build/CNAME",
+    "add-domain": "echo \"rxn.lol\" > build/CNAME",
     "deploy": "npm run add-domain && gh-pages -d build",
     "bd": "npm run build && npm run deploy"
   },
