@@ -1,7 +1,8 @@
 {
 	"projects": [
 		{
-			"name": "fif", "categories": ["cplusplus", "opengl"],
+			"name": "fif", 
+			"categories": ["cplusplus", "opengl"],
 			"banner": {
 				"src": "https://raw.githubusercontent.com/rxn7/fif/master/docs/logo.png",
 				"pixelArt": true
@@ -12,16 +13,6 @@
 			"srcUrl": "https://github.com/rxn7/fif",
 			"status": "Maintained",
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdGu5HlANJsB8m-KE0Luu-6"]
-		},
-		{
-			"name": "rgl",
-			"categories": ["c", "opengl"],
-			"displayName": "RGL",
-			"description": "<b>C</b> <b>game framework</b> with <b>Input</b>, <b>Sound</b>, <b>Rendering</b>, <b>Texture Loading</b>, and <b>Animation</b> built-in.",
-			"detailedDescription": "Using RGL you can <b>create games in C or C++</b> <i>without the boilerplate needed by <b>OpenGL</b> and <b>X11</b></i>. <br><br>RGL has <b>3 examples</b> on the github repository.<br><br>Keep in mind that RGL <b>only supports Linux</b>.",
-			"srcUrl": "https://github.com/rxn7/rgl",
-			"status": "Finished",
-			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdH8-gz2yCKSTPtxs6qk7iQ"]
 		},
 		{
 			"name": "truckres",
@@ -37,10 +28,26 @@
 			"websiteUrl": "https://truckres.pl",
 			"status": "Maintained",
 			"screenshots": [
-				"img/projects/truckres-main.png",
-				"img/projects/truckres-admin-dashboard.png",
-				"img/projects/truckres-admin-dashboard-edit-modal.png"
+				"img/projects/truckres/truckres-main.png",
+				"img/projects/truckres/truckres-offer.png",
+				"img/projects/truckres/truckres-about.png",
+				"img/projects/truckres/truckres-login.png",
+				"img/projects/truckres/truckres-admin-dashboard.png",
+				"img/projects/truckres/truckres-admin-dashboard-edit-modal.png",
+				"img/projects/truckres/truckres-admin-dashboard-create-modal.png",
+				"img/projects/truckres/truckres-admin-settings.png",
+				"img/projects/truckres/truckres-admin-settings-dirty.png"
 			]
+		},
+		{
+			"name": "rgl",
+			"categories": ["c", "opengl"],
+			"displayName": "RGL",
+			"description": "<b>C</b> <b>game framework</b> with <b>Input</b>, <b>Sound</b>, <b>Rendering</b>, <b>Texture Loading</b>, and <b>Animation</b> built-in.",
+			"detailedDescription": "Using RGL you can <b>create games in C or C++</b> <i>without the boilerplate needed by <b>OpenGL</b> and <b>X11</b></i>. <br><br>RGL has <b>3 examples</b> on the github repository.<br><br>Keep in mind that RGL <b>only supports Linux</b>.",
+			"srcUrl": "https://github.com/rxn7/rgl",
+			"status": "Finished",
+			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdH8-gz2yCKSTPtxs6qk7iQ"]
 		},
 		{
 			"banner": {
@@ -75,9 +82,9 @@
 			"srcUrl": "https://github.com/rxn7/oredustry",
 			"status": "Maintained",
 			"screenshots": [
-				"img/projects/oredustry1.png",
-				"img/projects/oredustry2.png",
-				"img/projects/oredustry3.png"
+				"img/projects/oredustry/oredustry1.png",
+				"img/projects/oredustry/oredustry2.png",
+				"img/projects/oredustry/oredustry3.png"
 			]
 		},
 		{
@@ -99,9 +106,9 @@
 			"srcUrl": "https://github.com/rxn7/chess",
 			"status": "Maintained",
 			"screenshots": [
-				"img/projects/chess1.png",
-				"img/projects/chess2.png",
-				"img/projects/chess3.png"
+				"img/projects/chess/chess1.png",
+				"img/projects/chess/chess2.png",
+				"img/projects/chess/chess3.png"
 			]
 		},
 		{
@@ -114,8 +121,8 @@
 			"downloadUrl": "https://github.com/rxn7/game_of_life/releases/latest",
 			"status": "Finished",
 			"screenshots": [
-				"img/projects/game_of_life1.gif",
-				"img/projects/game_of_life2.gif"
+				"img/projects/game_of_life/game_of_life1.gif",
+				"img/projects/game_of_life/game_of_life2.gif"
 			]
 		},
 		{
@@ -215,7 +222,7 @@
 			"srcUrl": "https://github.com/rxn7/galton_board",
 			"websiteUrl": "https://rxn7.github.io/galton_board/",
 			"status": "Maintained",
-			"screenshots": ["img/projects/galton_board1.png"]
+			"screenshots": ["img/projects/galton_board/galton_board1.png"]
 		},
 		{
 			"name": "poksy",
@@ -226,10 +233,10 @@
 			"srcUrl": "https://github.com/rxn7/poksy",
 			"status": "Finished",
 			"screenshots": [
-				"img/projects/poksy1.jpg",
-				"img/projects/poksy2.jpg",
-				"img/projects/poksy3.jpg",
-				"img/projects/poksy4.jpg"
+				"img/projects/poksy/poksy1.jpg",
+				"img/projects/poksy/poksy2.jpg",
+				"img/projects/poksy/poksy3.jpg",
+				"img/projects/poksy/poksy4.jpg"
 			]
 		},
 		{
@@ -240,7 +247,7 @@
 			"detailedDescription": "The prototype has a <b>chat system</b> and <b>synchronized player movement/interactions</b>.",
 			"srcUrl": "https://github.com/rxn7/RottLike",
 			"status": "Stopped",
-			"screenshots": ["img/projects/rottlike1.png"]
+			"screenshots": ["img/projects/rottlike/rottlike1.png"]
 		},
 		{
 			"name": "particle_sim",
@@ -286,7 +293,7 @@
 			"detailedDescription": "Pjgen can <b>create Makefile-based C or C++ projects</b>, <b>static web projects</b> (HTML + CSS + JS) and <b>python projects</b>.",
 			"srcUrl": "https://github.com/rxn7/pjgen",
 			"status": "Finished",
-			"screenshots": ["img/projects/pjgen1.png"]
+			"screenshots": ["img/projects/pjgen/pjgen1.png"]
 		},
 		{
 			"name": "minesweeper",
@@ -343,7 +350,7 @@
 			"srcUrl": "https://github.com/rxn7/fb",
 			"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
 			"status": "Finished",
-			"screenshots": ["img/projects/fb1.png"]
+			"screenshots": ["img/projects/fb/fb1.png"]
 		},
 		{
 			"name": "telestick",
@@ -387,18 +394,6 @@
 			"screenshots": []
 		},
 		{
-			"name": "chess_timer",
-			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Chess Timer",
-			"showWebsitePreview": true,
-			"description": "Switch-clock for <b>competitive chess games</b> written in <b>Typescript</b>.",
-			"detailedDescription": "There are <b>3 time limits</b> available:<ul style='list-style: none'><li><b>bullet</b> (1 min)</li> <li><b>blitz</b> (5 min)</li> <li><b>rapid</b> (10 min)</li></ul> <br> Press <b>space</b> to <b>start or switch the clocks</b>. You can <b>choose</b> the <b>starting clock</b> by clicking on it before the clocks are started.",
-			"srcUrl": "https://github.com/rxn7/chess_timer",
-			"websiteUrl": "https://rxn7.github.io/chess_timer",
-			"status": "Finished",
-			"screenshots": []
-		},
-		{
 			"name": "clock",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Clock",
@@ -411,14 +406,14 @@
 			"screenshots": []
 		},
 		{
-			"name": "random_pics",
+			"name": "chess_timer",
 			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Random Pics",
+			"displayName": "Chess Timer",
 			"showWebsitePreview": true,
-			"description": "<b>Random pictures</b> from <a href='https://picsum.photos'>lorem picsum</a> jumping around.",
-			"detailedDescription": "Made with <b>Typescript</b> and <b>Canvas2D</b>",
-			"srcUrl": "https://github.com/rxn7/random_pics",
-			"websiteUrl": "https://rxn7.github.io/random_pics",
+			"description": "Switch-clock for <b>competitive chess games</b> written in <b>Typescript</b>.",
+			"detailedDescription": "There are <b>3 time limits</b> available:<ul style='list-style: none'><li><b>bullet</b> (1 min)</li> <li><b>blitz</b> (5 min)</li> <li><b>rapid</b> (10 min)</li></ul> <br> Press <b>space</b> to <b>start or switch the clocks</b>. You can <b>choose</b> the <b>starting clock</b> by clicking on it before the clocks are started.",
+			"srcUrl": "https://github.com/rxn7/chess_timer",
+			"websiteUrl": "https://rxn7.github.io/chess_timer",
 			"status": "Finished",
 			"screenshots": []
 		}
