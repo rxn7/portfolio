@@ -1,8 +1,10 @@
-import './Projects.css'
+import './style.css'
+
 import {useNavigate} from 'react-router-dom'
-import projectsData from '../../data/projects.json'
-import {ProjectData} from '../../data/ProjectData'
-import getCategoryIconString from '../../categoryIcon'
+
+import getCategoryIconString from 'categoryIcon'
+import projectsData from 'data/projects.json'
+import {ProjectData} from 'data/ProjectData'
 
 export default function Projects() {
 	const navigate = useNavigate()

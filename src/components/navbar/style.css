@@ -85,7 +85,7 @@
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	.nav-toggler {
 		display: flex;
 		flex-direction: column;

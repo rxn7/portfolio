@@ -22,10 +22,6 @@
 	color: var(--primary-color);
 }
 
-body {
-	margin: 0;
-}
-
 #root {
 	margin: 0;
 	min-height: 100vh;
@@ -34,13 +30,9 @@ body {
 	align-items: center;
 }
 
-.icon {
-	position: relative;
-	height: 20px;
-	top: 5px;
-	margin-right: 5px;
-	color: white;
-	user-select: none;
+
+body {
+	margin: 0;
 }
 
 a, a:visited {
@@ -67,6 +59,15 @@ hr {
 
 .category-icon {
 	font-size: 28px;
+}
+
+.icon {
+	position: relative;
+	height: 20px;
+	top: 5px;
+	margin-right: 5px;
+	color: white;
+	user-select: none;
 }
 
 #specialization-container > p{

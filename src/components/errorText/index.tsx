@@ -1,4 +1,4 @@
-import './ErrorText.css'
+import './style.css'
 
 export interface IErrorTextProps {
 	text: string

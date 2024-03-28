@@ -1,8 +1,10 @@
+import './style.css'
+
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {Link} from 'react-router-dom'
-import Frame from '../frame/Frame'
-import './Home.css'
+import { Link } from 'react-router-dom'
+
+import Frame from 'components/frame'
 
 function getAge(): number {
 	const dob: Date = new Date('2006-10-14')
@@ -20,13 +22,13 @@ export default function Home() {
 			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
 
 			<div id="icon-container">
-				<a href="https://github.com/rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon beat={true} color="#fafafa" icon={faGithub} size='xl'/> </a>
-				<a href="https://youtube.com/@rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faYoutube} color='red' size='xl'/> </a>
+				<a href="https://github.com/rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon beat={true} color="#fafafa" icon={faGithub} size='xl' /> </a>
+				<a href="https://youtube.com/@rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faYoutube} color='red' size='xl' /> </a>
 			</div>
 
-			<hr/>
+			<hr />
 
-			<p>I'm a <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br/>I have been <i>obsessed</i> with <b>programming since 2020</b>.</p>
+			<p>I'm a <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br />I have been <i>obsessed</i> with <b>programming since 2020</b>.</p>
 
 			<p>I specialize in: </p>
 			<div id="specialization-container">

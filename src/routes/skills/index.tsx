@@ -1,6 +1,7 @@
+import './style.css'
+
 import {useEffect} from 'react'
-import Frame from '../frame/Frame'
-import './Skills.css'
+import Frame from 'components/frame'
 
 export default function Skills() {
 	useEffect(() => {

@@ -1,4 +1,4 @@
-import "./YoutubeEmbed.css"
+import "./style.css"
 
 export interface IYoutubeEmbedProps {
 	embedID: string

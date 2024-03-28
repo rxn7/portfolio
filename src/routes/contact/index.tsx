@@ -1,9 +1,11 @@
+import './style.css'
+
 import {IconDefinition} from '@fortawesome/fontawesome-svg-core'
-import Frame from '../frame/Frame'
-import './Contact.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faDiscord, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
+import Frame from 'components/frame'
 
 type ContactIconProps = {
 	icon: IconDefinition

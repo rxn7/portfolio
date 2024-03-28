@@ -1,4 +1,4 @@
-export declare type ProjectData = {
+export type ProjectData = {
 	name: string
 	categories?: string[]
 	banner?: {

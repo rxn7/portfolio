@@ -1,4 +1,4 @@
-import './Frame.css'
+import './style.css'
 
 const defaultMaxWidth: string = '900px'
 

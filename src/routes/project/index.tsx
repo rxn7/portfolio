@@ -1,13 +1,15 @@
-import './Project.css'
-import {Params, useParams} from 'react-router-dom'
-import projectsData from '../../data/projects.json'
-import Frame from '../frame/Frame'
-import ErrorText from '../errorText/ErrorText'
-import YoutubeEmbed from '../youtubeEmbed/YoutubeEmbed'
-import {ProjectData} from '../../data/ProjectData'
-import {useEffect} from 'react'
+import './style.css'
 
-export declare type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
+import {useEffect} from 'react'
+import {Params, useParams} from 'react-router-dom'
+
+import Frame from 'components/frame'
+import ErrorText from 'components/errorText'
+import YoutubeEmbed from 'components/youtubeEmbed'
+import {ProjectData} from 'data/ProjectData'
+import projectsData from 'data/projects.json'
+
+export type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
 export default function Project(): JSX.Element {
 	const urlParams: Params = useParams()

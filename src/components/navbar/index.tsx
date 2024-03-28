@@ -1,9 +1,10 @@
+import './style.css'
+
 import {useState} from 'react'
 import {Link, useLocation} from 'react-router-dom'
-import './Navbar.css'
+import {faBook, faCode, faHome, faPhone} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {IconDefinition} from '@fortawesome/free-brands-svg-icons'
-import {faBook, faCode, faHome, faPhone} from '@fortawesome/free-solid-svg-icons'
 
 type HeaderNavLinkProps = {
 	onClick: () => void
