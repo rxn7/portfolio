@@ -2,7 +2,7 @@ import './style.css'
 
 const defaultMaxWidth: string = '900px'
 
-export type FrameProps = {
+export interface FrameProps {
 	id?: string
 	title?: string
 	maxWidth?: string
