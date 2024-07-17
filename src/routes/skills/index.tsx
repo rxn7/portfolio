@@ -77,6 +77,7 @@ export default function Skills() {
 					<li>GTK desktop apppcations (C, C++)</li>
 					<li>QT desktop apppcations (C++)</li>
 					<li>ImGUI desktop applications (C++)</li>
+					<li>Android mobile applications (Kotlin)</li>
 				</ul>
 			</Frame>
 
@@ -87,7 +88,7 @@ export default function Skills() {
 					<li>Visual Studio 2019/2022</li>
 					<li>Jetbrains Rider</li>
 					<li>Jetbrains Intellij Idea</li>
-					<li>Tmux</li>
+					<li>Android Studio</li>
 					<li>Linux</li>
 					<li>Windows</li>
 				</ul>
