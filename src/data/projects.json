@@ -318,6 +318,18 @@
 			"screenshots": ["https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss1.png", "https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss2.png"]
 		},
 		{
+			"name": "phyts",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "PhyTS",
+			"showWebsitePreview": true,
+			"description": "Simple physics simulator written in <b>TS</b>/<b>HTML</b>/<b>CSS</b>",
+			"detailedDescription": "Click anywhere to spawn a ball that will collide with other balls, each collision will make a sound.",
+			"srcUrl": "https://github.com/rxn7/phyts",
+			"websiteUrl": "https://rxn7.github.io/phyts",
+			"status": "Maintained",
+			"screenshots": ["https://github.com/rxn7/phyts/blob/master/screenshots/1.png?raw=true", "https://github.com/rxn7/phyts/blob/master/screenshots/2.png?raw=true", "https://github.com/rxn7/phyts/blob/master/screenshots/3.png?raw=true"]
+		},
+		{
 			"name": "ttc",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Tic-Tac-Toe",
