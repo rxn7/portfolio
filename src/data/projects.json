@@ -330,6 +330,17 @@
 			"screenshots": ["https://github.com/rxn7/phyts/blob/master/screenshots/1.png?raw=true", "https://github.com/rxn7/phyts/blob/master/screenshots/2.png?raw=true", "https://github.com/rxn7/phyts/blob/master/screenshots/3.png?raw=true"]
 		},
 		{
+			"name": "flappy_bird_clone",
+			"categories": ["c"],
+			"displayName": "fb",
+			"description": "<b>Flappy bird</b> clone written in <b>C</b> using <b>SDL2</b>",
+			"detailedDescription": "",
+			"srcUrl": "https://github.com/rxn7/fb",
+			"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
+			"status": "Finished",
+			"screenshots": ["img/projects/fb/fb1.png"]
+		},
+		{
 			"name": "ttc",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Tic-Tac-Toe",
@@ -362,19 +373,18 @@
 			"description": "<b>Flappy Bird</b> for <b>Arduino Nano</b> with oled display and a button",
 			"detailedDescription": "The code is abstracted to make it easy for me to add more games to it. I'm using <b>u8g2 library</b> to use the oled screen.",
 			"srcUrl": "https://github.com/rxn7/nano_bird",
-			"status": "Maintained",
+			"status": "Finished",
 			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
 		},
 		{
-			"name": "flappy_bird_clone",
-			"categories": ["c"],
-			"displayName": "fb",
-			"description": "<b>Flappy bird</b> clone written in <b>C</b> using <b>SDL2</b>",
-			"detailedDescription": "",
-			"srcUrl": "https://github.com/rxn7/fb",
-			"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
-			"status": "Finished",
-			"screenshots": ["img/projects/fb/fb1.png"]
+			"name": "targetscorecounter",
+			"categories": ["kotlin", "android"],
+			"displayName": "Target Score Counter",
+			"description": "Easier way to count <b>shooting target scores</b> on your phone.",
+			"detailedDescription": "Simple <b>Android</b> app made in <b>Kotlin</b> that makes it easier to count <b>shooting target scores</b> on your phone.",
+			"srcUrl": "https://github.com/rxn7/targetscorecounter",
+			"status": "Maintained",
+			"screenshots": ["img/projects/targetscorecounter/1.png"]
 		},
 		{
 			"name": "telestick",
@@ -400,7 +410,7 @@
 			"description": "<b>c99</b> library for <b>option/flag management</b>.",
 			"detailedDescription": "With RedFlag you can <b>easily add options/flags</b> to an application.",
 			"srcUrl": "https://github.com/rxn7/redflag",
-			"status": "Maintained",
+			"status": "Finished",
 			"screenshots": [
 				"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
 			]
