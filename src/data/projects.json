@@ -70,24 +70,6 @@
 			"videosEmbedIDs": ["Op6_0-xizfs"]
 		},
 		{
-			"banner": {
-				"src": "img/icons/oredustry.png",
-				"pixelArt": true
-			},
-			"name": "oredustry",
-			"displayName": "Oredustry",
-			"categories": ["cplusplus", "opengl"],
-			"description": "Mining <b>game</b> written in <b>C++</b> and <b>OpenGL</b>.",
-			"detailedDescription": "The game uses its <b>own engine</b> 'od' that <b>can be used for other games</b>, thanks to its <b>flexability</b>. <br><br><b>Engine features</b>: <ul style='list-style: circle; text-align: left;'><li>Input</li><li>Batched renderer (everything is batched to be as fast as possible)</li><li>Shaders</li><li>Assets (Textures, Texture Atlases, Fonts)</li><li>Scene Management</li><li>Immediate UI with widgets (Button, Text, Color Rect, Image)</li><li>Entities</li></ul>",
-			"srcUrl": "https://github.com/rxn7/oredustry",
-			"status": "Maintained",
-			"screenshots": [
-				"img/projects/oredustry/oredustry1.png",
-				"img/projects/oredustry/oredustry2.png",
-				"img/projects/oredustry/oredustry3.png"
-			]
-		},
-		{
 			"name": "billiards",
 			"categories": ["cplusplus", "opengl"],
 			"displayName": "Billiards",
@@ -102,7 +84,7 @@
 			"categories": ["cplusplus"],
 			"displayName": "Chess",
 			"description": "Chess game written in <b>C++</b> using <b>SFML</b>.",
-			"detailedDescription": "Most of the rules are implemented (<b>legal moves</b>, <b>pawn promotion</b>, <b>checks</b>), the only rules yet to be implemented are: checkmates, stalemates, en passant, castling.",
+			"detailedDescription": "All chess rules are implemented, check the repository for more info.",
 			"srcUrl": "https://github.com/rxn7/chess",
 			"status": "Maintained",
 			"screenshots": [
@@ -123,6 +105,24 @@
 			"screenshots": [
 				"img/projects/game_of_life/game_of_life1.gif",
 				"img/projects/game_of_life/game_of_life2.gif"
+			]
+		},
+		{
+			"banner": {
+				"src": "img/icons/oredustry.png",
+				"pixelArt": true
+			},
+			"name": "oredustry",
+			"displayName": "Oredustry",
+			"categories": ["cplusplus", "opengl"],
+			"description": "Mining <b>game</b> written in <b>C++</b> and <b>OpenGL</b>.",
+			"detailedDescription": "The game uses its <b>own engine</b> 'od' that <b>can be used for other games</b>, thanks to its <b>flexability</b>. <br><br><b>Engine features</b>: <ul style='list-style: circle; text-align: left;'><li>Input</li><li>Batched renderer (everything is batched to be as fast as possible)</li><li>Shaders</li><li>Assets (Textures, Texture Atlases, Fonts)</li><li>Scene Management</li><li>Immediate UI with widgets (Button, Text, Color Rect, Image)</li><li>Entities</li></ul>",
+			"srcUrl": "https://github.com/rxn7/oredustry",
+			"status": "Maintained",
+			"screenshots": [
+				"img/projects/oredustry/oredustry1.png",
+				"img/projects/oredustry/oredustry2.png",
+				"img/projects/oredustry/oredustry3.png"
 			]
 		},
 		{
