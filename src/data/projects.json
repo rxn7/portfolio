@@ -341,6 +341,38 @@
 			"screenshots": ["img/projects/fb/fb1.png"]
 		},
 		{
+			"name": "nano_bird",
+			"categories": ["arduino", "cplusplus"],
+			"displayName": "Nano Bird",
+			"description": "<b>Flappy Bird</b> for <b>Arduino Nano</b> with oled display and a button",
+			"detailedDescription": "The code is abstracted to make it easy for me to add more games to it. I'm using <b>u8g2 library</b> to use the oled screen.",
+			"srcUrl": "https://github.com/rxn7/nano_bird",
+			"status": "Finished",
+			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
+		},
+		{
+			"name": "targetscorecounter",
+			"categories": ["kotlin", "android"],
+			"displayName": "Target Score Counter",
+			"description": "Easier way to count <b>shooting target scores</b> on your phone.",
+			"detailedDescription": "Simple <b>Android</b> app made in <b>Kotlin</b> that makes it easier to count <b>shooting target scores</b> on your phone.",
+			"srcUrl": "https://github.com/rxn7/targetscorecounter",
+			"status": "Maintained",
+			"screenshots": ["img/projects/targetscorecounter/1.png"]
+		},
+		{
+			"name": "weird_motion_effect",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Weird Motion Effect",
+			"showWebsitePreview": true,
+			"description": "<b>Optical illusion</b> that makes you <b>see objects</b> only <b>when</b> they're <b>moving</b>.",
+			"detailedDescription": "It's written in <b>TypeScript</b> with <b>Canvas2D</b>. The effect is called <a target='_blank' href='https://en.wikipedia.org/wiki/Persistence_of_vision'>persistence of vision</a>. It's inspired by <a target='_blank' href='https://www.youtube.com/watch?v=TdTMeNXCnTs&t=2s'>this video</a>.",
+			"srcUrl": "https://github.com/rxn7/weird_motion_effect",
+			"websiteUrl": "https://rxn7.github.io/weird_motion_effect",
+			"status": "Finished",
+			"screenshots": []
+		},
+		{
 			"name": "ttc",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Tic-Tac-Toe",
@@ -365,26 +397,6 @@
 			"websiteUrl": "https://rxn7.github.io/switchracer/",
 			"status": "Finished",
 			"screenshots": []
-		},
-		{
-			"name": "nano_bird",
-			"categories": ["arduino", "cplusplus"],
-			"displayName": "Nano Bird",
-			"description": "<b>Flappy Bird</b> for <b>Arduino Nano</b> with oled display and a button",
-			"detailedDescription": "The code is abstracted to make it easy for me to add more games to it. I'm using <b>u8g2 library</b> to use the oled screen.",
-			"srcUrl": "https://github.com/rxn7/nano_bird",
-			"status": "Finished",
-			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
-		},
-		{
-			"name": "targetscorecounter",
-			"categories": ["kotlin", "android"],
-			"displayName": "Target Score Counter",
-			"description": "Easier way to count <b>shooting target scores</b> on your phone.",
-			"detailedDescription": "Simple <b>Android</b> app made in <b>Kotlin</b> that makes it easier to count <b>shooting target scores</b> on your phone.",
-			"srcUrl": "https://github.com/rxn7/targetscorecounter",
-			"status": "Maintained",
-			"screenshots": ["img/projects/targetscorecounter/1.png"]
 		},
 		{
 			"name": "telestick",
@@ -414,18 +426,6 @@
 			"screenshots": [
 				"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
 			]
-		},
-		{
-			"name": "weird_motion_effect",
-			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Weird Motion Effect",
-			"showWebsitePreview": true,
-			"description": "<b>Optical illusion</b> that makes you <b>see objects</b> only <b>when</b> they're <b>moving</b>.",
-			"detailedDescription": "It's written in <b>TypeScript</b> with <b>Canvas2D</b>. The effect is called <a target='_blank' href='https://en.wikipedia.org/wiki/Persistence_of_vision'>persistence of vision</a>. It's inspired by <a target='_blank' href='https://www.youtube.com/watch?v=TdTMeNXCnTs&t=2s'>this video</a>.",
-			"srcUrl": "https://github.com/rxn7/weird_motion_effect",
-			"websiteUrl": "https://rxn7.github.io/weird_motion_effect",
-			"status": "Finished",
-			"screenshots": []
 		},
 		{
 			"name": "clock",
