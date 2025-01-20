@@ -60,16 +60,24 @@
 			"videosEmbedIDs": ["Op6_0-xizfs"]
 		},
 		{
+			"banner": {
+				"src": "https://github.com/rxn7/rgl/blob/dev/logo.png?raw=true",
+				"pixelArt": false
+			},
 			"name": "rgl",
 			"categories": ["c", "opengl"],
 			"displayName": "RGL",
 			"description": "<b>C</b> <b>game framework</b> with <b>Input</b>, <b>Sound</b>, <b>Rendering</b>, <b>Texture Loading</b>, and <b>Animation</b> built-in.",
-			"detailedDescription": "Using RGL you can <b>create games in C or C++</b> <i>without the boilerplate needed by <b>OpenGL</b> and <b>X11</b></i>. <br><br>RGL has <b>3 examples</b> on the github repository.<br><br>Keep in mind that RGL <b>only supports Linux</b>.",
+			"detailedDescription": "Using RGL you can <b>create games in C or C++</b> <i>without the boilerplate needed by <b>OpenGL</b> and <b>X11</b></i>. <br><br>RGL has <b>4 examples</b> on the github repository: <ul style='list-style: circle; text-align: left;'><li>Game of Life</li><li>Agar (agar.io-like game)</li><li>Balls (2D physics simulation)</li><li>coc (coin collecting game)</li></ul> <br><br>Keep in mind that RGL <b>only supports Linux</b>.",
 			"srcUrl": "https://github.com/rxn7/rgl",
 			"status": "Finished",
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdH8-gz2yCKSTPtxs6qk7iQ"]
 		},
 		{
+			"banner": {
+				"src": "https://github.com/rxn7/billiards/blob/dev/logo.png?raw=true",
+				"pixelArt": false
+			},
 			"name": "billiards",
 			"categories": ["cplusplus", "opengl"],
 			"displayName": "Billiards",
@@ -80,6 +88,10 @@
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQcwPg6fdQcR0NCpo5vr9-6O"]
 		},
 		{
+			"banner": {
+				"src": "https://github.com/rxn7/chess/blob/master/logo.png?raw=true",
+				"pixelArt": false
+			},
 			"name": "chess",
 			"categories": ["cplusplus"],
 			"displayName": "Chess",
@@ -95,6 +107,10 @@
 			"videosEmbedIDs": ["Ifh42thhwK8?si=uAH-MLkhyB8lhH6I"]
 		},
 		{
+			"banner": {
+				"src": "https://github.com/rxn7/game_of_life/blob/master/logo.png?raw=true",
+				"pixelArt": false
+			},
 			"name": "game_of_life",
 			"categories": ["cplusplus"],
 			"displayName": "Game of Life",

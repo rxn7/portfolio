@@ -49,6 +49,8 @@ export default function Skills() {
 					<li>Writing CMake files</li>
 					<li>Writing Unix Makefiles</li>
 					<li>Client/Server networking using TCP and UDP</li>
+					<li>Writing Unit Tests (Google Test, Jest)</li>
+					<li>Writing Integration Tests (Google Test)</li>
 				</ul>
 			</Frame>
 

@@ -1,9 +1,9 @@
 import './style.css'
 
-import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faLinkedinIn, faYoutube, IconDefinition } from '@fortawesome/free-brands-svg-icons'
 
 import Frame from 'components/frame'
+import ProfileIcon from 'components/profileIcon'
 
 export default function Home() {
 	return (
@@ -11,18 +11,19 @@ export default function Home() {
 			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
 
 			<div id="icon-container">
-				<a href="https://github.com/rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon beat={true} color="#fafafa" icon={faGithub} size='xl' /> </a>
-				<a href="https://youtube.com/@rxn7" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faYoutube} color='red' size='xl' /> </a>
+				<ProfileIcon url="https://github.com/rxn7" color="#fafafa" icon={faGithub} />
+				<ProfileIcon url="https://youtube.com/@rxn7" color="red" icon={faYoutube} />
+				<ProfileIcon url="https://www.linkedin.com/in/maciej-niziołek-025982344" color="#0a66c2" icon={faLinkedin} />
 			</div>
 
 			<hr />
 
-			<p>I'm a <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br />I have been <i>obsessed</i> with <b>programming since 2020</b>.</p>
+			<p>I'm an <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br />I have been <b>programming since 2020</b>.</p>
 
 			<div>
 				<p style={{ marginBottom: 4 }}>I specialize in: </p>
-				<p style={{ margin: 1 }}><b>Game</b> (<i>Engine</i>) <b>Development</b></p>
-				<p style={{ margin: 1 }}><b>Full Stack Web</b> Development</p>
+				<p style={{ margin: 1 }}><b>Game</b> (<i>Engine</i>) development</p>
+				<p style={{ margin: 1 }}><b>Backend Web</b> development</p>
 			</div>
 
 			<div>
