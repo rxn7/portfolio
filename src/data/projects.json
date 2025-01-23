@@ -75,6 +75,26 @@
 		},
 		{
 			"banner": {
+				"src": "https://github.com/rxn7/chess/blob/master/logo.png?raw=true",
+				"pixelArt": false
+			},
+			"name": "chess",
+			"categories": ["cplusplus"],
+			"displayName": "Chess",
+			"description": "Complete Chess game written in <b>C++</b> using <b>SFML</b>.",
+			"detailedDescription": "All chess rules are implemented, check the repository for more info.",
+			"srcUrl": "https://github.com/rxn7/chess",
+			"downloadUrl": "https://github.com/rxn7/chess/releases/latest",
+			"status": "Finished",
+			"screenshots": [
+				"img/projects/chess/chess1.png",
+				"img/projects/chess/chess2.png",
+				"img/projects/chess/chess3.png"
+			],
+			"videosEmbedIDs": ["Ifh42thhwK8?si=uAH-MLkhyB8lhH6I"]
+		},
+		{
+			"banner": {
 				"src": "https://github.com/rxn7/billiards/blob/dev/logo.png?raw=true",
 				"pixelArt": false
 			},
@@ -86,25 +106,6 @@
 			"srcUrl": "https://github.com/rxn7/billiards",
 			"status": "Finished",
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQcwPg6fdQcR0NCpo5vr9-6O"]
-		},
-		{
-			"banner": {
-				"src": "https://github.com/rxn7/chess/blob/master/logo.png?raw=true",
-				"pixelArt": false
-			},
-			"name": "chess",
-			"categories": ["cplusplus"],
-			"displayName": "Chess",
-			"description": "Complete Chess game written in <b>C++</b> using <b>SFML</b>.",
-			"detailedDescription": "All chess rules are implemented, check the repository for more info.",
-			"srcUrl": "https://github.com/rxn7/chess",
-			"status": "Finished",
-			"screenshots": [
-				"img/projects/chess/chess1.png",
-				"img/projects/chess/chess2.png",
-				"img/projects/chess/chess3.png"
-			],
-			"videosEmbedIDs": ["Ifh42thhwK8?si=uAH-MLkhyB8lhH6I"]
 		},
 		{
 			"banner": {
