@@ -8,7 +8,7 @@ import ProfileIcon from 'components/profileIcon'
 export default function Home() {
 	return (
 		<Frame maxWidth="400" title="Hi, I'm Maciej Niziołek">
-			<img id="selfie" src="img/selfie.jpg" alt="selfie"></img>
+			<img id="selfie" src="img/avatar.jpg" alt="selfie"></img>
 
 			<div id="icon-container">
 				<ProfileIcon url="https://github.com/rxn7" color="#fafafa" icon={faGithub} />
