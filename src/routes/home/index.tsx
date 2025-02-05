@@ -1,6 +1,6 @@
 import './style.css'
 
-import { faGithub, faLinkedin, faLinkedinIn, faYoutube, IconDefinition } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 import Frame from 'components/frame'
 import ProfileIcon from 'components/profileIcon'
@@ -8,7 +8,7 @@ import ProfileIcon from 'components/profileIcon'
 export default function Home() {
 	return (
 		<Frame maxWidth="400" title="Hi, I'm Maciej Niziołek">
-			<img id="selfie" src="img/avatar.jpg" alt="selfie"></img>
+			<img id="selfie" src="img/avatar.webp" alt="selfie" loading="lazy" decoding="async"></img>
 
 			<div id="icon-container">
 				<ProfileIcon url="https://github.com/rxn7" color="#fafafa" icon={faGithub} />
