@@ -25,8 +25,7 @@
 			"showWebsitePreview": false,
 			"description": "<b>Website</b> with <b>truck offers</b> and <b>admin dashboard</b>.",
 			"detailedDescription": "Built with <b>NextJS</b>, <b>MantineUI</b>, <b>NextAuth</b>, <b>Prisma</b>, <b>PostgreSQL</b>.<br> <b>Hosted</b> on <a href='https://mikr.us/?r=989a944a' target='_blank'>mikr.us.</a>",
-			"websiteUrl": "https://truckres.pl",
-			"status": "Maintained",
+			"status": "Finished",
 			"screenshots": [
 				"img/projects/truckres/truckres-main.png",
 				"img/projects/truckres/truckres-offer.png",
