@@ -8,6 +8,7 @@ import ErrorText from 'components/errorText'
 import YoutubeEmbed from 'components/youtubeEmbed'
 import {ProjectData} from 'data/ProjectData'
 import projectsData from 'data/projects.json'
+import { generateCategoryIcons } from 'components/categoryIcons'
 
 export type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
@@ -28,8 +29,7 @@ export default function Project(): JSX.Element {
 		return <ErrorScreen />
 	}
 
-	const data: ProjectData | null =
-		projectsData.projects.filter(p => p.name === name)[0] || null
+	const data: ProjectData | null = projectsData.projects.filter(p => p.name === name)[0] || null
 
 	if (!data) {
 		console.error(`Project data (idx: ${name}) is undefined or null!`)
@@ -40,10 +40,15 @@ export default function Project(): JSX.Element {
 		<>
 			<h1 id="project-name">{data.displayName}</h1>
 
+			<div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, justifyContent: 'center' }}>
+				{ generateCategoryIcons(data, 'var(--secondary-color)') }
+			</div>
+
 			{data.banner && (
 				<img
 					style={{
 						imageRendering: data.banner.pixelArt ? 'pixelated' : 'auto',
+						marginTop: 20,
 						maxWidth: '100%',
 						maxHeight: '200px',
 						width: 'auto',
@@ -52,6 +57,7 @@ export default function Project(): JSX.Element {
 					alt="icon"
 				/>
 			)}
+
 
 			<div className="project-frames-container" style={{marginTop: 50}}>
 				<Frame title="Details">

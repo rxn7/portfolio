@@ -1,26 +1,15 @@
 import './style.css'
 
 import {useNavigate} from 'react-router-dom'
-
-import getCategoryIconString from 'categoryIcon'
 import projectsData from 'data/projects.json'
 import {ProjectData} from 'data/ProjectData'
+import { generateCategoryIcons } from 'components/categoryIcons'
 
 export default function Projects() {
 	const navigate = useNavigate()
 
 	const projectsElements: JSX.Element[] = projectsData.projects.map(
 		(project: ProjectData) => {
-			const categoryIconsElements: JSX.Element[] =
-				project.categories?.map(category => {
-					console.log(getCategoryIconString(category))
-					return (
-						<i
-							className={`${getCategoryIconString(category)} category-icon`}
-						/>
-					)
-				}) || []
-
 			return (
 				<div
 					className="project-container"
@@ -47,7 +36,9 @@ export default function Projects() {
 
 					<p dangerouslySetInnerHTML={{__html: project.description || ''}} />
 
-					<div className="category-icon-container">{categoryIconsElements}</div>
+					<div className="category-icon-container">
+						{ generateCategoryIcons(project) }
+					</div>
 				</div>
 			)
 		}
