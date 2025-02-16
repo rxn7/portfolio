@@ -230,6 +230,10 @@
 			"screenshots": []
 		},
 		{
+			"banner": {
+				"pixelArt": false,
+				"src": "https://github.com/rxn7/galton_board/blob/master/icon.png?raw=true"
+			},
 			"name": "galton_board",
 			"categories": ["typescript", "html5", "css3"],
 			"displayName": "Galton Board",
@@ -238,8 +242,8 @@
 			"showWebsitePreview": true,
 			"srcUrl": "https://github.com/rxn7/galton_board",
 			"websiteUrl": "https://rxn7.github.io/galton_board/",
-			"status": "Maintained",
-			"screenshots": ["img/projects/galton_board/galton_board1.png"]
+			"status": "Finished",
+			"videosEmbedIDs": ["dvP6QQl6FCc?si=YUc_FkOcDOimPBIz"]
 		},
 		{
 			"name": "poksy",
