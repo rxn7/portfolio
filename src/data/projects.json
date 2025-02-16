@@ -218,18 +218,6 @@
 			]
 		},
 		{
-			"name": "game_of_life_ts",
-			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Game of Life TS",
-			"description": "<b>Conway's game of life</b> written in <b>Typescript</b> using <b>Canvas2D</b>",
-			"detailedDescription": "<b>Left</b> click to <b>place a cell</b>, <b>right</b> click to <b>delete a cell</b>.",
-			"showWebsitePreview": true,
-			"srcUrl": "https://github.com/rxn7/particle_sim",
-			"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
-			"status": "Finished",
-			"screenshots": []
-		},
-		{
 			"banner": {
 				"pixelArt": false,
 				"src": "https://github.com/rxn7/galton_board/blob/master/icon.png?raw=true"
@@ -261,6 +249,18 @@
 			]
 		},
 		{
+			"name": "game_of_life_ts",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Game of Life TS",
+			"description": "<b>Conway's game of life</b> written in <b>Typescript</b> using <b>Canvas2D</b>",
+			"detailedDescription": "<b>Left</b> click to <b>place a cell</b>, <b>right</b> click to <b>delete a cell</b>.",
+			"showWebsitePreview": true,
+			"srcUrl": "https://github.com/rxn7/particle_sim",
+			"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
+			"status": "Finished",
+			"screenshots": []
+		},
+		{
 			"name": "particlez",
 			"categories": ["rust"],
 			"displayName": "Particlez",
@@ -271,6 +271,18 @@
 			"screenshots": [
 				"https://private-user-images.githubusercontent.com/60551555/312372188-575095d6-ab57-43c7-bfa9-0f0161e709d4.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk0MTY3MDksIm5iZiI6MTcxOTQxNjQwOSwicGF0aCI6Ii82MDU1MTU1NS8zMTIzNzIxODgtNTc1MDk1ZDYtYWI1Ny00M2M3LWJmYTktMGYwMTYxZTcwOWQ0LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjI2VDE1NDAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJmM2JlNGQyMTIzOTY0YWIzY2EzMGNmYjQ2YTdkZWYxZjE4ZmJkMzQ3NzNjNTVjOWE0Mzc0ZDdjYmI4NTM4NTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.RQB3d3MuzgyEHMdmBrxcuMx8MtV0EIFjtxkTkQnJ6nQ"
 			]
+		},
+		{
+			"name": "game_of_life_ts",
+			"categories": ["typescript", "html5", "css3"],
+			"displayName": "Game of Life TS",
+			"description": "<b>Conway's game of life</b> written in <b>Typescript</b> using <b>Canvas2D</b>",
+			"detailedDescription": "<b>Left</b> click to <b>place a cell</b>, <b>right</b> click to <b>delete a cell</b>.",
+			"showWebsitePreview": true,
+			"srcUrl": "https://github.com/rxn7/game_of_life_ts",
+			"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
+			"status": "Finished",
+			"screenshots": []
 		},
 		{
 			"name": "rottlike",
