@@ -372,6 +372,20 @@
 			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
 		},
 		{
+			"banner": {
+				"src": "https://raw.githubusercontent.com/rxn7/img2ascii/master/logo.png",
+				"pixelArt": false
+			},
+			"name": "img2ascii",
+			"categories": ["c"],
+			"displayName": "img2ascii",
+			"description": "Image to ascii converter in terminal",
+			"detailedDescription": "Can also do other cool stuff like actual image rendering in the terminal etc.",
+			"srcUrl": "https://github.com/rxn7/img2ascii",
+			"status": "Finished",
+			"screenshots": ["https://private-user-images.githubusercontent.com/60551555/361752608-174d32bb-302b-4753-853d-b9911b6e17fa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NTcxMzEsIm5iZiI6MTczOTc1NjgzMSwicGF0aCI6Ii82MDU1MTU1NS8zNjE3NTI2MDgtMTc0ZDMyYmItMzAyYi00NzUzLTg1M2QtYjk5MTFiNmUxN2ZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAxNDcxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkYzg0YzNiZGM2YTE0NDRiYTZjMDYxYmYzZDk3Njg3NTQ4YzcwZDdmYzg5MWU3NjgxYTU5NzBmYWUyMGRmMjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.J0bENIgYa32dG_fxCru5_uw20ljU4PqwQV2cIcCh8Mo", "https://private-user-images.githubusercontent.com/60551555/361752917-b6d1b5f1-5180-497d-a700-717e966ce824.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NTcxMzEsIm5iZiI6MTczOTc1NjgzMSwicGF0aCI6Ii82MDU1MTU1NS8zNjE3NTI5MTctYjZkMWI1ZjEtNTE4MC00OTdkLWE3MDAtNzE3ZTk2NmNlODI0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAxNDcxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlZjAyMWExYzU0ZGU0YTdmZjIwM2I3MzE2OWIzZjlhYmJmYTVjMzFlYmVhMjcwNGMxYmVmZjYwMGFkNDNjYmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ZkF5n_EVfhOCZLLqV18IcX-Ma3fxiuup-L6rBdN_3qo"]
+		},
+		{
 			"name": "targetscorecounter",
 			"categories": ["kotlin", "android"],
 			"displayName": "Target Score Counter",
