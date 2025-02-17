@@ -249,18 +249,6 @@
 			]
 		},
 		{
-			"name": "game_of_life_ts",
-			"categories": ["typescript", "html5", "css3"],
-			"displayName": "Game of Life TS",
-			"description": "<b>Conway's game of life</b> written in <b>Typescript</b> using <b>Canvas2D</b>",
-			"detailedDescription": "<b>Left</b> click to <b>place a cell</b>, <b>right</b> click to <b>delete a cell</b>.",
-			"showWebsitePreview": true,
-			"srcUrl": "https://github.com/rxn7/particle_sim",
-			"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
-			"status": "Finished",
-			"screenshots": []
-		},
-		{
 			"name": "particlez",
 			"categories": ["rust"],
 			"displayName": "Particlez",
