@@ -27,12 +27,13 @@ export default function Skills() {
 
 			<Frame id="backend-skills-frame" title="Backend" maxWidth="1000px">
 				<ul>
+					<li>ExpressJS REST API (Typescript)</li>
+					<li>NextJS REST API (Typescript)</li>
+					<li>NestJS REST API (Typescript)</li>
+					<li>Ktor REST API (Kotlin)</li>
 					<li>BaoJS WebSockets</li>
-					<li>ExpressJS REST API</li>
-					<li>NextJS REST API</li>
-					<li>NestJS REST API</li>
 					<li>Prisma ORM</li>
-					<li>NextAuth authorizatio</li>
+					<li>NextAuth authorization</li>
 					<li>PassportJS authorization</li>
 					<li>JWT</li>
 				</ul>
@@ -44,6 +45,13 @@ export default function Skills() {
 				maxWidth="1000px"
 			>
 				<ul>
+					<li>WinForms desktop apppcations (C#)</li>
+					<li>WPF desktop apppcations (C#)</li>
+					<li>GTK desktop apppcations (C, C++)</li>
+					<li>QT desktop apppcations (C++)</li>
+					<li>ImGUI desktop applications (C++)</li>
+					<li>Android mobile applications (Kotlin)</li>
+					<li>Kotlin Multiplatform Jetpack Compose</li>
 					<li>WinAPI programming (C++)</li>
 					<li>X11 programming (C)</li>
 					<li>Writing CMake files</li>
@@ -74,12 +82,6 @@ export default function Skills() {
 
 			<Frame id="gui-skills-frame" title="GUI Apps" maxWidth="1000px">
 				<ul>
-					<li>WinForms desktop apppcations (C#)</li>
-					<li>WPF desktop apppcations (C#)</li>
-					<li>GTK desktop apppcations (C, C++)</li>
-					<li>QT desktop apppcations (C++)</li>
-					<li>ImGUI desktop applications (C++)</li>
-					<li>Android mobile applications (Kotlin)</li>
 				</ul>
 			</Frame>
 

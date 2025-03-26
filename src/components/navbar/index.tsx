@@ -34,9 +34,7 @@ export default function NavBar() {
 
 	const navItemsClass = isActive ? 'nav-items-active' : 'nav-items-hidden'
 	const navTogglerClass = isActive ? 'nav-toggler-x' : 'nav-toggler-bar'
-	const navTogglerOverlayClass = isActive
-		? 'nav-toggler-screen-overlay-active'
-		: 'nav-toggler-screen-overlay'
+	const navTogglerOverlayClass = isActive ? 'nav-toggler-screen-overlay-active' : 'nav-toggler-screen-overlay'
 
 	return (
 		<nav className="nav">
@@ -70,9 +68,7 @@ export default function NavBar() {
 				<div className="nav-toggler-line3" />
 			</div>
 
-			<div
-				className={`nav-bar-overlay ${isActive ? 'nav-bar-overlay-active' : ''}`}
-			/>
+			<div className={`nav-bar-overlay ${isActive ? 'nav-bar-overlay-active' : ''}`} />
 		</nav>
 	)
 }
