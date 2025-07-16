@@ -13,6 +13,8 @@ export type ProjectData = {
 	websiteUrl?: string
 	downloadUrl?: string
 	status?: string
+	yearStart?: number,
+	yearEnd?: number,
 	screenshots?: string[]
 	videosEmbedIDs?: string[]
 }

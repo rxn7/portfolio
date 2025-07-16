@@ -12,6 +12,7 @@
 			"detailedDescription": "Fif is split into modules: <b>core</b>, <b>gfx</b>, <b>input</b>, <b>imgui</b>, <b>native_scripting</b>, <b>lua_scripting</b>, each independent of the other. <br><br>The <b>rendering is so fast</b> because the renderer is batching everything into a <b>single draw call</b>.",
 			"srcUrl": "https://github.com/rxn7/fif",
 			"status": "Maintained",
+			"yearStart": 2023,
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdGu5HlANJsB8m-KE0Luu-6"]
 		},
 		{
@@ -26,6 +27,8 @@
 			"description": "<b>Website</b> with <b>truck offers</b> and <b>admin dashboard</b>.",
 			"detailedDescription": "Built with <b>NextJS</b>, <b>MantineUI</b>, <b>NextAuth</b>, <b>Prisma</b>, <b>PostgreSQL</b>.<br> <b>Hosted</b> on <a href='https://mikr.us/?r=989a944a' target='_blank'>mikr.us.</a>",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2024,
 			"screenshots": [
 				"img/projects/truckres/truckres-main.png",
 				"img/projects/truckres/truckres-offer.png",
@@ -51,6 +54,8 @@
 			"srcUrl": "https://github.com/rxn7/shroompage-jam-version",
 			"websiteUrl": "https://black-shibe.itch.io/shroom-rampage",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"screenshots": [
 				"img/projects/shroompage/shroompage-1.png",
 				"img/projects/shroompage/shroompage-2.png",
@@ -70,6 +75,8 @@
 			"detailedDescription": "Using RGL you can <b>create games in C or C++</b> <i>without the boilerplate needed by <b>OpenGL</b> and <b>X11</b></i>. <br><br>RGL has <b>4 examples</b> on the github repository: <ul style='list-style: circle; text-align: left;'><li>Game of Life</li><li>Agar (agar.io-like game)</li><li>Balls (2D physics simulation)</li><li>coc (coin collecting game)</li></ul> <br><br>Keep in mind that RGL <b>only supports Linux</b>.",
 			"srcUrl": "https://github.com/rxn7/rgl",
 			"status": "Finished",
+			"yearStart": 2021,
+			"yearEnd": 2023,
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdH8-gz2yCKSTPtxs6qk7iQ"]
 		},
 		{
@@ -85,6 +92,8 @@
 			"srcUrl": "https://github.com/rxn7/chess",
 			"downloadUrl": "https://github.com/rxn7/chess/releases/latest",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2025,
 			"screenshots": [
 				"img/projects/chess/chess1.png",
 				"img/projects/chess/chess2.png",
@@ -104,6 +113,8 @@
 			"detailedDescription": "The balls are rendered as quads with <b>4 vertices</b>, the trick to make it <b>look like they are 3D spheres</b> is to calculate normals of each pixel in <b>fragment shader</b>.",
 			"srcUrl": "https://github.com/rxn7/billiards",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQcwPg6fdQcR0NCpo5vr9-6O"]
 		},
 		{
@@ -119,6 +130,8 @@
 			"srcUrl": "https://github.com/rxn7/game_of_life",
 			"downloadUrl": "https://github.com/rxn7/game_of_life/releases/latest",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2024,
 			"screenshots": [
 				"img/projects/game_of_life/game_of_life1.gif",
 				"img/projects/game_of_life/game_of_life2.gif"
@@ -135,7 +148,9 @@
 			"description": "Mining <b>game</b> written in <b>C++</b> and <b>OpenGL</b>.",
 			"detailedDescription": "The game uses its <b>own engine</b> 'od' that <b>can be used for other games</b>, thanks to its <b>flexability</b>. <br><br><b>Engine features</b>: <ul style='list-style: circle; text-align: left;'><li>Input</li><li>Batched renderer (everything is batched to be as fast as possible)</li><li>Shaders</li><li>Assets (Textures, Texture Atlases, Fonts)</li><li>Scene Management</li><li>Immediate UI with widgets (Button, Text, Color Rect, Image)</li><li>Entities</li></ul>",
 			"srcUrl": "https://github.com/rxn7/oredustry",
-			"status": "Maintained",
+			"status": "Stopped",
+			"yearStart": 2022,
+			"yearEnd": 2023,
 			"screenshots": [
 				"img/projects/oredustry/oredustry1.png",
 				"img/projects/oredustry/oredustry2.png",
@@ -150,6 +165,8 @@
 			"detailedDescription": "Wheops has a <b>config system</b> which you can share with other players, and there's (not fully implemented) <b>networking</b> so you can <b>play with your friends</b>",
 			"srcUrl": "https://github.com/rxn7/wheops",
 			"status": "Stopped",
+			"yearStart": 2022,
+			"yearEnd": 2023,
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQdc7Nkj0kMEkQ4y_AzU5nbp"]
 		},
 		{
@@ -161,6 +178,8 @@
 			"srcUrl": "https://github.com/rxn7/vsr",
 			"downloadUrl": "https://github.com/rxn7/vsr/releases/latest",
 			"status": "Stopped",
+			"yearStart": 2023,
+			"yearEnd": 2024,
 			"videosEmbedIDs": ["videoseries?list=PLVsn5gXfgBQfYgtF6s7GCnvCpkDz7X0Hu"]
 		},
 		{
@@ -171,6 +190,8 @@
 			"detailedDescription": "This is my <b>2nd project written in C++</b>, so don't expect top-notch code quality (e.g. using raw pointers instead of smart pointers), but <b>I learned a lot about C++ and OpenGL</b> while creating this project.<hr style='margin: 20px'><ul style='list-style: circle'>Features:<br><br><li><b>Infinite world generation</b> (The screenshots are old, without terrain generation)</li><li><b>Chunk loading</b> (far away chunks are unloaded and closer chunks are loaded)</li><li><b>Voxel face culling</b> (only visible voxel faces are rendereed)</li><li><b>Custom texture packs</b> (users can create their own texture packs to use in-game)</li><li><b>Game launcher</b> (made in <b>WPF</b>)</li></ul>",
 			"srcUrl": "https://github.com/rxn7/sandbox",
 			"status": "Finished",
+			"yearStart": 2021,
+			"yearEnd": 2021,
 			"screenshots": [
 				"https://user-images.githubusercontent.com/60551555/110402493-caff6500-807b-11eb-8f74-30e31c8b4363.png",
 				"https://user-images.githubusercontent.com/60551555/110388439-6506e380-8063-11eb-8601-a7d1c2711538.png",
@@ -188,7 +209,9 @@
 			"description": "<b>2048</b> clone made in <b>Godot</b>",
 			"detailedDescription": "<iframe style='max-width: 100%' frameborder='0' src='https://itch.io/embed/2518279?bg_color=282828&amp;fg_color=fff&amp;link_color=edc22e' width='552' height='167'><a href='https://rxn7.itch.io/2x'>2ˣ by rxn7</a></iframe>",
 			"srcUrl": "https://github.com/rxn7/2x",
-			"status": "Maintained",
+			"status": "Finished",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"websiteUrl": "https://rxn7.itch.io/2x",
 			"videosEmbedIDs": ["AEkqS6DAR1U?si=O4uALi8ZC6QuWwys"]
 		},
@@ -200,7 +223,9 @@
 			"description": "<b>L-Systems visualizer</b> written in <b>TypeScript</b>.",
 			"detailedDescription": "TreeGen can <b>visualize trees</b>, various <b>fractals</b> using <a href='https://en.wikipedia.org/wiki/L-system'>L-Systems</a>.",
 			"srcUrl": "https://github.com/rxn7/treegen",
-			"status": "Maintained",
+			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2024,
 			"websiteUrl": "https://rxn7.github.io/treegen/"
 		},
 		{
@@ -211,6 +236,8 @@
 			"detailedDescription": "This is a battleships game that has <b>all of the rules implemented</b>. <br> You can <b>play with your friend</b> by <b>creating a room</b>. <br>The game has <b>sound</b> and <b>visual effects</b> for each action (miss, hit, sunk)",
 			"srcUrl": "https://github.com/rxn7/battleships",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"screenshots": [
 				"https://raw.githubusercontent.com/rxn7/battleships/master/docs/game2.png",
 				"https://raw.githubusercontent.com/rxn7/battleships/master/docs/lobby.png",
@@ -230,6 +257,8 @@
 			"showWebsitePreview": true,
 			"srcUrl": "https://github.com/rxn7/galton_board",
 			"websiteUrl": "https://rxn7.github.io/galton_board/",
+			"yearStart": 2023,
+			"yearEnd": 2025,
 			"status": "Finished",
 			"videosEmbedIDs": ["dvP6QQl6FCc?si=YUc_FkOcDOimPBIz"]
 		},
@@ -241,6 +270,8 @@
 			"detailedDescription": "The game is using data from <b>PokeAPI</b>. I am not associated with Nintendo, this is just a non-commercial prototype.",
 			"srcUrl": "https://github.com/rxn7/poksy",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2022,
 			"screenshots": [
 				"img/projects/poksy/poksy1.jpg",
 				"img/projects/poksy/poksy2.jpg",
@@ -255,7 +286,9 @@
 			"description": "<b>Particle simulation</b> written in <b>Rust</b>.",
 			"detailedDescription": "The rendering is done by setting framebuffer pixels using the <a target='_blank' href='https://crates.io/crates/minifb'>minifb</a> library.",
 			"srcUrl": "https://github.com/rxn7/particlez",
-			"status": "Maintained",
+			"status": "Stopped",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"screenshots": [
 				"https://private-user-images.githubusercontent.com/60551555/312372188-575095d6-ab57-43c7-bfa9-0f0161e709d4.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk0MTY3MDksIm5iZiI6MTcxOTQxNjQwOSwicGF0aCI6Ii82MDU1MTU1NS8zMTIzNzIxODgtNTc1MDk1ZDYtYWI1Ny00M2M3LWJmYTktMGYwMTYxZTcwOWQ0LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjI2VDE1NDAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJmM2JlNGQyMTIzOTY0YWIzY2EzMGNmYjQ2YTdkZWYxZjE4ZmJkMzQ3NzNjNTVjOWE0Mzc0ZDdjYmI4NTM4NTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.RQB3d3MuzgyEHMdmBrxcuMx8MtV0EIFjtxkTkQnJ6nQ"
 			]
@@ -270,6 +303,8 @@
 			"srcUrl": "https://github.com/rxn7/game_of_life_ts",
 			"websiteUrl": "https://rxn7.github.io/game_of_life_ts/",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"screenshots": []
 		},
 		{
@@ -280,6 +315,8 @@
 			"detailedDescription": "The prototype has a <b>chat system</b> and <b>synchronized player movement/interactions</b>.",
 			"srcUrl": "https://github.com/rxn7/RottLike",
 			"status": "Stopped",
+			"yearStart": 2021,
+			"yearEnd": 2022,
 			"screenshots": ["img/projects/rottlike/rottlike1.png"]
 		},
 		{
@@ -292,6 +329,8 @@
 			"srcUrl": "https://github.com/rxn7/particle_sim",
 			"websiteUrl": "https://rxn7.github.io/particle_sim/",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2022,
 			"screenshots": []
 		},
 		{
@@ -304,6 +343,8 @@
 			"srcUrl": "https://github.com/rxn7/canvastein",
 			"websiteUrl": "https://rxn7.github.io/canvastein/",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2023,
 			"screenshots": []
 		},
 		{
@@ -314,6 +355,8 @@
 			"description": "<b>2D isometric grid renderer</b> with <b>3D effect</b> and <b>animations</b> (Canvas2D).",
 			"detailedDescription": "The <b>isometric projection</b> combined with the <b>animations</b> <i>tricks your brain</i> to think that this is a 3D scene.",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2022,
 			"srcUrl": "https://github.com/rxn7/isometric_grid",
 			"websiteUrl": "https://rxn7.github.io/isometric_grid",
 			"screenshots": []
@@ -326,6 +369,8 @@
 			"detailedDescription": "Pjgen can <b>create Makefile-based C or C++ projects</b>, <b>static web projects</b> (HTML + CSS + JS) and <b>python projects</b>.",
 			"srcUrl": "https://github.com/rxn7/pjgen",
 			"status": "Finished",
+			"yearStart": 2021,
+			"yearEnd": 2023,
 			"screenshots": ["img/projects/pjgen/pjgen1.png"]
 		},
 		{
@@ -336,6 +381,8 @@
 			"detailedDescription": "Each <a target='_blank' href='https://github.com/rxn7/minesweeper/blob/master/src/cell_state.hpp'>cell</a> is stored as a <b>single byte</b> using <a target='_blank' href='https://en.cppreference.com/w/cpp/language/bit_field'>bit-fields</a>.<br><b>Rendering is optimized</b> by using <b>single Vertex Array</b> to render all of the cells.",
 			"srcUrl": "https://github.com/rxn7/minesweeper",
 			"status": "Finished",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"screenshots": ["https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss1.png", "https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss2.png"]
 		},
 		{
@@ -348,6 +395,8 @@
 			"srcUrl": "https://github.com/rxn7/phyts",
 			"websiteUrl": "https://rxn7.github.io/phyts",
 			"status": "Maintained",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"screenshots": ["https://github.com/rxn7/phyts/blob/master/screenshots/1.png?raw=true", "https://github.com/rxn7/phyts/blob/master/screenshots/2.png?raw=true", "https://github.com/rxn7/phyts/blob/master/screenshots/3.png?raw=true"]
 		},
 		{
@@ -359,6 +408,8 @@
 			"srcUrl": "https://github.com/rxn7/fb",
 			"downloadUrl": "https://github.com/rxn7/fb/releases/latest",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"screenshots": ["img/projects/fb/fb1.png"]
 		},
 		{
@@ -369,6 +420,8 @@
 			"detailedDescription": "The code is abstracted to make it easy for me to add more games to it. I'm using <b>u8g2 library</b> to use the oled screen.",
 			"srcUrl": "https://github.com/rxn7/nano_bird",
 			"status": "Finished",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
 		},
 		{
@@ -383,6 +436,8 @@
 			"detailedDescription": "Can also do other cool stuff like actual image rendering in the terminal etc.",
 			"srcUrl": "https://github.com/rxn7/img2ascii",
 			"status": "Finished",
+			"yearStart": 2024,
+			"yearEnd": 2025,
 			"screenshots": ["https://private-user-images.githubusercontent.com/60551555/361752608-174d32bb-302b-4753-853d-b9911b6e17fa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NTcxMzEsIm5iZiI6MTczOTc1NjgzMSwicGF0aCI6Ii82MDU1MTU1NS8zNjE3NTI2MDgtMTc0ZDMyYmItMzAyYi00NzUzLTg1M2QtYjk5MTFiNmUxN2ZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAxNDcxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkYzg0YzNiZGM2YTE0NDRiYTZjMDYxYmYzZDk3Njg3NTQ4YzcwZDdmYzg5MWU3NjgxYTU5NzBmYWUyMGRmMjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.J0bENIgYa32dG_fxCru5_uw20ljU4PqwQV2cIcCh8Mo", "https://private-user-images.githubusercontent.com/60551555/361752917-b6d1b5f1-5180-497d-a700-717e966ce824.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk3NTcxMzEsIm5iZiI6MTczOTc1NjgzMSwicGF0aCI6Ii82MDU1MTU1NS8zNjE3NTI5MTctYjZkMWI1ZjEtNTE4MC00OTdkLWE3MDAtNzE3ZTk2NmNlODI0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDAxNDcxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlZjAyMWExYzU0ZGU0YTdmZjIwM2I3MzE2OWIzZjlhYmJmYTVjMzFlYmVhMjcwNGMxYmVmZjYwMGFkNDNjYmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ZkF5n_EVfhOCZLLqV18IcX-Ma3fxiuup-L6rBdN_3qo"]
 		},
 		{
@@ -392,7 +447,9 @@
 			"description": "Easier way to count <b>shooting target scores</b> on your phone.",
 			"detailedDescription": "Simple <b>Android</b> app made in <b>Kotlin</b> that makes it easier to count <b>shooting target scores</b> on your phone.",
 			"srcUrl": "https://github.com/rxn7/targetscorecounter",
-			"status": "Maintained",
+			"status": "Stopped",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"screenshots": ["img/projects/targetscorecounter/1.png"]
 		},
 		{
@@ -405,6 +462,8 @@
 			"srcUrl": "https://github.com/rxn7/weird_motion_effect",
 			"websiteUrl": "https://rxn7.github.io/weird_motion_effect",
 			"status": "Finished",
+			"yearStart": 2024,
+			"yearEnd": 2024,
 			"screenshots": []
 		},
 		{
@@ -417,6 +476,8 @@
 			"srcUrl": "https://github.com/rxn7/ttc",
 			"websiteUrl": "https://rxn7.github.io/ttc",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2022,
 			"screenshots": [
 				"https://raw.githubusercontent.com/rxn7/ttc/master/.github/screenshot.png"
 			]
@@ -431,6 +492,8 @@
 			"srcUrl": "https://github.com/rxn7/switchracer",
 			"websiteUrl": "https://rxn7.github.io/switchracer/",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2022,
 			"screenshots": []
 		},
 		{
@@ -441,6 +504,8 @@
 			"detailedDescription": "Minecraft teleport-menu plugin with <b>multi-language support</b> (language is automatically detected for each client). <br><br> The GUI is scaled according to the player count, the <b>players' heads</b> have <b>their skins</b> in the GUI.",
 			"srcUrl": "https://github.com/rxn7/telestick",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2022,
 			"screenshots": [
 				"https://github.com/rxn7/telestick/raw/master/.github/ss1.png",
 				"https://github.com/rxn7/telestick/raw/master/.github/ss2.png"
@@ -458,6 +523,8 @@
 			"detailedDescription": "With RedFlag you can <b>easily add options/flags</b> to an application.",
 			"srcUrl": "https://github.com/rxn7/redflag",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"screenshots": [
 				"https://raw.githubusercontent.com/rxn7/redflag/master/.github/example2.png"
 			]
@@ -472,6 +539,8 @@
 			"srcUrl": "https://github.com/rxn7/clock",
 			"websiteUrl": "https://rxn7.github.io/clock",
 			"status": "Finished",
+			"yearStart": 2023,
+			"yearEnd": 2023,
 			"screenshots": []
 		},
 		{
@@ -484,6 +553,8 @@
 			"srcUrl": "https://github.com/rxn7/chess_timer",
 			"websiteUrl": "https://rxn7.github.io/chess_timer",
 			"status": "Finished",
+			"yearStart": 2022,
+			"yearEnd": 2023,
 			"screenshots": []
 		}
 	]

@@ -9,6 +9,7 @@ import YoutubeEmbed from 'components/youtubeEmbed'
 import {ProjectData} from 'data/ProjectData'
 import projectsData from 'data/projects.json'
 import { generateCategoryIcons } from 'components/categoryIcons'
+import ProjectDuration from 'components/projectDuration'
 
 export type ProjectStatus = 'Finished' | 'Mantained' | 'Abandoned'
 
@@ -38,17 +39,11 @@ export default function Project(): JSX.Element {
 
 	return (
 		<>
-			<h1 id="project-name">{data.displayName}</h1>
-
-			<div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, justifyContent: 'center' }}>
-				{ generateCategoryIcons(data, 'var(--secondary-color)') }
-			</div>
-
 			{data.banner && (
 				<img
 					style={{
 						imageRendering: data.banner.pixelArt ? 'pixelated' : 'auto',
-						marginTop: 20,
+						marginBottom: 20,
 						maxWidth: '100%',
 						maxHeight: '200px',
 						width: 'auto',
@@ -57,6 +52,16 @@ export default function Project(): JSX.Element {
 					alt="icon"
 				/>
 			)}
+
+			<h1 id="project-name">{data.displayName}</h1>
+
+			<div style={{ marginBottom: 5}}>
+				<ProjectDuration project={data} />
+			</div>
+
+			<div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, justifyContent: 'center' }}>
+				{ generateCategoryIcons(data, 'var(--secondary-color)') }
+			</div>
 
 
 			<div className="project-frames-container" style={{marginTop: 50}}>

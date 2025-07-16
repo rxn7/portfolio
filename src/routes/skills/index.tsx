@@ -45,13 +45,6 @@ export default function Skills() {
 				maxWidth="1000px"
 			>
 				<ul>
-					<li>WinForms desktop apppcations (C#)</li>
-					<li>WPF desktop apppcations (C#)</li>
-					<li>GTK desktop apppcations (C, C++)</li>
-					<li>QT desktop apppcations (C++)</li>
-					<li>ImGUI desktop applications (C++)</li>
-					<li>Android mobile applications (Kotlin)</li>
-					<li>Kotlin Multiplatform Jetpack Compose</li>
 					<li>WinAPI programming (C++)</li>
 					<li>X11 programming (C)</li>
 					<li>Writing CMake files</li>
@@ -82,6 +75,13 @@ export default function Skills() {
 
 			<Frame id="gui-skills-frame" title="GUI Apps" maxWidth="1000px">
 				<ul>
+					<li>Kotlin Multiplatform Jetpack Compose</li>
+					<li>WinForms desktop apppcations (C#)</li>
+					<li>WPF desktop apppcations (C#)</li>
+					<li>GTK desktop apppcations (C, C++)</li>
+					<li>QT desktop apppcations (C++)</li>
+					<li>ImGUI desktop applications (C++)</li>
+					<li>Android mobile applications (Kotlin)</li>
 				</ul>
 			</Frame>
 
@@ -95,12 +95,7 @@ export default function Skills() {
 					<li>Android Studio</li>
 					<li>Linux</li>
 					<li>Windows</li>
-				</ul>
-			</Frame>
-
-			<Frame id="other-skills-frame" title="Other" maxWidth="1000px">
-				<ul>
-					<li>Shell/Bash scripting</li>
+					<li>Shell/Bash</li>
 				</ul>
 			</Frame>
 		</div>

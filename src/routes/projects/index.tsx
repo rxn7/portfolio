@@ -4,6 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import projectsData from 'data/projects.json'
 import {ProjectData} from 'data/ProjectData'
 import { generateCategoryIcons } from 'components/categoryIcons'
+import ProjectDuration from 'components/projectDuration'
 
 export default function Projects() {
 	const navigate = useNavigate()
@@ -33,6 +34,8 @@ export default function Projects() {
 					<h2 style={{marginBottom: '5px'}} className="project-name title">
 						{project.displayName}
 					</h2>
+
+					<ProjectDuration project={project} />
 
 					<p dangerouslySetInnerHTML={{__html: project.description || ''}} />
 
