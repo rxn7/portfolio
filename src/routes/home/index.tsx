@@ -20,6 +20,8 @@ export default function Home() {
 
 			<p>I'm an <b>{getAge()}</b> year old <b>software developer</b> based in <b>Poland</b>.<br />I have been <b>programming since 2020</b>.</p>
 
+			<p>I'm currently studying <b>Computer Science</b> - <b>Business Applications Programming</b> at <a href="https://www.wsb-nlu.edu.pl">WSB National Louis University</a>.</p>
+
 			<div>
 				<p style={{ marginBottom: 4 }}>I specialize in: </p>
 				<p style={{ margin: 1 }}><b>Game</b> (<i>Engine</i>) development</p>
@@ -39,7 +41,7 @@ export default function Home() {
 function getAge(): number {
 	const dob: Date = new Date('2006-10-14')
 	const now: Date = new Date()
-	let age = now.getFullYear() - dob.getFullYear()
+	let age: number = now.getFullYear() - dob.getFullYear()
 
 	if (now.getMonth() < dob.getMonth()) --age
 
