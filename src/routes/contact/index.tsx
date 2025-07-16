@@ -16,9 +16,7 @@ interface ContactElementProps {
 export default function Contact() {
 	return (
 		<Frame title="Contact" maxWidth="250px">
-			<ContactElement icon={faDiscord} text="@rxn77" />
 			<ContactElement icon={faEnvelope} text="rotthin_dev@pm.me" />
-			<ContactElement icon={faGithub} text="@rxn7" href="https://github.com/rxn7" />
 		</Frame>
 	)
 }
