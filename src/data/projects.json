@@ -9,7 +9,7 @@
 			},
 			"displayName": "Fif",
 			"description": "<b>Fast</b> and <b>lightweight game engine</b> with editor (fifed) written in <b>C++</b> with <b>OpenGL</b>.",
-			"detailedDescription": "Fif is split into modules: <b>core</b>, <b>gfx</b>, <b>input</b>, <b>imgui</b>, <b>native_scripting</b>, <b>lua_scripting</b>, each independent of the other. <br><br>The <b>rendering is so fast</b> because the renderer is batching everything into a <b>single draw call</b>.",
+			"detailedDescription": "Fif is split into modules: <b>core</b>, <b>gfx</b>, <b>input</b>, <b>ui</b>, <b>native_scripting</b>, <b>lua_scripting</b>, each independent of the other. <br><br>The <b>rendering is so fast</b> because the renderer is batching everything into a <b>single draw call</b>.",
 			"srcUrl": "https://github.com/rxn7/fif",
 			"status": "Maintained",
 			"yearStart": 2023,
@@ -19,7 +19,7 @@
 			"name": "truckres",
 			"categories": ["nextjs", "postgresql"],
 			"banner": {
-				"src": "img/icons/truckres.png",
+				"src": "/img/icons/truckres.webp",
 				"pixelArt": false
 			},
 			"displayName": "TruckRes",
@@ -30,20 +30,20 @@
 			"yearStart": 2023,
 			"yearEnd": 2024,
 			"screenshots": [
-				"img/projects/truckres/truckres-main.png",
-				"img/projects/truckres/truckres-offer.png",
-				"img/projects/truckres/truckres-about.png",
-				"img/projects/truckres/truckres-login.png",
-				"img/projects/truckres/truckres-admin-dashboard.png",
-				"img/projects/truckres/truckres-admin-dashboard-edit-modal.png",
-				"img/projects/truckres/truckres-admin-dashboard-create-modal.png",
-				"img/projects/truckres/truckres-admin-settings.png",
-				"img/projects/truckres/truckres-admin-settings-dirty.png"
+				"/img/projects/truckres/truckres-main.webp",
+				"/img/projects/truckres/truckres-offer.webp",
+				"/img/projects/truckres/truckres-about.webp",
+				"/img/projects/truckres/truckres-login.webp",
+				"/img/projects/truckres/truckres-admin-dashboard.webp",
+				"/img/projects/truckres/truckres-admin-dashboard-edit-modal.webp",
+				"/img/projects/truckres/truckres-admin-dashboard-create-modal.webp",
+				"/img/projects/truckres/truckres-admin-settings.webp",
+				"/img/projects/truckres/truckres-admin-settings-dirty.webp"
 			]
 		},
 		{
 			"banner": {
-				"src": "img/banners/shroompage.png",
+				"src": "/img/banners/shroompage.webp",
 				"pixelArt": false
 			},
 			"categories": ["godot", "csharp"],
@@ -57,9 +57,9 @@
 			"yearStart": 2023,
 			"yearEnd": 2023,
 			"screenshots": [
-				"img/projects/shroompage/shroompage-1.png",
-				"img/projects/shroompage/shroompage-2.png",
-				"img/projects/shroompage/shroompage-3.png"
+				"/img/projects/shroompage/shroompage-1.webp",
+				"/img/projects/shroompage/shroompage-2.webp",
+				"/img/projects/shroompage/shroompage-3.webp"
 			],
 			"videosEmbedIDs": ["Op6_0-xizfs"]
 		},
@@ -95,9 +95,9 @@
 			"yearStart": 2022,
 			"yearEnd": 2025,
 			"screenshots": [
-				"img/projects/chess/chess1.png",
-				"img/projects/chess/chess2.png",
-				"img/projects/chess/chess3.png"
+				"/img/projects/chess/chess1.webp",
+				"/img/projects/chess/chess2.webp",
+				"/img/projects/chess/chess3.webp"
 			],
 			"videosEmbedIDs": ["Ifh42thhwK8?si=uAH-MLkhyB8lhH6I"]
 		},
@@ -133,13 +133,13 @@
 			"yearStart": 2022,
 			"yearEnd": 2024,
 			"screenshots": [
-				"img/projects/game_of_life/game_of_life1.gif",
-				"img/projects/game_of_life/game_of_life2.gif"
+				"/img/projects/game_of_life/game_of_life1.gif",
+				"/img/projects/game_of_life/game_of_life2.gif"
 			]
 		},
 		{
 			"banner": {
-				"src": "img/icons/oredustry.png",
+				"src": "/img/icons/oredustry.webp",
 				"pixelArt": true
 			},
 			"name": "oredustry",
@@ -152,9 +152,9 @@
 			"yearStart": 2022,
 			"yearEnd": 2023,
 			"screenshots": [
-				"img/projects/oredustry/oredustry1.png",
-				"img/projects/oredustry/oredustry2.png",
-				"img/projects/oredustry/oredustry3.png"
+				"/img/projects/oredustry/oredustry1.webp",
+				"/img/projects/oredustry/oredustry2.webp",
+				"/img/projects/oredustry/oredustry3.webp"
 			]
 		},
 		{
@@ -273,10 +273,10 @@
 			"yearStart": 2022,
 			"yearEnd": 2022,
 			"screenshots": [
-				"img/projects/poksy/poksy1.jpg",
-				"img/projects/poksy/poksy2.jpg",
-				"img/projects/poksy/poksy3.jpg",
-				"img/projects/poksy/poksy4.jpg"
+				"/img/projects/poksy/poksy1.webp",
+				"/img/projects/poksy/poksy2.webp",
+				"/img/projects/poksy/poksy3.webp",
+				"/img/projects/poksy/poksy4.webp"
 			]
 		},
 		{
@@ -317,7 +317,7 @@
 			"status": "Stopped",
 			"yearStart": 2021,
 			"yearEnd": 2022,
-			"screenshots": ["img/projects/rottlike/rottlike1.png"]
+				"screenshots": ["/img/projects/rottlike/rottlike1.webp"]
 		},
 		{
 			"name": "particle_sim",
@@ -371,7 +371,7 @@
 			"status": "Finished",
 			"yearStart": 2021,
 			"yearEnd": 2023,
-			"screenshots": ["img/projects/pjgen/pjgen1.png"]
+			"screenshots": ["/img/projects/pjgen/pjgen1.webp"]
 		},
 		{
 			"name": "minesweeper",
@@ -410,7 +410,7 @@
 			"status": "Finished",
 			"yearStart": 2023,
 			"yearEnd": 2023,
-			"screenshots": ["img/projects/fb/fb1.png"]
+			"screenshots": ["/img/projects/fb/fb1.webp"]
 		},
 		{
 			"name": "nano_bird",
@@ -422,7 +422,7 @@
 			"status": "Finished",
 			"yearStart": 2024,
 			"yearEnd": 2024,
-			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/img1.jpeg"]
+			"screenshots": ["https://raw.githubusercontent.com/rxn7/nano_bird/master/.github/1.jpeg"]
 		},
 		{
 			"banner": {
@@ -450,7 +450,7 @@
 			"status": "Stopped",
 			"yearStart": 2024,
 			"yearEnd": 2024,
-			"screenshots": ["img/projects/targetscorecounter/1.png"]
+			"screenshots": ["/img/projects/targetscorecounter/1.webp"]
 		},
 		{
 			"name": "weird_motion_effect",
