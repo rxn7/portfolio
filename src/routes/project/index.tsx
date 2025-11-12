@@ -113,7 +113,7 @@ function GetScreenshotElements(data: ProjectData): JSX.Element[] {
 	let screenshotElementIdx: number = 0
 	return (
 		data.screenshots?.map(ss => (
-			<img key={screenshotElementIdx++} alt="" src={ss}></img>
+			<img key={screenshotElementIdx++} alt="" src={ss} style={{ maxHeight: '512px', maxWidth: '100%', objectFit: "contain" }}></img>
 		)) || []
 	)
 }

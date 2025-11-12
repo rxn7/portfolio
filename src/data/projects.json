@@ -245,6 +245,19 @@
 			]
 		},
 		{
+			"name": "flicksense",
+			"displayName": "FlickSense",
+			"categories": ["godot", "csharp"],
+			"srcUrl": "https://github.com/rxn7/flicksense",
+			"downloadUrl": "https://github.com/rxn7/flicksense/releases/latest",
+			"description": "Aim training tool (like AimLabs)",
+			"detailedDescription": "Aim traning tool with multiple game modes. The aim feeling is exactly like in Counter-Strike 2. TODO: Create a detailed description",
+			"status": "Maintained",
+			"yearStart": 2025,
+			"yearEnd": 2025,
+			"videosEmbedIDs": ["RfTnCNTzEq8?si=53Zs0zcvmXAdZOKg"]
+		},
+		{
 			"banner": {
 				"pixelArt": false,
 				"src": "https://github.com/rxn7/galton_board/blob/master/icon.png?raw=true"
@@ -384,6 +397,23 @@
 			"yearStart": 2024,
 			"yearEnd": 2024,
 			"screenshots": ["https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss1.png", "https://raw.githubusercontent.com/rxn7/minesweeper/master/.github/ss2.png"]
+		},
+		{
+			"name": "moahelp",
+			"banner": {
+				"src": "/img/icons/moahelp.png",
+				"pixelArt": false
+			},
+			"categories": ["android", "kotlin"],
+			"displayName": "Moa Help",
+			"description": "Android app which helps with long range shooting MOA calculations",
+			"detailedDescription": "",
+			"status": "Finished",
+			"yearStart": 2025,
+			"yearEnd": 2025,
+			"srcUrl": "https://github.com/rxn7/moahelp",
+			"downloadUrl": "https://github.com/rxn7/moahelp/releases/latest",
+			"screenshots": ["/img/projects/moahelp/moahelp1.png"]
 		},
 		{
 			"name": "phyts",
